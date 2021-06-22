@@ -3,6 +3,34 @@ Plasmodium lncRNA investigation with the Le Roch lab.
 
 All of the downloaded data is in: /net/noble/vol1/home/borislav/proj/Data/LeRochLab/2021_ChIRP_RawFiles
 
+All processed data and results are in: /net/noble/vol1/home/borislav/proj/2021_borislav_plasmo-chirp/Outputs
+
+
+
+
+## Peak Genome browser Visualization
+
+Full figures size are in [Figures/peaks_genome_viz](Figures/peaks_genome_viz 
+
+![TARE_dist](Results/peaks_igv/TARE.png)
+
+![TARE_dist](Results/peaks_igv/lnc13.png)
+
+![TARE_dist](Results/peaks_igv/lnc178.png)
+
+![TARE_dist](Results/peaks_igv/lnc271.png)
+
+![TARE_dist](Results/peaks_igv/lnc1494.png)
+
+![TARE_dist](Results/peaks_igv/ch9.png)
+
+![TARE_dist](Results/peaks_igv/ch14.png)
+
+
+
+
+
+
 ## TARE
 
 TARE peaks have been called via MACS2 and PePr using as a control the Schizont Input files as well as the tRNA files. Adding the tRNA tracks didnot change any of the top peaks and had a minor effect removing some of the small peaks (height < 150). All approaches yielded a set of 749 peaks in common, among them the top 18 peaks persistently present.   
