@@ -8,7 +8,7 @@ All processed data and results are in: /net/noble/vol1/home/borislav/proj/2021_b
 
 
 
-## Peak Genome browser Visualization
+## Peak Genome Browser Visualization
 
 Full figures size are in [Figures/peaks_genome_viz](Figures/peaks_genome_viz)
 
@@ -31,11 +31,17 @@ Full figures size are in [Figures/peaks_genome_viz](Figures/peaks_genome_viz)
 
 Peaks' coordinates for each lncRNA are in .bed file format here: [Peak Locations](Results/top_peaks_location)
 
+## Increase expression of genes near the peaks
+
+Genes that are near the peaks have their expression statistically significantly increased in the respective lncRNA active stage.
+
+![TARE_dist](Results/gene_expression.png)
+
 ## Overlap with 3' and 5' UTRs and genes
 
 The peaks overlap predominately with the 5' flank and body of the genes.
 
-![TARE_dist](Results/peak_overlap.png.png)
+![TARE_dist](Results/peak_overlap.png)
 
 
 ## TARE
