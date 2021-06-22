@@ -44,6 +44,32 @@ The peaks overlap predominately with the 5' flank and body of the genes.
 ![TARE_dist](Results/peak_overlap.png)
 
 
+## Changes in Nucleosome and Histone activity 
+
+All figures in full sizes are here: [Figures/Histone_and_Nucleosome](Figures/Histone_and_Nucleosomez)
+
+For several histone marks we observed very strong change in activity, i.e:
+
+![TARE_dist](Results/Hist_new/lnc13_H3K36me2.png)
+
+![TARE_dist](Results/Hist_new/lnc13_H4K20me3.png)
+
+![TARE_dist](Results/Hist_new/lnc13_H3K9ac.png)
+
+
+---
+
+***
+
+Lab book notes and more technical intermediary figures below
+
+---
+
+***
+
+
+
+
 ## TARE
 
 TARE peaks have been called via MACS2 and PePr using as a control the Schizont Input files as well as the tRNA files. Adding the tRNA tracks didnot change any of the top peaks and had a minor effect removing some of the small peaks (height < 150). All approaches yielded a set of 749 peaks in common, among them the top 18 peaks persistently present.   
