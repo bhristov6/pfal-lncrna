@@ -27,9 +27,9 @@ Full figures size are in [Figures/peaks_genome_viz](Figures/peaks_genome_viz)
 ![TARE_dist](Results/peaks_igv/ch14.png)
 
 
+## Peaks Locations and Heights
 
-
-
+Peaks' coordinates for each lncRNA are in .bed file format here: [Peak Locations](Results/top_peaks_location)
 
 ## TARE
 
