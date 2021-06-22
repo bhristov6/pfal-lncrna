@@ -46,7 +46,7 @@ The peaks overlap predominately with the 5' flank and body of the genes.
 
 ## Changes in Nucleosome and Histone activity 
 
-All figures in full sizes are here: [Figures/Histone_and_Nucleosome](Figures/Histone_and_Nucleosomez)
+All figures in full sizes are here: [Figures/Histone_and_Nucleosome](Figures/Histone_and_Nucleosome)
 
 For several histone marks we observed very strong change in activity, i.e:
 
