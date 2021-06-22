@@ -31,6 +31,13 @@ Full figures size are in [Figures/peaks_genome_viz](Figures/peaks_genome_viz)
 
 Peaks' coordinates for each lncRNA are in .bed file format here: [Peak Locations](Results/top_peaks_location)
 
+## Overlap with 3' and 5' UTRs and genes
+
+The peaks overlap predominately with the 5' flank and body of the genes.
+
+![TARE_dist](Results/peak_overlap.png.png)
+
+
 ## TARE
 
 TARE peaks have been called via MACS2 and PePr using as a control the Schizont Input files as well as the tRNA files. Adding the tRNA tracks didnot change any of the top peaks and had a minor effect removing some of the small peaks (height < 150). All approaches yielded a set of 749 peaks in common, among them the top 18 peaks persistently present.   
