@@ -10,7 +10,7 @@ All processed data and results are in: /net/noble/vol1/home/borislav/proj/2021_b
 
 ## Peak Genome browser Visualization
 
-Full figures size are in [Figures/peaks_genome_viz](Figures/peaks_genome_viz 
+Full figures size are in [Figures/peaks_genome_viz](Figures/peaks_genome_viz)
 
 ![TARE_dist](Results/peaks_igv/TARE.png)
 
