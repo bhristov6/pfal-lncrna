@@ -10,6 +10,14 @@ All processed data and results are in: /net/noble/vol1/home/borislav/proj/2021_b
 
 ## Peak Genome Browser Visualization
 
+I redid these figures to be per chromosome and also to show the non-active stage. All figures are in [Figures/peaks_per_chr](Figures/peaks_per_chr)
+
+![TARE_dist](Figures/peaks_per_chr/lnc13.png)
+
+![TARE_dist](Figures/peaks_per_chr/lnc13.png)
+
+Below are all full genome (all chromosomes together plots).
+
 Full figures size are in [Figures/peaks_genome_viz](Figures/peaks_genome_viz)
 
 ![TARE_dist](Results/peaks_igv/TARE.png)
