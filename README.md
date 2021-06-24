@@ -151,7 +151,7 @@ Encouragingly, the two approaches yielded very similar results:
 | lnc178      | 362 | 157 | 154| 
 | lnc271      | 1165 | 562 | 531| 
 | lnc1494      | 1348 | 850 | 765| 
-| lnc ch9      | 426 | 7 | 4 | 
+| lnc ch9      | 426 | 4 | 1 | 
 | lnc ch14      | 1107 | 912 | 866 | 
 
 [Nucleosome Analysis](Results/NR/nucleosome.html)
