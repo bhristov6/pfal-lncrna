@@ -1,0 +1,188 @@
+PF3D7_0309100	conserved Plasmodium protein unknown function
+PF3D7_1338800	CPW-WPC family protein
+PF3D7_1419300	glutathione S-transferase
+PF3D7_0723800	conserved Plasmodium protein unknown function
+PF3D7_0320800	ATP-dependent RNA helicase DDX6
+PF3D7_1328700	Plasmodium RNA of unknown function RUF1
+PF3D7_0307300	microtubule-associated protein RP/EB family putative
+PF3D7_1019100	conserved Plasmodium protein unknown function
+PF3D7_0710000	conserved Plasmodium protein unknown function
+PF3D7_1031600	conserved Plasmodium protein unknown function
+PF3D7_0317200	cdc2-related protein kinase 4
+PF3D7_0918400	conserved Plasmodium protein unknown function
+PF3D7_0423400	apical asparagine-rich protein AARP
+PF3D7_0307800	conserved Plasmodium protein unknown function
+PF3D7_1029800	heptatricopeptide repeat and RAP domain-containing protein putative
+PF3D7_1128700	GPI-anchor transamidase putative
+PF3D7_0828700	conserved protein unknown function
+PF3D7_0801300	von Willebrand factor A domain-related protein
+PF3D7_0316300	inorganic pyrophosphatase inorganic pyrophosphatase putative
+PF3D7_1312800	conserved Plasmodium protein unknown function
+PF3D7_0803200	filament assembling protein putative
+PF3D7_0726300	DNA mismatch repair protein PMS1 putative
+PF3D7_0822200	phosphorylated CTD interacting factor 1 WW domain-containing protein putative
+PF3D7_0504000	cation transporting P-ATPase
+PF3D7_1439100	DEAD/DEAH box helicase putative
+PF3D7_0904900	copper-transporting ATPase
+PF3D7_0406500	NYN domain-containing protein putative
+PF3D7_0318800	triosephosphate isomerase putative
+PF3D7_0605300	serine/threonine protein kinase
+PF3D7_0828200	leucine--tRNA ligase putative
+PF3D7_1477300	Plasmodium exported protein (PHIST) unknown function
+PF3D7_0532400	lysine-rich membrane-associated PHISTb protein
+PF3D7_0726400	conserved Plasmodium membrane protein unknown function
+PF3D7_0502500	conserved Plasmodium protein unknown function
+PF3D7_1422500	ERAD-associated E3 ubiquitin-protein ligase HRD1
+PF3D7_1459600	conserved Plasmodium protein unknown function
+PF3D7_0631200	erythrocyte membrane protein 1 (PfEMP1) pseudogene
+PF3D7_0518300	proteasome subunit beta type-1 putative
+PF3D7_0518600	WD repeat-containing protein 26 putative
+PF3D7_1106200	conserved Plasmodium protein unknown function
+PF3D7_0516500	major facilitator superfamily domain-containing protein putative
+PF3D7_0405000	ATP-dependent RNA helicase DDX51 putative
+PF3D7_1247500	serine/threonine protein kinase putative
+PF3D7_1361300	conserved Plasmodium protein unknown function
+PF3D7_0921200	conserved Plasmodium membrane protein unknown function
+PF3D7_0508200	longevity-assurance (LAG1) protein putative
+PF3D7_0906000	exoribonuclease II
+PF3D7_1019900	autophagy-related protein 8
+PF3D7_0530300	conserved Plasmodium membrane protein unknown function
+PF3D7_1330400	ER lumen protein retaining receptor 1 putative unspecified product
+PF3D7_0205300	conserved Plasmodium protein unknown function
+PF3D7_0313900	conserved Plasmodium protein unknown function
+PF3D7_0212500	conserved Plasmodium protein unknown function
+PF3D7_0807400	coenzyme Q-binding protein COQ10 homolog mitochondrial
+PF3D7_1478900	unspecified product
+PF3D7_1228600	merozoite surface protein 9
+PF3D7_1218100	conserved Plasmodium protein unknown function
+PF3D7_1440200	stromal-processing peptidase putative
+PF3D7_1458300	conserved Plasmodium protein unknown function
+PF3D7_1230100	thioredoxin-like associated protein 1 putative
+PF3D7_0411000	conserved Plasmodium protein unknown function
+PF3D7_1222600	AP2 domain transcription factor AP2-G
+PF3D7_0403700	pre-mRNA-splicing factor CLF1 putative
+PF3D7_1365500	aminomethyltransferase mitochondrial putative
+PF3D7_1474800	proteasome subunit alpha type-1 putative
+PF3D7_0614300	major facilitator superfamily-related transporter putative
+PF3D7_0519900	conserved protein unknown function
+PF3D7_0528400	palmitoyltransferase DHHC7
+PF3D7_0809800	conserved Plasmodium protein unknown function
+PF3D7_0103500	conserved Plasmodium protein unknown function
+PF3D7_0930000	procollagen lysine 5-dioxygenase putative
+PF3D7_1439800	vesicle-associated membrane protein putative
+PF3D7_1021900	PHAX domain-containing protein putative
+PF3D7_1402200	cytochrome c oxidase subunit ApiCOX19 putative
+PF3D7_1124500	pyruvate dehydrogenase E1 component subunit alpha
+PF3D7_0611000	SNARE associated Golgi protein putative
+PF3D7_1227700	conserved Plasmodium protein unknown function
+PF3D7_1118400	haloacid dehalogenase-like hydrolase putative
+PF3D7_0527200	ubiquitin carboxyl-terminal hydrolase 14
+PF3D7_0420300	AP2 domain transcription factor putative
+PF3D7_0102400	lysophospholipase putative pseudogene
+PF3D7_0601400	erythrocyte membrane protein 1 (PfEMP1) pseudogene
+PF3D7_0622200	radical SAM protein putative
+PF3D7_1200100	erythrocyte membrane protein 1 PfEMP1
+PF3D7_0310300	phosphoglycerate mutase putative
+PF3D7_1335000	MSP7-like protein
+PF3D7_0530800	CPW-WPC family protein
+PF3D7_0930700	conserved Plasmodium protein unknown function
+PF3D7_0515800	BolA-like protein putative
+PF3D7_1401900	conserved protein unknown function
+PF3D7_1425300	conserved Plasmodium protein unknown function
+PF3D7_0819800	conserved Plasmodium protein unknown function
+PF3D7_1343300	CDT1-like protein putative
+PF3D7_0402300	reticulocyte binding protein homologue 1
+PF3D7_1027800	60S ribosomal protein L3
+PF3D7_1448300	conserved protein unknown function
+PF3D7_0620700	DnaJ protein putative
+PF3D7_0916300	conserved Plasmodium protein unknown function
+PF3D7_1312100	GYF domain-containing protein putative
+PF3D7_1249300	protein phosphatase PPM4 putative
+PF3D7_0514700	MORN repeat protein putative
+PF3D7_0316000	microneme associated antigen
+PF3D7_1100100	erythrocyte membrane protein 1 PfEMP1
+PF3D7_0424300	erythrocyte binding antigen-165 pseudogene
+PF3D7_1447900	multidrug resistance protein 2
+PF3D7_0724600	protein kinase putative
+PF3D7_1033800	plasmepsin VII
+PF3D7_1451700	calcineurin subunit B
+PF3D7_1246400	myosin A tail domain interacting protein
+PF3D7_0417800	cdc2-related protein kinase 1
+PF3D7_1108700	heat shock protein J2
+PF3D7_1205200	HAD domain ookinete protein putative
+PF3D7_1363100	conserved Plasmodium protein unknown function
+PF3D7_0802100	AP2 domain transcription factor putative
+PF3D7_0801900	lysine-specific histone demethylase putative
+PF3D7_1329000	DNA-directed RNA polymerase III subunit RPC1 putative
+PF3D7_1373500	erythrocyte membrane protein 1 PfEMP1
+PF3D7_0529400	conserved Plasmodium protein unknown function
+PF3D7_0215400	conserved Plasmodium protein unknown function
+PF3D7_1326700	conserved Apicomplexan protein unknown function
+PF3D7_1416600	conserved Plasmodium protein unknown function
+PF3D7_1330700	GPI transamidase subunit PIG-U putative
+PF3D7_0206900	merozoite surface protein 5
+PF3D7_0721000	conserved Plasmodium membrane protein unknown function
+PF3D7_0704600	E3 ubiquitin-protein ligase
+PF3D7_0525900	NIMA related kinase 2
+PF3D7_1322500	palmitoyltransferase DHHC5
+PF3D7_1144200	conserved Plasmodium protein unknown function
+PF3D7_1414100	zinc finger protein putative
+PF3D7_0515500	amino acid transporter putative
+PF3D7_1408300	conserved Plasmodium protein unknown function
+PF3D7_1423200	peptidyl-prolyl cis-trans isomerase
+PF3D7_1317100	DNA replication licensing factor MCM4
+PF3D7_1344200	heat shock protein 110 putative
+PF3D7_0323100	conserved Plasmodium protein unknown function
+PF3D7_1143600	conserved Plasmodium protein unknown function
+PF3D7_1428400	WD and tetratricopeptide repeats protein 1 putative
+PF3D7_0410600	conserved protein unknown function
+PF3D7_0824400	nucleoside transporter 2
+PF3D7_1366300	conserved Plasmodium protein unknown function
+PF3D7_1324300	conserved Plasmodium membrane protein unknown function
+PF3D7_1218900	WD repeat-containing protein putative
+PF3D7_0112800	Plasmodium exported protein (hyp11) unknown function
+PF3D7_0607200	RING zinc finger protein putative
+PF3D7_1401700	conserved Plasmodium protein unknown function
+PF3D7_1003900	conserved Plasmodium protein unknown function
+PF3D7_0307900	conserved Plasmodium protein unknown function
+PF3D7_0106300	calcium-transporting ATPase
+PF3D7_0903000	conserved protein unknown function
+PF3D7_1306400	26S protease regulatory subunit 10B putative
+PF3D7_0614000	thiamine-phosphate synthase putative
+PF3D7_1343900	U4/U6 small nuclear ribonucleoprotein PRP4 putative
+PF3D7_0913400	conserved Plasmodium protein unknown function
+PF3D7_0608800	ornithine aminotransferase
+PF3D7_0802000	glutamate dehydrogenase putative
+PF3D7_1437900	HSP40 subfamily A
+PF3D7_0426000	erythrocyte membrane protein 1 PfEMP1
+PF3D7_0413600	26S protease regulatory subunit 6B putative
+PF3D7_0909700	FHA domain protein putative
+PF3D7_1406500	WD repeat-containing protein 65 putative
+PF3D7_0605200	conserved protein unknown function
+PF3D7_1413100	conserved Plasmodium protein unknown function
+PF3D7_1401800	choline kinase
+PF3D7_1330300	DnaJ protein putative
+PF3D7_0100100	erythrocyte membrane protein 1 PfEMP1
+PF3D7_1310800	tetratricopeptide repeat protein putative
+PF3D7_0404700	dipeptidyl aminopeptidase 3
+PF3D7_0313200	conserved protein unknown function
+PF3D7_0505000	MMS19-like protein putative
+PF3D7_1423300	serine/threonine protein phosphatase 7
+PF3D7_0213600	conserved Plasmodium protein unknown function
+PF3D7_0627100	ankyrin-repeat protein putative
+PF3D7_0502700	conserved protein unknown function
+PF3D7_0509000	alpha-soluble NSF attachment protein putative
+PF3D7_0105800	cyclin-dependent kinases regulatory subunit putative
+PF3D7_0731800	alpha/beta hydrolase putative
+PF3D7_1451800	sortilin
+PF3D7_0615200	conserved protein unknown function
+PF3D7_1466300	26S proteasome regulatory subunit RPN2 putative
+PF3D7_1318800	translocation protein SEC63 putative
+PF3D7_0723100	protein CPH1 putative
+PF3D7_0219500	pseudouridine synthase putative
+PF3D7_0403800	alpha/beta hydrolase putative
+PF3D7_1009700	tubulin--tyrosine ligase putative
+PF3D7_0313800	conserved Plasmodium protein unknown function
+PF3D7_0311300	phosphatidylinositol 3- and 4-kinase putative
+PF3D7_1337900	conserved Plasmodium protein unknown function
+PF3D7_1216200	glycerol-3-phosphate dehydrogenase [NAD(+)] putative
