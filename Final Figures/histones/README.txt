@@ -1,1 +1,1 @@
-TODO
+For each peak we examined 2000b window around its summit (x-axis centered at the peak summit at 0) and averaged the histone values (Z-score of the Histone logfold change over the input, y-axis). Different panels correspond to different time points (stages in the pfal development); missing panels correspond to missing data for that particular stage.

@@ -1,3 +1,3 @@
 Genes near lncRNA peaks have significantly increased expression in the lncRNA active stage compared to the inactive stage. 
 
-We looked at genes closest to lncRNA peaks and calculated log2fold change of their expression from inactive to active stage (right violin) and compared it to the change in expression for all other genes in the Plasmodium genome (left violin). For each lncRNA there is a significant increase in expression (t-test, p-value in the header).
+We looked at genes closest to the lncRNA peaks and calculated the log2fold change of their expression from inactive to active stage (right violin) and compared it to the change in expression for all other genes in the Plasmodium genome (left violin). For each lncRNA there is a significant increase in expression (t-test, p-value in the header).
