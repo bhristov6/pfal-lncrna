@@ -1,0 +1,6 @@
+RANK	DB	ID	ALT_ID	CONSENSUS	TP	TP%	FP	FP%	ENR_RATIO	SCORE_THR	PVALUE	LOG_PVALUE	EVALUE	LOG_EVALUE	QVALUE	LOG_QVALUE
+1	motif.html	1-GAAGAAAATGAAGAW	STREME-1	GAAGAAAATGAAGAW	67	53.60	17	13.60	3.78	13	9.32e-12	-25.40	9.32e-12	-25.40	9.32e-12	-25.40
+
+# SEA (Simple Enrichment Analysis): Version 5.4.0 compiled on Jul  5 2021 at 10:20:30
+# The format of this file is described at http://localhost:8080/meme_5.4.0/doc/sea-output-format.html.
+# sea -p lnc13_top25.txt -m motif.html -inc 1-* -bfile lnc_all.m2.bg -oc results/sea_top25
