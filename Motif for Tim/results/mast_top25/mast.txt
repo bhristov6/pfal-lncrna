@@ -1,0 +1,2172 @@
+********************************************************************************
+MAST - Motif Alignment and Search Tool
+********************************************************************************
+	MAST version 5.4.0 (Release date: Tue Mar 9 17:38:20 2021 -0800)
+
+	For further information on how to interpret these results please access http://localhost:8080/meme_5.4.0.
+	To get a copy of the MAST software please access https://meme-suite.org.
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+	If you use this program in your research, please cite:
+
+	Timothy L. Bailey and Michael Gribskov,
+	"Combining evidence using p-values: application to sequence homology
+	searches", Bioinformatics, 14(48-54), 1998.
+********************************************************************************
+
+
+********************************************************************************
+DATABASE AND MOTIFS
+********************************************************************************
+	DATABASE lnc13_top25.txt (nucleotide)
+	Last updated on Sat Aug 14 09:56:41 2021
+	Database contains 138 sequences, 13800 residues
+
+	Scores for positive and reverse complement strands are combined.
+
+	MOTIFS motif.html (nucleotide)
+	MOTIF ID                ALT ID   WIDTH BEST POSSIBLE MATCH
+	----- ----------------- -------- ----- -------------------
+	    1 1-GAAGAAAATGAAGAW STREME-1    15 GAAGAAAATGAAGAA
+
+	Random model letter frequencies (from non-redundant database):
+	A 0.274 C 0.225 G 0.225 T 0.274 
+********************************************************************************
+
+
+********************************************************************************
+SECTION I: HIGH-SCORING SEQUENCES
+********************************************************************************
+	- Each of the following 131 sequences has E-value less than 10.
+	- The E-value of a sequence is the expected number of sequences
+	  in a random database of the same size that would match the motifs as
+	  well as the sequence does and is equal to the combined p-value of the
+	  sequence times the number of sequences in the database.
+	- The combined p-value of a sequence measures the strength of the
+	  match of the sequence to all the motifs and is calculated by
+	    o finding the score of the single best match of each motif
+	      to the sequence (best matches may overlap),
+	    o calculating the sequence p-value of each score,
+	    o forming the product of the p-values,
+	    o taking the p-value of the product.
+	- The sequence p-value of a score is defined as the
+	  probability of a random sequence of the same length containing
+	  some match with as good or better a score.
+	- The score for the match of a position in a sequence to a motif
+	  is computed by by summing the appropriate entry from each column of
+	  the position-dependent scoring matrix that represents the motif.
+	- Sequences shorter than one or more of the motifs are skipped.
+	- The table is sorted by increasing E-value.
+********************************************************************************
+
+SEQUENCE NAME                      DESCRIPTION                   E-VALUE  LENGTH
+-------------                      -----------                   -------- ------
+Pf3D7_11_v3:1775601-1775701                                         4e-05    100
+Pf3D7_13_v3:1513619-1513719                                         4e-05    100
+Pf3D7_06_v3:135856-135956                                           4e-05    100
+Pf3D7_09_v3:1045927-1046027                                         4e-05    100
+Pf3D7_13_v3:1113652-1113752                                         4e-05    100
+Pf3D7_13_v3:1401632-1401732                                       7.3e-05    100
+Pf3D7_11_v3:1601302-1601402                                       7.3e-05    100
+Pf3D7_08_v3:657218-657318                                         7.3e-05    100
+Pf3D7_01_v3:487888-487988                                         7.3e-05    100
+Pf3D7_12_v3:942447-942547                                         7.3e-05    100
+Pf3D7_06_v3:967512-967612                                         0.00011    100
+Pf3D7_11_v3:203582-203682                                         0.00011    100
+Pf3D7_05_v3:121130-121230                                         0.00011    100
+Pf3D7_12_v3:1328335-1328435                                       0.00015    100
+Pf3D7_03_v3:346115-346215                                         0.00022    100
+Pf3D7_14_v3:3015751-3015851                                       0.00022    100
+Pf3D7_12_v3:77410-77510                                           0.00022    100
+Pf3D7_02_v3:229709-229809                                         0.00022    100
+Pf3D7_12_v3:1470798-1470898                                       0.00022    100
+Pf3D7_09_v3:1256205-1256305                                       0.00022    100
+Pf3D7_13_v3:935095-935195                                         0.00022    100
+Pf3D7_09_v3:192299-192399                                         0.00022    100
+Pf3D7_11_v3:1845724-1845824                                       0.00026    100
+Pf3D7_14_v3:2070529-2070629                                       0.00033    100
+Pf3D7_14_v3:820453-820553                                         0.00033    100
+Pf3D7_06_v3:650001-650101                                         0.00056    100
+Pf3D7_10_v3:1135218-1135318                                       0.00056    100
+Pf3D7_04_v3:881631-881731                                         0.00056    100
+Pf3D7_13_v3:1667707-1667807                                        0.0007    100
+Pf3D7_06_v3:517995-518095                                          0.0007    100
+Pf3D7_11_v3:1689722-1689822                                        0.0007    100
+Pf3D7_05_v3:722159-722259                                         0.00073    100
+Pf3D7_10_v3:543489-543589                                         0.00073    100
+Pf3D7_13_v3:1406991-1407091                                       0.00073    100
+Pf3D7_04_v3:235720-235820                                         0.00077    100
+Pf3D7_14_v3:1770575-1770675                                       0.00077    100
+Pf3D7_13_v3:2306387-2306487                                       0.00092    100
+Pf3D7_07_v3:1072448-1072548                                       0.00092    100
+Pf3D7_13_v3:83102-83202                                           0.00092    100
+Pf3D7_09_v3:1371015-1371115                                       0.00092    100
+Pf3D7_05_v3:228882-228982                                         0.00092    100
+Pf3D7_07_v3:1253109-1253209                                       0.00092    100
+Pf3D7_11_v3:1286275-1286375                                       0.00092    100
+Pf3D7_14_v3:219712-219812                                         0.00092    100
+Pf3D7_06_v3:460227-460327                                         0.00092    100
+Pf3D7_12_v3:1247795-1247895                                         0.001    100
+Pf3D7_06_v3:440075-440175                                           0.001    100
+Pf3D7_10_v3:739702-739802                                           0.001    100
+Pf3D7_03_v3:842723-842823                                           0.001    100
+Pf3D7_14_v3:273891-273991                                           0.001    100
+Pf3D7_01_v3:355403-355503                                          0.0012    100
+Pf3D7_09_v3:119222-119322                                          0.0012    100
+Pf3D7_13_v3:1849974-1850074                                        0.0012    100
+Pf3D7_07_v3:339564-339664                                          0.0012    100
+Pf3D7_05_v3:509463-509563                                          0.0013    100
+Pf3D7_08_v3:894218-894318                                          0.0014    100
+Pf3D7_01_v3:338249-338349                                          0.0014    100
+Pf3D7_02_v3:122396-122496                                          0.0016    100
+Pf3D7_05_v3:664395-664495                                          0.0018    100
+Pf3D7_02_v3:758173-758273                                          0.0018    100
+Pf3D7_05_v3:822497-822597                                          0.0018    100
+Pf3D7_12_v3:1997197-1997297                                         0.002    100
+Pf3D7_11_v3:1792458-1792558                                         0.002    100
+Pf3D7_02_v3:799623-799723                                           0.002    100
+Pf3D7_14_v3:1312454-1312554                                        0.0022    100
+Pf3D7_07_v3:946601-946701                                          0.0022    100
+Pf3D7_09_v3:1137590-1137690                                        0.0022    100
+Pf3D7_05_v3:889562-889662                                          0.0024    100
+Pf3D7_12_v3:747965-748065                                          0.0024    100
+Pf3D7_13_v3:537743-537843                                          0.0025    100
+Pf3D7_10_v3:1035607-1035707                                        0.0025    100
+Pf3D7_09_v3:896727-896827                                          0.0026    100
+Pf3D7_13_v3:1832107-1832207                                        0.0031    100
+Pf3D7_14_v3:2786365-2786465                                        0.0035    100
+Pf3D7_03_v3:699679-699779                                          0.0037    100
+Pf3D7_10_v3:176249-176349                                           0.004    100
+Pf3D7_11_v3:1194809-1194909                                         0.004    100
+Pf3D7_06_v3:1091958-1092058                                        0.0043    100
+Pf3D7_14_v3:1673785-1673885                                        0.0044    100
+Pf3D7_11_v3:533150-533250                                          0.0051    100
+Pf3D7_07_v3:202000-202100                                          0.0051    100
+Pf3D7_01_v3:102211-102311                                          0.0058    100
+Pf3D7_07_v3:894062-894162                                          0.0061    100
+Pf3D7_10_v3:998701-998801                                          0.0072    100
+Pf3D7_12_v3:93800-93900                                            0.0072    100
+Pf3D7_13_v3:2514007-2514107                                         0.015    100
+Pf3D7_11_v3:192991-193091                                           0.019    100
+Pf3D7_11_v3:1197632-1197732                                          0.02    100
+Pf3D7_05_v3:732722-732822                                            0.02    100
+Pf3D7_05_v3:276254-276354                                           0.028    100
+Pf3D7_07_v3:1222824-1222924                                          0.03    100
+Pf3D7_14_v3:2878073-2878173                                         0.032    100
+Pf3D7_05_v3:419405-419505                                           0.036    100
+Pf3D7_03_v3:547611-547711                                           0.036    100
+Pf3D7_13_v3:1074348-1074448                                         0.038    100
+Pf3D7_10_v3:568707-568807                                            0.04    100
+Pf3D7_13_v3:200646-200746                                           0.042    100
+Pf3D7_13_v3:902945-903045                                           0.045    100
+Pf3D7_06_v3:355417-355517                                           0.064    100
+Pf3D7_10_v3:1443222-1443322                                         0.072    100
+Pf3D7_13_v3:357088-357188                                           0.085    100
+Pf3D7_04_v3:538324-538424                                           0.096    100
+Pf3D7_11_v3:1187331-1187431                                          0.12    100
+Pf3D7_10_v3:1508026-1508126                                          0.18    100
+Pf3D7_12_v3:515214-515314                                            0.19    100
+Pf3D7_11_v3:1273906-1274006                                           0.4    100
+Pf3D7_05_v3:427015-427115                                            0.44    100
+Pf3D7_01_v3:434287-434387                                            0.48    100
+Pf3D7_11_v3:1624757-1624857                                          0.55    100
+Pf3D7_04_v3:885604-885704                                            0.58    100
+Pf3D7_13_v3:2103987-2104087                                          0.64    100
+Pf3D7_07_v3:1242218-1242318                                             1    100
+Pf3D7_04_v3:337099-337199                                             1.1    100
+Pf3D7_10_v3:1464177-1464277                                           1.2    100
+Pf3D7_02_v3:400651-400751                                             1.6    100
+Pf3D7_02_v3:672941-673041                                             1.8    100
+Pf3D7_11_v3:709926-710026                                             1.9    100
+Pf3D7_14_v3:1934922-1935022                                             2    100
+Pf3D7_11_v3:872707-872807                                             2.2    100
+Pf3D7_07_v3:923271-923371                                             2.2    100
+Pf3D7_11_v3:1412243-1412343                                           2.8    100
+Pf3D7_10_v3:706711-706811                                             3.8    100
+Pf3D7_13_v3:2641216-2641316                                           3.8    100
+Pf3D7_08_v3:1124089-1124189                                           3.9    100
+Pf3D7_10_v3:455619-455719                                             5.1    100
+Pf3D7_11_v3:1635134-1635234                                           5.9    100
+Pf3D7_12_v3:694025-694125                                             6.4    100
+Pf3D7_14_v3:496362-496462                                             7.1    100
+Pf3D7_09_v3:483030-483130                                             7.6    100
+Pf3D7_11_v3:1962357-1962457                                           7.8    100
+Pf3D7_07_v3:906460-906560                                               9    100
+
+********************************************************************************
+
+
+
+********************************************************************************
+SECTION II: MOTIF DIAGRAMS
+********************************************************************************
+	- The ordering and spacing of all non-overlapping motif occurrences
+	  are shown for each high-scoring sequence listed in Section I.
+	- A motif occurrence is defined as a position in the sequence whose
+	  match to the motif has POSITION p-value less than 0.0001.
+	- The POSITION p-value of a match is the probability of
+	  a single random subsequence of the length of the motif
+	  scoring at least as well as the observed match.
+	- For each sequence, all motif occurrences are shown unless there
+	  are overlaps.  In that case, a motif occurrence is shown only if its
+	  p-value is less than the product of the p-values of the other
+	  (lower-numbered) motif occurrences that it overlaps.
+	- The table also shows the E-value of each sequence.
+	- Spacers and motif occurences are indicated by
+	   o -d-    `d' residues separate the end of the preceding motif 
+		    occurrence and the start of the following motif occurrence
+	   o [sn]  occurrence of motif `n' with p-value less than 0.0001.
+		    A minus sign indicates that the occurrence is on the
+		    reverse complement strand.
+********************************************************************************
+
+SEQUENCE NAME                      E-VALUE   MOTIF DIAGRAM
+-------------                      --------  -------------
+Pf3D7_11_v3:1775601-1775701           4e-05  [+1]-12-[+1]-3-[+1]-3-[+1]-22
+Pf3D7_13_v3:1513619-1513719           4e-05  19-[-1]-12-[-1]-9-[-1]-15
+Pf3D7_06_v3:135856-135956             4e-05  2-[-1]-12-[-1]-56
+Pf3D7_09_v3:1045927-1046027           4e-05  73-[+1]-12
+Pf3D7_13_v3:1113652-1113752           4e-05  78-[+1]-7
+Pf3D7_13_v3:1401632-1401732         7.3e-05  23-[-1]-39-[-1]-8
+Pf3D7_11_v3:1601302-1601402         7.3e-05  2-[-1]-18-[-1]-15-[-1]-[-1]-5
+Pf3D7_08_v3:657218-657318           7.3e-05  7-[+1]-18-[+1]-[+1]-9-[+1]-6
+Pf3D7_01_v3:487888-487988           7.3e-05  63-[-1]-3-[-1]-4
+Pf3D7_12_v3:942447-942547           7.3e-05  15-[+1]-24-[+1]-31
+Pf3D7_06_v3:967512-967612           0.00011  5-[-1]-[-1]-9-[-1]-41
+Pf3D7_11_v3:203582-203682           0.00011  58-[+1]-3-[+1]-9
+Pf3D7_05_v3:121130-121230           0.00011  1-[-1]-84
+Pf3D7_12_v3:1328335-1328435         0.00015  8-[-1]-3-[-1]-12-[-1]-15-[-1]-2
+Pf3D7_03_v3:346115-346215           0.00022  44-[-1]-6-[-1]-3-[-1]-2
+Pf3D7_14_v3:3015751-3015851         0.00022  [-1]-27-[-1]-12-[-1]-[-1]-1
+Pf3D7_12_v3:77410-77510             0.00022  8-[-1]-12-[-1]-9-[-1]-6-[-1]-5
+Pf3D7_02_v3:229709-229809           0.00022  64-[+1]-21
+Pf3D7_12_v3:1470798-1470898         0.00022  52-[+1]-9-[+1]-9
+Pf3D7_09_v3:1256205-1256305         0.00022  13-[+1]-[+1]-[+1]-[+1]-27
+Pf3D7_13_v3:935095-935195           0.00022  52-[+1]-33
+Pf3D7_09_v3:192299-192399           0.00022  6-[-1]-27-[-1]-3-[-1]-3-[-1]-1
+Pf3D7_11_v3:1845724-1845824         0.00026  17-[-1]-[-1]-6-[-1]-32
+Pf3D7_14_v3:2070529-2070629         0.00033  2-[-1]-18-[-1]-3-[-1]-3-[-1]-14
+Pf3D7_14_v3:820453-820553           0.00033  4-[+1]-[+1]-3-[+1]-3-[+1]-[+1]-15
+Pf3D7_06_v3:650001-650101           0.00056  7-[-1]-3-[-1]-33-[-1]-12
+Pf3D7_10_v3:1135218-1135318         0.00056  5-[-1]-15-[-1]-15-[-1]-3-[-1]-2
+Pf3D7_04_v3:881631-881731           0.00056  24-[+1]-3-[+1]-3-[+1]-3-[+1]-7
+Pf3D7_13_v3:1667707-1667807          0.0007  2-[-1]-3-[-1]-3-[-1]-24-[-1]-8
+Pf3D7_06_v3:517995-518095            0.0007  6-[-1]-53-[-1]-11
+Pf3D7_11_v3:1689722-1689822          0.0007  44-[-1]-41
+Pf3D7_05_v3:722159-722259           0.00073  5-[-1]-9-[-1]-6-[-1]-[-1]-20
+Pf3D7_10_v3:543489-543589           0.00073  1-[+1]-24-[+1]-24-[+1]-6
+Pf3D7_13_v3:1406991-1407091         0.00073  2-[-1]-[-1]-3-[-1]-12-[-1]-3-[-1]-5
+Pf3D7_04_v3:235720-235820           0.00077  1-[-1]-12-[-1]-18-[-1]-6-[-1]-3
+Pf3D7_14_v3:1770575-1770675         0.00077  28-[-1]-15-[-1]-27
+Pf3D7_13_v3:2306387-2306487         0.00092  2-[-1]-12-[-1]-6-[-1]-18-[-1]-2
+Pf3D7_07_v3:1072448-1072548         0.00092  8-[-1]-15-[-1]-6-[-1]-26
+Pf3D7_09_v3:1371015-1371115         0.00092  14-[-1]-9-[-1]-3-[-1]-29
+Pf3D7_05_v3:228882-228982           0.00092  17-[+1]-68
+Pf3D7_11_v3:1286275-1286375         0.00092  8-[-1]-9-[-1]-53
+Pf3D7_14_v3:219712-219812           0.00092  25-[+1]-60
+Pf3D7_06_v3:460227-460327           0.00092  8-[-1]-27-[-1]-18-[-1]-2
+Pf3D7_12_v3:1247795-1247895           0.001  5-[+1]-3-[+1]-62
+Pf3D7_06_v3:440075-440175             0.001  11-[-1]-27-[-1]-32
+Pf3D7_10_v3:739702-739802             0.001  14-[-1]-71
+Pf3D7_14_v3:273891-273991             0.001  8-[-1]-3-[-1]-3-[-1]-41
+Pf3D7_01_v3:355403-355503            0.0012  7-[-1]-22-[-1]-41
+Pf3D7_09_v3:119222-119322            0.0012  65-[-1]-3-[-1]-2
+Pf3D7_13_v3:1849974-1850074          0.0012  27-[+1]-24-[+1]-[+1]-4
+Pf3D7_07_v3:339564-339664            0.0012  67-[+1]-18
+Pf3D7_05_v3:509463-509563            0.0013  13-[+1]-6-[+1]-[+1]-36
+Pf3D7_08_v3:894218-894318            0.0014  11-[-1]-9-[-1]-9-[-1]-6-[-1]-5
+Pf3D7_01_v3:338249-338349            0.0014  7-[+1]-3-[+1]-15-[+1]-9-[+1]-6
+Pf3D7_02_v3:122396-122496            0.0016  32-[+1]-21-[+1]-[+1]-2
+Pf3D7_02_v3:758173-758273            0.0018  55-[+1]-3-[+1]-12
+Pf3D7_05_v3:822497-822597            0.0018  3-[-1]-27-[-1]-40
+Pf3D7_12_v3:1997197-1997297           0.002  7-[+1]-12-[+1]-12-[+1]-24
+Pf3D7_11_v3:1792458-1792558           0.002  5-[-1]-3-[-1]-6-[-1]-6-[-1]-20
+Pf3D7_02_v3:799623-799723             0.002  76-[+1]-9
+Pf3D7_14_v3:1312454-1312554          0.0022  17-[-1]-3-[-1]-50
+Pf3D7_07_v3:946601-946701            0.0022  61-[+1]-24
+Pf3D7_09_v3:1137590-1137690          0.0022  5-[-1]-15-[-1]-6-[-1]-9-[-1]-5
+Pf3D7_05_v3:889562-889662            0.0024  28-[+1]-15-[+1]-9-[+1]-3
+Pf3D7_12_v3:747965-748065            0.0024  19-[+1]-3-[+1]-3-[+1]-3-[+1]-12
+Pf3D7_13_v3:537743-537843            0.0025  17-[-1]-6-[-1]-24-[-1]-8
+Pf3D7_10_v3:1035607-1035707          0.0025  7-[+1]-33-[+1]-3-[+1]-12
+Pf3D7_09_v3:896727-896827            0.0026  58-[+1]-3-[+1]-9
+Pf3D7_14_v3:2786365-2786465          0.0035  35-[-1]-3-[-1]-9-[-1]-8
+Pf3D7_03_v3:699679-699779            0.0037  8-[-1]-12-[-1]-50
+Pf3D7_10_v3:176249-176349             0.004  19-[-1]-66
+Pf3D7_11_v3:1194809-1194909           0.004  5-[-1]-3-[-1]-6-[-1]-12-[-1]-14
+Pf3D7_06_v3:1091958-1092058          0.0043  63-[+1]-22
+Pf3D7_14_v3:1673785-1673885          0.0044  17-[-1]-3-[-1]-3-[-1]-32
+Pf3D7_11_v3:533150-533250            0.0051  18-[-1]-67
+Pf3D7_07_v3:202000-202100            0.0051  19-[+1]-6-[+1]-[+1]-30
+Pf3D7_01_v3:102211-102311            0.0058  29-[+1]-9-[+1]-32
+Pf3D7_07_v3:894062-894162            0.0061  19-[+1]-6-[+1]-6-[+1]-6-[+1]-3
+Pf3D7_10_v3:998701-998801            0.0072  29-[-1]-10-[-1]-12-[-1]-4
+Pf3D7_12_v3:93800-93900              0.0072  11-[-1]-9-[-1]-21-[-1]-14
+Pf3D7_13_v3:2514007-2514107           0.015  1-[+1]-21-[+1]-24-[+1]-9
+Pf3D7_11_v3:192991-193091             0.019  7-[-1]-78
+Pf3D7_11_v3:1197632-1197732            0.02  8-[-1]-9-[-1]-53
+Pf3D7_05_v3:276254-276354             0.028  54-[+1]-[+1]-[+1]-1
+Pf3D7_07_v3:1222824-1222924            0.03  2-[+1]-[+1]-15-[+1]-9-[+1]-14
+Pf3D7_14_v3:2878073-2878173           0.032  1-[-1]-30-[-1]-39
+Pf3D7_05_v3:419405-419505             0.036  22-[+1]-63
+Pf3D7_13_v3:1074348-1074448           0.038  34-[+1]-15-[+1]-21
+Pf3D7_10_v3:568707-568807              0.04  4-[+1]-15-[+1]-[+1]-3-[+1]-[+1]-3
+Pf3D7_13_v3:200646-200746             0.042  17-[-1]-39-[-1]-14
+Pf3D7_13_v3:902945-903045             0.045  43-[+1]-42
+Pf3D7_06_v3:355417-355517             0.064  40-[+1]-18-[+1]-12
+Pf3D7_10_v3:1443222-1443322           0.072  49-[+1]-3-[+1]-18
+Pf3D7_13_v3:357088-357188             0.085  13-[+1]-[+1]-[+1]-12-[+1]-15
+Pf3D7_04_v3:538324-538424             0.096  9-[+1]-76
+Pf3D7_11_v3:1187331-1187431            0.12  33-[-1]-52
+Pf3D7_10_v3:1508026-1508126            0.18  80-[-1]-5
+Pf3D7_12_v3:515214-515314              0.19  1-[+1]-3-[+1]-12-[+1]-39
+Pf3D7_11_v3:1273906-1274006             0.4  25-[+1]-60
+Pf3D7_05_v3:427015-427115              0.44  62-[-1]-23
+Pf3D7_01_v3:434287-434387              0.48  44-[-1]-41
+Pf3D7_11_v3:1624757-1624857            0.55  72-[-1]-13
+Pf3D7_04_v3:885604-885704              0.58  77-[+1]-8
+Pf3D7_13_v3:2103987-2104087            0.64  84-[+1]-1
+Pf3D7_07_v3:1242218-1242318               1  43-[+1]-42
+Pf3D7_04_v3:337099-337199               1.1  14-[-1]-71
+Pf3D7_10_v3:1464177-1464277             1.2  62-[+1]-23
+Pf3D7_02_v3:400651-400751               1.6  33-[-1]-52
+Pf3D7_02_v3:672941-673041               1.8  78-[+1]-7
+Pf3D7_11_v3:709926-710026               1.9  4-[-1]-81
+Pf3D7_14_v3:1934922-1935022               2  40-[+1]-45
+Pf3D7_11_v3:872707-872807               2.2  10-[+1]-75
+Pf3D7_07_v3:923271-923371               2.2  6-[+1]-79
+Pf3D7_11_v3:1412243-1412343             2.8  100
+Pf3D7_10_v3:706711-706811               3.8  100
+Pf3D7_13_v3:2641216-2641316             3.8  100
+Pf3D7_08_v3:1124089-1124189             3.9  100
+Pf3D7_10_v3:455619-455719               5.1  100
+Pf3D7_11_v3:1635134-1635234             5.9  100
+Pf3D7_12_v3:694025-694125               6.4  100
+Pf3D7_14_v3:496362-496462               7.1  100
+Pf3D7_09_v3:483030-483130               7.6  100
+Pf3D7_11_v3:1962357-1962457             7.8  100
+Pf3D7_07_v3:906460-906560                 9  100
+
+********************************************************************************
+
+
+
+********************************************************************************
+SECTION III: ANNOTATED SEQUENCES
+********************************************************************************
+	- The positions and p-values of the non-overlapping motif occurrences
+	  are shown above the actual sequence for each of the high-scoring
+	  sequences from Section I.
+	- A motif occurrence is defined as a position in the sequence whose
+	  match to the motif has POSITION p-value less than 0.0001 as 
+	  defined in Section II.
+	- For each sequence, the first line specifies the name of the sequence.
+	- The second (and possibly more) lines give a description of the 
+	  sequence.
+	- Following the description line(s) is a line giving the length, 
+	  combined p-value, and E-value of the sequence as defined in Section I.
+	- The next line reproduces the motif diagram from Section II.
+	- The entire sequence is printed on the following lines.
+	- Motif occurrences are indicated directly above their positions in the
+	  sequence on lines showing
+	   o the motif number of the occurrence (a minus sign indicates that
+	  the occurrence is on the reverse complement strand),
+	   o the position p-value of the occurrence,
+	   o the best possible match to the motif (or its reverse complement), and
+	   o columns whose match to the motif has a positive score (indicated 
+	     by a plus sign).
+********************************************************************************
+
+
+Pf3D7_11_v3:1775601-1775701
+  LENGTH = 100  COMBINED P-VALUE = 2.92e-07  E-VALUE =    4e-05
+  DIAGRAM: [+1]-12-[+1]-3-[+1]-3-[+1]-22
+
+     [+1]                       [+1]              [+1]              [+1]
+     1.7e-09                    8.6e-07           1.4e-05           7.5e-05
+     GAAGAAAATGAAGAA            GAAGAAAATGAAGAA   GAAGAAAATGAAGAA   GAAGAAAATGAA
+     +++++++++++++++            ++++++++++ + ++   ++++ +++++++ ++   ++  +++++++
+1    GAAGAAAATGAAGAAAATGGAAAAAATGAAGAAAATGGAAAAAATGAAGGAAATGAAAAATTTGATAAAAATGAG
+
+     
+     
+     GAA
+      ++
+76   AAAAATGAAAAATTTGATAAAAATG
+
+
+Pf3D7_13_v3:1513619-1513719
+  LENGTH = 100  COMBINED P-VALUE = 2.92e-07  E-VALUE =    4e-05
+  DIAGRAM: 19-[-1]-12-[-1]-9-[-1]-15
+
+                        [-1]                       [-1]                    [-1]
+                        9.2e-07                    6.7e-08                 1.7e-
+                        TTCTTCATTTTCTTC            TTCTTCATTTTCTTC         TTCTT
+                        +++++++++ ++++             +++ +++++++++++         +++++
+1    TTTTATGTTGATTATAATCTTCTTCATTATCTTTTTTGTAATTTTCTTCGTCATTTTCTTCGTCATTTTCTTCTT
+
+     
+     09
+     CATTTTCTTC
+     ++++++++++
+76   CATTTTCTTCATCCTTTTCTTCATT
+
+
+Pf3D7_06_v3:135856-135956
+  LENGTH = 100  COMBINED P-VALUE = 2.92e-07  E-VALUE =    4e-05
+  DIAGRAM: 2-[-1]-12-[-1]-56
+
+       [-1]                       [-1]
+       5.0e-08                    1.7e-09
+       TTCTTCATTTTCTTC            TTCTTCATTTTCTTC
+       ++++++ ++++++++            +++++++++++++++
+1    CCTTCTTCTTCTTCTTCCTCCTCCTCCTCTTCTTCATTTTCTTCTTCGTCATCTTGCTCGTATTTTTTGTCCTCT
+
+
+Pf3D7_09_v3:1045927-1046027
+  LENGTH = 100  COMBINED P-VALUE = 2.92e-07  E-VALUE =    4e-05
+  DIAGRAM: 73-[+1]-12
+
+                                                                              [+
+                                                                              1.
+                                                                              GA
+                                                                              ++
+1    TTATTATAAAAATTGTCGTGTATATTTGAAAGGTTTTACACATAAAAAGGAAAAATATATATATAAAAACAATGA
+
+     1]
+     7e-09
+     AGAAAATGAAGAA
+     +++++++++++++
+76   AGAAAATGAAGAAAATGAAATAAAT
+
+
+Pf3D7_13_v3:1113652-1113752
+  LENGTH = 100  COMBINED P-VALUE = 2.92e-07  E-VALUE =    4e-05
+  DIAGRAM: 78-[+1]-7
+
+        [+1]
+        1.7e-09
+        GAAGAAAATGAAGAA
+        +++++++++++++++
+76   GAAGAAGAAAATGAAGAAGAGGATG
+
+
+Pf3D7_13_v3:1401632-1401732
+  LENGTH = 100  COMBINED P-VALUE = 5.32e-07  E-VALUE =  7.3e-05
+  DIAGRAM: 23-[-1]-39-[-1]-8
+
+                            [-1]
+                            3.1e-09
+                            TTCTTCATTTTCTTC
+                            +++++++++++++++
+1    TCTTCGTTTTCTTCTTCATCATCTTCTTCATCTTCTTCATCGTCTTCTTCATTATCAGAATATTCTTCAGACGCT
+
+       [-1]
+       2.7e-05
+       TTCTTCATTTTCTTC
+        +++++  ++++++
+76   TCATCTTCTGTTTCTTTTTGTTCAT
+
+
+Pf3D7_11_v3:1601302-1601402
+  LENGTH = 100  COMBINED P-VALUE = 5.32e-07  E-VALUE =  7.3e-05
+  DIAGRAM: 2-[-1]-18-[-1]-15-[-1]-[-1]-5
+
+       [-1]                             [-1]                          [-1]
+       1.3e-06                          1.8e-07                       3.1e-09
+       TTCTTCATTTTCTTC                  TTCTTCATTTTCTTC               TTCTTCATTT
+        ++ +++++ ++ ++                   ++ +++++++++++               ++++++++++
+1    TCATCATCATCATCGTCATCATCATCATCATCATCGTCATCATCTTCTTCGTCGTCATCTTCATCTTCTTCATCT
+
+          [-1]
+          6.2e-09
+     TCTTCTTCTTCATTTTCTTC
+     +++++ ++++++++++++++
+76   TCTTCATCTTCATCTTCTTCATCTG
+
+
+Pf3D7_08_v3:657218-657318
+  LENGTH = 100  COMBINED P-VALUE = 5.32e-07  E-VALUE =  7.3e-05
+  DIAGRAM: 7-[+1]-18-[+1]-[+1]-9-[+1]-6
+
+            [+1]                             [+1]           [+1]
+            8.5e-08                          3.1e-09        1.1e-06
+            GAAGAAAATGAAGAA                  GAAGAAAATGAAGAAGAAGAAAATGAAGAA
+            +++++++++++ +++                  +++++++++++++++++ ++ +++++++++
+1    AGATGATGAAGAAGATGACGAAGATGATGATGATGAAGAAGAAGAAGATGAAGAAGATGAGGATGAAGAAGGAGA
+
+         [+1]
+         1.5e-07
+         GAAGAAAATGAAGAA
+         +++++ ++ ++++++
+76   AGATGAAGATGACGAAGAAGATGAA
+
+
+Pf3D7_01_v3:487888-487988
+  LENGTH = 100  COMBINED P-VALUE = 5.32e-07  E-VALUE =  7.3e-05
+  DIAGRAM: 63-[-1]-3-[-1]-4
+
+                                                                    [-1]
+                                                                    3.1e-09
+                                                                    TTCTTCATTTTC
+                                                                    ++++++++++++
+1    AATTTAAATTTTGGCATTTTTTCTCAAATTTCTTTTTATTTTTTTTTCTGATTCTTCTTCTTCTTCTTCATCTTC
+
+           [-1]
+           7.5e-08
+     TTC   TTCTTCATTTTCTTC
+     +++   ++++++++++++ ++
+76   TTCTTCTTCTTCATCTTCATCTTCA
+
+
+Pf3D7_12_v3:942447-942547
+  LENGTH = 100  COMBINED P-VALUE = 5.32e-07  E-VALUE =  7.3e-05
+  DIAGRAM: 15-[+1]-24-[+1]-31
+
+                    [+1]                                   [+1]
+                    1.1e-07                                3.1e-09
+                    GAAGAAAATGAAGAA                        GAAGAAAATGAAGAA
+                    +++++ +++++ +++                        +++++++++++++++
+1    GATGATGATGATGATGAAGATGATGATGAAGACGATGATGAGGAAGATGATGATGAAGAAGATGAAGAAGTGAAT
+
+
+Pf3D7_06_v3:967512-967612
+  LENGTH = 100  COMBINED P-VALUE = 8.24e-07  E-VALUE =  0.00011
+  DIAGRAM: 5-[-1]-[-1]-9-[-1]-41
+
+          [-1]           [-1]                    [-1]
+          5.9e-07        5.4e-07                 4.8e-09
+          TTCTTCATTTTCTTCTTCTTCATTTTCTTC         TTCTTCATTTTCTTC
+           ++++++++ ++ ++ ++++++++ +++++          ++++++++++++++
+1    TCATCATCTTCATCATCATCCTCTTCATCCTCTTCATCTTCATCATCTTCATTTTCTTCCTTAATTTTATCCTTC
+
+
+Pf3D7_11_v3:203582-203682
+  LENGTH = 100  COMBINED P-VALUE = 8.24e-07  E-VALUE =  0.00011
+  DIAGRAM: 58-[+1]-3-[+1]-9
+
+                                                               [+1]
+                                                               1.5e-07
+                                                               GAAGAAAATGAAGAA
+                                                               +++++++++++ ++
+1    AAAAAAGGAGGGAGGGAAAAAAAATGATGGGGGAAAGTATAAGAATGATGATAAGGATGAAGAAGATGAGGATGA
+
+      [+1]
+      4.8e-09
+      GAAGAAAATGAAGAA
+      ++++++++++++++
+76   AGAAGAAAATGAAGATGAAAATGAT
+
+
+Pf3D7_05_v3:121130-121230
+  LENGTH = 100  COMBINED P-VALUE = 8.24e-07  E-VALUE =  0.00011
+  DIAGRAM: 1-[-1]-84
+
+      [-1]
+      4.8e-09
+      TTCTTCATTTTCTTC
+       ++++++++++++++
+1    CATCTTCATTTTCTTCATCTAAGATATTTTTTTCTTCCAATTGATATTTCCTCTTCCTTTCTATTCCTTCATATT
+
+
+Pf3D7_12_v3:1328335-1328435
+  LENGTH = 100  COMBINED P-VALUE = 1.06e-06  E-VALUE =  0.00015
+  DIAGRAM: 8-[-1]-3-[-1]-12-[-1]-15-[-1]-2
+
+             [-1]              [-1]                       [-1]
+             3.1e-08           6.2e-09                    1.2e-06
+             TTCTTCATTTTCTTC   TTCTTCATTTTCTTC            TTCTTCATTTTCTTC
+              ++++++++ +++++    ++++++++++++++            +++ ++++++++ ++
+1    TTCATAGAATCTTCATCATCTTCATCATCTTCATCTTCTTCATCTTCCTCATCTTCCTCATCTTCATCATCATAA
+
+             [-1]
+             3.1e-08
+             TTCTTCATTTTCTTC
+              ++++++++ +++++
+76   TCATCATCATCTTCATCATCTTCAT
+
+
+Pf3D7_03_v3:346115-346215
+  LENGTH = 100  COMBINED P-VALUE = 1.60e-06  E-VALUE =  0.00022
+  DIAGRAM: 44-[-1]-6-[-1]-3-[-1]-2
+
+                                                 [-1]                 [-1]
+                                                 9.3e-09              8.5e-08
+                                                 TTCTTCATTTTCTTC      TTCTTCATTT
+                                                 +++++++++ +++++      +++ ++++++
+1    TCGTCATCGTCATCGTTATCATTATCATCATCTTCGTCATCTTCTTCTTCATCATCTTCATCATCTTCGTCATCT
+
+             [-1]
+             5.0e-08
+     TCTTC   TTCTTCATTTTCTTC
+     +++++   ++ ++++++++++++
+76   TCTTCTTCTTGTTCATCTTCTTCTT
+
+
+Pf3D7_14_v3:3015751-3015851
+  LENGTH = 100  COMBINED P-VALUE = 1.60e-06  E-VALUE =  0.00022
+  DIAGRAM: [-1]-27-[-1]-12-[-1]-[-1]-1
+
+     [-1]                                      [-1]                       [-1]
+     2.9e-06                                   1.1e-07                    9.3e-0
+     TTCTTCATTTTCTTC                           TTCTTCATTTTCTTC            TTCTTC
+     ++ ++++++ +++ +                           +++ +++++ +++++            ++++++
+1    TTTTTCATTATCTCCATTCACATCATCGTCACCATCATCTTCTTCATCATCATCTTCACCATCATCTTCTTCTTC
+
+              [-1]
+     9        1.1e-07
+     ATTTTCTTCTTCTTCATTTTCTTC
+     +++ ++++++++ +++++ +++++
+76   ATCATCTTCTTCATCATCATCTTCT
+
+
+Pf3D7_12_v3:77410-77510
+  LENGTH = 100  COMBINED P-VALUE = 1.60e-06  E-VALUE =  0.00022
+  DIAGRAM: 8-[-1]-12-[-1]-9-[-1]-6-[-1]-5
+
+             [-1]                       [-1]                    [-1]
+             2.4e-07                    9.3e-09                 3.6e-05
+             TTCTTCATTTTCTTC            TTCTTCATTTTCTTC         TTCTTCATTTTCTTC
+              +++++ ++ +++++            +++++++++ +++++          ++   +++++++ +
+1    TCATCATTATCTTCGTCATCTTCATCATCATCATCTTCTTCATCATCTTCATCATCATCATCAAGATTTTCTGCA
+
+          [-1]
+          7.5e-07
+          TTCTTCATTTTCTTC
+          ++ ++ +++++++++
+76   TATTTTTGTTTATCTTCTTCTTCAG
+
+
+Pf3D7_02_v3:229709-229809
+  LENGTH = 100  COMBINED P-VALUE = 1.60e-06  E-VALUE =  0.00022
+  DIAGRAM: 64-[+1]-21
+
+                                                                     [+1]
+                                                                     9.3e-09
+                                                                     GAAGAAAATGA
+                                                                     +++++ +++++
+1    TGATTATAAAAAGGAACTACAAGCCAACCTAAAAGGCAACCACGATGATGAAGATGAAGATGAAGAAGATGATGA
+
+     
+     
+     AGAA
+     ++++
+76   AGAAAATGAAGAGCAAGAACTAGAA
+
+
+Pf3D7_12_v3:1470798-1470898
+  LENGTH = 100  COMBINED P-VALUE = 1.60e-06  E-VALUE =  0.00022
+  DIAGRAM: 52-[+1]-9-[+1]-9
+
+                                                         [+1]
+                                                         9.3e-09
+                                                         GAAGAAAATGAAGAA
+                                                         +++++ +++++++++
+1    GATTGAAGAAATGAATAGTAGGAAAAATAATAATTATGAAAAAGAAGAGGAAGAAGATGATGAAGAAGATATTGA
+
+      [+1]
+      1.3e-05
+      GAAGAAAATGAAGAA
+      + ++  ++++++++
+76   TGGAGTTGATGAAGATATAAAAGAA
+
+
+Pf3D7_09_v3:1256205-1256305
+  LENGTH = 100  COMBINED P-VALUE = 1.60e-06  E-VALUE =  0.00022
+  DIAGRAM: 13-[+1]-[+1]-[+1]-[+1]-27
+
+                  [+1]           [+1]           [+1]           [+1]
+                  9.3e-09        3.0e-07        2.2e-06        7.2e-05
+                  GAAGAAAATGAAGAAGAAGAAAATGAAGAAGAAGAAAATGAAGAAGAAGAAAATGAAGAA
+                  +++++ +++++++++++ ++ +++++++++++ ++ +++++ ++ ++  + +++++ ++
+1    AGATGATGATGAAGAAGATGATGAAGAAGATGATGATGAAGAAGATGATAATGATGATGATAATGATGATGACAA
+
+
+Pf3D7_13_v3:935095-935195
+  LENGTH = 100  COMBINED P-VALUE = 1.60e-06  E-VALUE =  0.00022
+  DIAGRAM: 52-[+1]-33
+
+                                                         [+1]
+                                                         9.3e-09
+                                                         GAAGAAAATGAAGAA
+                                                         +++++ +++++++++
+1    GAATTATAAAAATGATGAGGTGAAAAATTATGCACATAACGATGAAGAGGAAGAAGATGATGAAGAAGAAAAAAT
+
+
+Pf3D7_09_v3:192299-192399
+  LENGTH = 100  COMBINED P-VALUE = 1.60e-06  E-VALUE =  0.00022
+  DIAGRAM: 6-[-1]-27-[-1]-3-[-1]-3-[-1]-1
+
+           [-1]                                      [-1]              [-1]
+           6.0e-06                                   9.3e-09           9.3e-09
+           TTCTTCATTTTCTTC                           TTCTTCATTTTCTTC   TTCTTCATT
+            ++ +++++ ++ ++                           +++++++++ +++++   +++++++++
+1    GTTTTCATCCTCATCATCATCACTTTCATCGACATATTCTTCATTCTCTTCTTCATCATCTTCATATTCTTCATC
+
+              [-1]
+              7.5e-08
+     TTCTTC   TTCTTCATTTTCTTC
+      +++++   +++++++++ +++++
+76   ATCTTCATATTCTTCATCCTCTTCA
+
+
+Pf3D7_11_v3:1845724-1845824
+  LENGTH = 100  COMBINED P-VALUE = 1.89e-06  E-VALUE =  0.00026
+  DIAGRAM: 17-[-1]-[-1]-6-[-1]-32
+
+                      [-1]           [-1]                 [-1]
+                      1.1e-08        1.1e-08              4.3e-05
+                      TTCTTCATTTTCTTCTTCTTCATTTTCTTC      TTCTTCATTTTCTTC
+                      +++ ++++++++++++++ +++++++++++       +  ++ +++++++
+1    TCCTCATCATTTTCCTCTTCATCATTTTCTTCTTCATCATTTTCTTCCTCATTATTATCGTTTTCTTTATCCTTC
+
+
+Pf3D7_14_v3:2070529-2070629
+  LENGTH = 100  COMBINED P-VALUE = 2.37e-06  E-VALUE =  0.00033
+  DIAGRAM: 2-[-1]-18-[-1]-3-[-1]-3-[-1]-14
+
+       [-1]                             [-1]              [-1]              [-1]
+       3.9e-08                          1.9e-07           1.4e-08           3.9e
+       TTCTTCATTTTCTTC                  TTCTTCATTTTCTTC   TTCTTCATTTTCTTC   TTCT
+        ++ +++++++++++                   ++ +++++ +++++   +++ +++++++++++    ++
+1    TCATCATCATCTTCTTCGTCATCATCTTCCTGTTCATCATCATCATCTTCCTCTTCATCATCTTCTTCGTCATCA
+
+     
+     -08
+     TCATTTTCTTC
+     +++++++++++
+76   TCATCTTCTTCGTCATCATCGTCTT
+
+
+Pf3D7_14_v3:820453-820553
+  LENGTH = 100  COMBINED P-VALUE = 2.37e-06  E-VALUE =  0.00033
+  DIAGRAM: 4-[+1]-[+1]-3-[+1]-3-[+1]-[+1]-15
+
+         [+1]           [+1]              [+1]              [+1]           [+1]
+         1.9e-07        1.5e-07           1.9e-07           3.9e-08        1.4e-
+         GAAGAAAATGAAGAAGAAGAAAATGAAGAA   GAAGAAAATGAAGAA   GAAGAAAATGAAGAAGAAGA
+         +++++ +++++ ++ +++++++++++ ++    +++++ +++++ ++    +++++++++++ ++ +++++
+1    TGATGAAGATGATGATGATGAAGAAGATGACGATGATGAAGATGATGATGATGATGAAGAAGATGATGATGAAGA
+
+     
+     08
+     AAATGAAGAA
+     ++++++ +++
+76   AGATGATGAAAATGATAATGAGAAG
+
+
+Pf3D7_06_v3:650001-650101
+  LENGTH = 100  COMBINED P-VALUE = 4.06e-06  E-VALUE =  0.00056
+  DIAGRAM: 7-[-1]-3-[-1]-33-[-1]-12
+
+            [-1]              [-1]                                            [-
+            2.4e-08           2.4e-08                                         9.
+            TTCTTCATTTTCTTC   TTCTTCATTTTCTTC                                 TT
+             ++++++++ +++++    ++++++++ +++++                                 ++
+1    CTTCATTATCTTCATTATCTTCATTATCTTCATTATCTTCATTGTCCATGTTGTATATTTCATTTGTATTCATTT
+
+     1]
+     6e-05
+     CTTCATTTTCTTC
+     ++  ++++++ +
+76   CTATATCTTCATTTTTCATAAAATT
+
+
+Pf3D7_10_v3:1135218-1135318
+  LENGTH = 100  COMBINED P-VALUE = 4.06e-06  E-VALUE =  0.00056
+  DIAGRAM: 5-[-1]-15-[-1]-15-[-1]-3-[-1]-2
+
+          [-1]                          [-1]                          [-1]
+          1.4e-05                       3.1e-08                       2.4e-08
+          TTCTTCATTTTCTTC               TTCTTCATTTTCTTC               TTCTTCATTT
+           ++++++++ ++ +                 ++++++++ +++++                ++++++++
+1    TCATTATCTTCATCATCATTATAATCATCATCATTATCTTCATCATCTTCATCATCATCTTCATCATCTTCATTA
+
+             [-1]
+             3.1e-08
+     TCTTC   TTCTTCATTTTCTTC
+     +++++    ++++++++ +++++
+76   TCTTCATCATCTTCATCATCTTCAT
+
+
+Pf3D7_04_v3:881631-881731
+  LENGTH = 100  COMBINED P-VALUE = 4.06e-06  E-VALUE =  0.00056
+  DIAGRAM: 24-[+1]-3-[+1]-3-[+1]-3-[+1]-7
+
+                             [+1]              [+1]              [+1]
+                             3.7e-07           2.4e-08           2.4e-08
+                             GAAGAAAATGAAGAA   GAAGAAAATGAAGAA   GAAGAAAATGAAGAA
+                             +++++ ++++++ +    +++++ ++++++++    +++++ ++++++++
+1    AATAATGATGATAATGAAAATGATGAAGATAATGAAAATGATGAAGATAATGAAGATAATGAAGATAATGAAGAT
+
+        [+1]
+        3.7e-07
+        GAAGAAAATGAAGAA
+        +++++ ++++++ +
+76   AATGAAGATAATGAAAATGATGAAG
+
+
+Pf3D7_13_v3:1667707-1667807
+  LENGTH = 100  COMBINED P-VALUE = 5.04e-06  E-VALUE =   0.0007
+  DIAGRAM: 2-[-1]-3-[-1]-3-[-1]-24-[-1]-8
+
+       [-1]              [-1]              [-1]
+       1.5e-06           3.2e-06           3.2e-06
+       TTCTTCATTTTCTTC   TTCTTCATTTTCTTC   TTCTTCATTTTCTTC
+       +++ +++++ ++ ++    ++ +++++ ++ ++    ++ +++++ ++ ++
+1    TATTCATCATCATCATCATAATCATCATCGTCATCATCATCGTCATCATCGTCATCATCATCGTCATCATCATCA
+
+       [-1]
+       2.9e-08
+       TTCTTCATTTTCTTC
+        ++++++++++++++
+76   TCGTCTTCATCTTCTTCTTCTTCTT
+
+
+Pf3D7_06_v3:517995-518095
+  LENGTH = 100  COMBINED P-VALUE = 5.04e-06  E-VALUE =   0.0007
+  DIAGRAM: 6-[-1]-53-[-1]-11
+
+           [-1]                                                                [
+           8.1e-05                                                             2
+           TTCTTCATTTTCTTC                                                     T
+           ++ +++ + +++++                                                      +
+1    GTTCCTTTTTTCTTATTCTTTGGGTTCAAACTATAATTCTCTTCCTCAACGTAATTTATAAAATCGTCGTCTTCT
+
+     -1]
+     .9e-08
+     TCTTCATTTTCTTC
+     +++++ ++++++++
+76   TCTTCGTCTTCTTCTTCGTCTTCTT
+
+
+Pf3D7_11_v3:1689722-1689822
+  LENGTH = 100  COMBINED P-VALUE = 5.04e-06  E-VALUE =   0.0007
+  DIAGRAM: 44-[-1]-41
+
+                                                 [-1]
+                                                 2.9e-08
+                                                 TTCTTCATTTTCTTC
+                                                 ++++++++++++ ++
+1    TCATCATCATCAACATCGTCATCCTCTTCATCATCATCGTCATCTTCTTCATCTTCGTCATCATAATGATGATCA
+
+
+Pf3D7_05_v3:722159-722259
+  LENGTH = 100  COMBINED P-VALUE = 5.28e-06  E-VALUE =  0.00073
+  DIAGRAM: 5-[-1]-9-[-1]-6-[-1]-[-1]-20
+
+          [-1]                    [-1]                 [-1]           [-1]
+          3.1e-08                 2.0e-06              1.5e-07        2.0e-06
+          TTCTTCATTTTCTTC         TTCTTCATTTTCTTC      TTCTTCATTTTCTTCTTCTTCATTT
+           ++++++++ +++++          ++ +++++ +++++       ++++++++ +++++ ++ +++++
+1    TCATCATCTTCATCATCTTCATCATCTTCCTCCTCATCATCTTCATCGTCCTCTTCATCATCTTCCTCCTCATCA
+
+     
+     
+     TCTTC
+     +++++
+76   TCTTCATTTTCCATACTCCTAGATG
+
+
+Pf3D7_10_v3:543489-543589
+  LENGTH = 100  COMBINED P-VALUE = 5.28e-06  E-VALUE =  0.00073
+  DIAGRAM: 1-[+1]-24-[+1]-24-[+1]-6
+
+      [+1]                                   [+1]
+      7.8e-05                                3.1e-08
+      GAAGAAAATGAAGAA                        GAAGAAAATGAAGAA
+       ++ +++++++  ++                        +++++ ++++++++
+1    AAAAAAAAATGATAAAAAAAAGAAGAATCCTCATGACACAGAAGATGATGAAGATGAAGATTTGAATGAAGAAGA
+
+         [+1]
+         6.7e-08
+         GAAGAAAATGAAGAA
+         +++++++++++ +++
+76   TGAGGAAGAAAATGACGAAGATGAA
+
+
+Pf3D7_13_v3:1406991-1407091
+  LENGTH = 100  COMBINED P-VALUE = 5.28e-06  E-VALUE =  0.00073
+  DIAGRAM: 2-[-1]-[-1]-3-[-1]-12-[-1]-3-[-1]-5
+
+       [-1]           [-1]              [-1]                       [-1]
+       6.7e-06        3.7e-07           9.2e-06                    3.1e-08
+       TTCTTCATTTTCTTCTTCTTCATTTTCTTC   TTCTTCATTTTCTTC            TTCTTCATTTTCT
+        ++ ++++ +++ ++ +++ ++++ +++++    +++  +++ +++++             ++++++++ +++
+1    TCATCATCATATTCATCATCTACATTATCTTCAACATCTAGATCATCTTCATCATCTACATCATCTTCATCATCT
+
+          [-1]
+          3.1e-08
+     TC   TTCTTCATTTTCTTC
+     ++    ++++++++ +++++
+76   TCATCATCTTCATCATCTTCATCAT
+
+
+Pf3D7_04_v3:235720-235820
+  LENGTH = 100  COMBINED P-VALUE = 5.57e-06  E-VALUE =  0.00077
+  DIAGRAM: 1-[-1]-12-[-1]-18-[-1]-6-[-1]-3
+
+      [-1]                       [-1]                             [-1]
+      1.9e-06                    3.2e-08                          3.2e-08
+      TTCTTCATTTTCTTC            TTCTTCATTTTCTTC                  TTCTTCATTTTCTT
+      ++++++ ++ ++ ++             ++ +++++++++++                   ++ ++++++++++
+1    TTTCTTCGTCATCATCATCCTTTTCATTATCATCATTTTCTTCGCCATCGTCATTTCCGTTATCATCATTTTCTT
+
+            [-1]
+            1.2e-06
+     C      TTCTTCATTTTCTTC
+     +      +++ ++++++++ ++
+76   CTTCATCTTCCTCATCTTCATCCTC
+
+
+Pf3D7_14_v3:1770575-1770675
+  LENGTH = 100  COMBINED P-VALUE = 5.57e-06  E-VALUE =  0.00077
+  DIAGRAM: 28-[-1]-15-[-1]-27
+
+                                 [-1]                          [-1]
+                                 3.2e-08                       3.7e-07
+                                 TTCTTCATTTTCTTC               TTCTTCATTTTCTTC
+                                  ++ +++++++++++               +++++++++ +++ +
+1    AAGATCCTCCACCATCTTCATCATAACCATCATCATTTTCTTCATCATCGTCTTCATATTCTTCATCATCTCCTT
+
+
+Pf3D7_13_v3:2306387-2306487
+  LENGTH = 100  COMBINED P-VALUE = 6.64e-06  E-VALUE =  0.00092
+  DIAGRAM: 2-[-1]-12-[-1]-6-[-1]-18-[-1]-2
+
+       [-1]                       [-1]                 [-1]
+       1.3e-06                    3.9e-08              3.9e-08
+       TTCTTCATTTTCTTC            TTCTTCATTTTCTTC      TTCTTCATTTTCTTC
+        +++++ ++ +++++             ++ +++++++++++       ++ +++++++++++
+1    TCATCTTCTTCCTCTTCCTCATCATCACCATCATCATCTTCTTCTTCATCATCATCATCTTCTTCTTCATCATTA
+
+             [-1]
+             1.1e-07
+             TTCTTCATTTTCTTC
+             +++ +++++ +++++
+76   TCATCTTCTTCATCATCATCTTCTT
+
+
+Pf3D7_07_v3:1072448-1072548
+  LENGTH = 100  COMBINED P-VALUE = 6.64e-06  E-VALUE =  0.00092
+  DIAGRAM: 8-[-1]-15-[-1]-6-[-1]-26
+
+             [-1]                          [-1]                 [-1]
+             1.3e-06                       7.5e-07              3.9e-08
+             TTCTTCATTTTCTTC               TTCTTCATTTTCTTC      TTCTTCATTTTCTTC
+              ++ ++ ++ +++++               +++ +++++ ++ ++       ++ +++++++++++
+1    TCTTCCTCATCATCGTCATCTTCCTCATCATCGTCATTTTCATCATCATCGTCATTTTCATCATCATCTTCTTCT
+
+
+Pf3D7_13_v3:83102-83202
+  LENGTH = 100  COMBINED P-VALUE = 6.64e-06  E-VALUE =  0.00092
+
+      [+1]                    [+1]                    [+1]
+      1.8e-06                 1.1e-07                 1.1e-07
+      GAAGAAAATGAAGAA         GAAGAAAATGAAGAA         GAAGAAAATGAAGAA
+      ++  ++++++++++          ++ +++++++++++          ++ +++++++++++
+1    AGATCAAAATGAAGATCAAAATGATGATGAAAATGAAGATCAAAATGATGATGAAAATGAAGATCAAAATGAAGA
+
+               [+1]
+               3.9e-08
+               GAAGAAAATGAAGAA
+               +++++++++++ ++
+76   TGAATATGAAGAAGAAGATGATGAT
+
+
+Pf3D7_09_v3:1371015-1371115
+  LENGTH = 100  COMBINED P-VALUE = 6.64e-06  E-VALUE =  0.00092
+  DIAGRAM: 14-[-1]-9-[-1]-3-[-1]-29
+
+                   [-1]                    [-1]              [-1]
+                   3.9e-08                 1.3e-07           1.3e-07
+                   TTCTTCATTTTCTTC         TTCTTCATTTTCTTC   TTCTTCATTTTCTTC
+                    ++ +++++++++++          +++++++++++ ++    +++++++++++ ++
+1    TCATCATCTTCTTCATCATCATCTTCTTCATCATCATCATCTTCATCTTCATCTTCATCTTCATCTTCATCTTCA
+
+
+Pf3D7_05_v3:228882-228982
+  LENGTH = 100  COMBINED P-VALUE = 6.64e-06  E-VALUE =  0.00092
+  DIAGRAM: 17-[+1]-68
+
+                      [+1]
+                      3.9e-08
+                      GAAGAAAATGAAGAA
+                      ++++++++ ++++++
+1    AAGAAAAGGAAGAAAAGGAAGAAAAAGAAGAACATGAAATTAAAGAAATCCAAATGGAAAACAAGAAGGGGAAGG
+
+
+Pf3D7_07_v3:1253109-1253209
+  LENGTH = 100  COMBINED P-VALUE = 6.64e-06  E-VALUE =  0.00092
+
+                  [+1]              [+1]              [+1]                 [+1]
+                  3.9e-08           3.9e-08           3.9e-08              5.4e-
+                  GAAGAAAATGAAGAA   GAAGAAAATGAAGAA   GAAGAAAATGAAGAA      GAAGA
+                  +++++++++++ ++    +++++++++++ ++    +++++++++++ ++       +++++
+1    AGAAGATGATGATGAAGAAGATGATGATGATGAAGAAGATGATGATGATGAAGAAGATGATGATGATGAAGAAGA
+
+               [+1]
+     07        1.9e-06
+     AAATGAAGAAGAAGAAAATGAAGAA
+      +++++ ++ +++++ +++++  +
+76   TAATGAGGATGAAGATGATGATAAT
+
+
+Pf3D7_11_v3:1286275-1286375
+  LENGTH = 100  COMBINED P-VALUE = 6.64e-06  E-VALUE =  0.00092
+  DIAGRAM: 8-[-1]-9-[-1]-53
+
+             [-1]                    [-1]
+             1.9e-06                 3.9e-08
+             TTCTTCATTTTCTTC         TTCTTCATTTTCTTC
+             +++++++++++  ++         ++++++ ++++++++
+1    TCTTCTACTTCTTCATTTTTATCATCTTCCTCTTCTTCTTTTTCTTCGCCATCTTTTTCTATCTCTTCATCTAAC
+
+
+Pf3D7_14_v3:219712-219812
+  LENGTH = 100  COMBINED P-VALUE = 6.64e-06  E-VALUE =  0.00092
+  DIAGRAM: 25-[+1]-60
+
+                              [+1]
+                              3.9e-08
+                              GAAGAAAATGAAGAA
+                              +++++++++++ ++
+1    TGACGAAGAAGATGACGAAGAAGAAGAAGAAGATGATGATGATGATAATGACATATACGAACAAGAGTATAACAA
+
+
+Pf3D7_06_v3:460227-460327
+  LENGTH = 100  COMBINED P-VALUE = 6.64e-06  E-VALUE =  0.00092
+  DIAGRAM: 8-[-1]-27-[-1]-18-[-1]-2
+
+             [-1]                                      [-1]
+             5.9e-07                                   3.9e-08
+             TTCTTCATTTTCTTC                           TTCTTCATTTTCTTC
+              +++++++  +++++                            ++ +++++++++++
+1    TCTTCTTCATCTTCATAATCTTCTTCTTCGCCGTCATCTCCATCATCATCATCATCATCTTCTTCTTCACGTCCT
+
+             [-1]
+             1.0e-07
+             TTCTTCATTTTCTTC
+             +++++++ +++++++
+76   TCAATATCTTCTTCAGCTTCTTCTT
+
+
+Pf3D7_12_v3:1247795-1247895
+  LENGTH = 100  COMBINED P-VALUE = 7.29e-06  E-VALUE =    0.001
+  DIAGRAM: 5-[+1]-3-[+1]-62
+
+          [+1]              [+1]
+          2.2e-06           4.2e-08
+          GAAGAAAATGAAGAA   GAAGAAAATGAAGAA
+          +++++++++++++ +   ++++++++++++ ++
+1    GAAATGAAGAAAATGAAGGAAATGAAGAAAATGAAAAAAATAAAAATTACCAAATAAATGAAGATTATTATGAAC
+
+
+Pf3D7_06_v3:440075-440175
+  LENGTH = 100  COMBINED P-VALUE = 7.29e-06  E-VALUE =    0.001
+  DIAGRAM: 11-[-1]-27-[-1]-32
+
+                [-1]                                      [-1]
+                4.2e-08                                   7.2e-05
+                TTCTTCATTTTCTTC                           TTCTTCATTTTCTTC
+                ++ ++++++++++++                           +++++   +++++++
+1    TTTTCTTCACTTTTTTCATTTTCTTCATATTGCATATCTCTTTCTTTATGCTCTTCTTTTATTTCTTCCCTTTTT
+
+
+Pf3D7_10_v3:739702-739802
+  LENGTH = 100  COMBINED P-VALUE = 7.29e-06  E-VALUE =    0.001
+  DIAGRAM: 14-[-1]-71
+
+                   [-1]
+                   4.2e-08
+                   TTCTTCATTTTCTTC
+                   ++ ++++++++++++
+1    TCATTTTCTTCATTTTTTTCATTTTCTTCATTTTTTTGATTCCCTTTGGGATTATAAATTTTTAACGAATTATCG
+
+
+Pf3D7_03_v3:842723-842823
+  LENGTH = 100  COMBINED P-VALUE = 7.29e-06  E-VALUE =    0.001
+
+                                             [+1]                       [+1]
+                                             8.7e-06                    4.2e-08
+                                             GAAGAAAATGAAGAA            GAAGAAAA
+                                             + ++++++++ + ++            ++++++++
+1    GGATGAGAATGTAAAGGATGTTAATAAATATAATGAAATTGGAGAAAATGGAAAAAATGGAAAAAATGAAGAAAA
+
+               [+1]
+               8.5e-05
+     TGAAGAA   GAAGAAAATGAAGAA
+     ++++ ++   + + ++++++ + ++
+76   TGAAAAAAATGGAAAAAATGGAAAA
+
+
+Pf3D7_14_v3:273891-273991
+  LENGTH = 100  COMBINED P-VALUE = 7.29e-06  E-VALUE =    0.001
+  DIAGRAM: 8-[-1]-3-[-1]-3-[-1]-41
+
+             [-1]              [-1]              [-1]
+             1.5e-07           1.5e-06           4.2e-08
+             TTCTTCATTTTCTTC   TTCTTCATTTTCTTC   TTCTTCATTTTCTTC
+             +++++++++++ +++   ++ ++++++++ +++   ++ ++++++++++++
+1    TTTTCATTTTCTTCATTTTTTTCATTTTTTTCATTTTTTTCATTTTTTTCATTTTCTTCATTTTCTATATTTTTT
+
+
+Pf3D7_01_v3:355403-355503
+  LENGTH = 100  COMBINED P-VALUE = 8.68e-06  E-VALUE =   0.0012
+  DIAGRAM: 7-[-1]-22-[-1]-41
+
+            [-1]                                 [-1]
+            5.0e-08                              2.7e-05
+            TTCTTCATTTTCTTC                      TTCTTCATTTTCTTC
+             ++++++++ +++++                       ++++  ++++++ +
+1    CCTCTTCATCTTCATCGTCTTCCTCGTCCTCTTCTAATTTTCTACTCTTTTTTTTCTCCTCTTCCTTTCTTCTTT
+
+
+Pf3D7_09_v3:119222-119322
+  LENGTH = 100  COMBINED P-VALUE = 8.68e-06  E-VALUE =   0.0012
+  DIAGRAM: 65-[-1]-3-[-1]-2
+
+                                                                      [-1]
+                                                                      5.0e-08
+                                                                      TTCTTCATTT
+                                                                      ++++++ +++
+1    AAAGCAATTTGATCTTTAATCATCATTAGAGACTTCGACTATTCACCATCCTCTTCTTCTTTATTTTCTTCTTCT
+
+             [-1]
+             1.1e-07
+     TCTTC   TTCTTCATTTTCTTC
+     +++++   +++ +++++ +++++
+76   TCTTCTTCTTCATCATCATCTTCTT
+
+
+Pf3D7_13_v3:1849974-1850074
+  LENGTH = 100  COMBINED P-VALUE = 8.68e-06  E-VALUE =   0.0012
+  DIAGRAM: 27-[+1]-24-[+1]-[+1]-4
+
+                                [+1]                                   [+1]
+                                4.8e-06                                5.0e-08
+                                GAAGAAAATGAAGAA                        GAAGAAAAT
+                                + + ++++++++++                         ++++++++
+1    GAGGATAATAGTGGCTTGAAAAAGAACGCAAAAAATGAAGACAAGAAATCGGGGGATGAAGAAGAGGAAGAAGAA
+
+           [+1]
+           8.5e-08
+     GAAGAAGAAGAAAATGAAGAA
+     +++++++++++++++++ +++
+76   GAAGAAGAAGAAGATGAGGAAAACA
+
+
+Pf3D7_07_v3:339564-339664
+  LENGTH = 100  COMBINED P-VALUE = 8.68e-06  E-VALUE =   0.0012
+  DIAGRAM: 67-[+1]-18
+
+                                                                        [+1]
+                                                                        5.0e-08
+                                                                        GAAGAAAA
+                                                                        ++++++++
+1    AGATGAAGATGATTATACAGATAGTTTTATTGAGACAGACCATTATGAAAATAACGATGATAAAAATGAAGAAGA
+
+     
+     
+     TGAAGAA
+      ++++++
+76   AGAAGAATATAATGATCAAGATAAT
+
+
+Pf3D7_05_v3:509463-509563
+  LENGTH = 100  COMBINED P-VALUE = 9.22e-06  E-VALUE =   0.0013
+  DIAGRAM: 13-[+1]-6-[+1]-[+1]-36
+
+                  [+1]                 [+1]           [+1]
+                  5.4e-08              4.9e-05        1.4e-05
+                  GAAGAAAATGAAGAA      GAAGAAAATGAAGAAGAAGAAAATGAAGAA
+                  ++++++++++ ++++      +++++ +  +++++ + ++++++++ ++++
+1    AGAAGATGAAGATGAAGAAGATGTAGAAGATGTGGAAGATATAGAAGATGTAGAAGATGTAGAAGATATAGAAGA
+
+
+Pf3D7_08_v3:894218-894318
+  LENGTH = 100  COMBINED P-VALUE = 1.02e-05  E-VALUE =   0.0014
+  DIAGRAM: 11-[-1]-9-[-1]-9-[-1]-6-[-1]-5
+
+                [-1]                    [-1]                    [-1]
+                5.9e-08                 1.1e-07                 7.1e-06
+                TTCTTCATTTTCTTC         TTCTTCATTTTCTTC         TTCTTCATTTTCTTC
+                +++++ +++++++++          ++++ +++++++++          +++++ ++ + +++
+1    TTTTTCTCATCTTCTTTATTTTCTTCATTTTTCTCATCTTTATTTTCTTCATTTTTCTCATCTTCTTTATTTTCC
+
+          [-1]
+          1.8e-05
+          TTCTTCATTTTCTTC
+          ++  ++++++++++
+76   TCATTTTTCTCATTTTCTTTATTTT
+
+
+Pf3D7_01_v3:338249-338349
+  LENGTH = 100  COMBINED P-VALUE = 1.02e-05  E-VALUE =   0.0014
+  DIAGRAM: 7-[+1]-3-[+1]-15-[+1]-9-[+1]-6
+
+            [+1]              [+1]                          [+1]
+            1.3e-07           3.0e-06                       3.8e-06
+            GAAGAAAATGAAGAA   GAAGAAAATGAAGAA               GAAGAAAATGAAGAA
+            ++ +++++++++++    ++ ++++++++ ++                ++ ++ +++++ ++
+1    TGATGATGATGAAGATGAAGATGATGACGAAGATGACGACGATGACGAGGATTATGACGATGATGATGACGAGGA
+
+         [+1]
+         5.9e-08
+         GAAGAAAATGAAGAA
+         ++ +++++++++++
+76   TTATGACGAAGATGAAGATGATGAT
+
+
+Pf3D7_02_v3:122396-122496
+  LENGTH = 100  COMBINED P-VALUE = 1.15e-05  E-VALUE =   0.0016
+  DIAGRAM: 32-[+1]-21-[+1]-[+1]-2
+
+                                     [+1]                                [+1]
+                                     6.7e-08                             1.8e-06
+                                     GAAGAAAATGAAGAA                     GAAGAAA
+                                     +++++++++ +++++                     +++++ +
+1    AAACAGACCTAGACGACCAAGAAGAAGACGGAGAAGAAGATAAAGAAGACGACAAAGAAAAAGACAAAGAAGATG
+
+             [+1]
+             1.9e-05
+     ATGAAGAAGAAGAAAATGAAGAA
+     +  +++++++ ++ ++ +++ ++
+76   ACAAAGAAGATGACAAAGAAAAAGA
+
+
+Pf3D7_05_v3:664395-664495
+  LENGTH = 100  COMBINED P-VALUE = 1.30e-05  E-VALUE =   0.0018
+
+         [+1]                       [+1]                       [+1]
+         1.5e-07                    7.5e-08                    2.6e-05
+         GAAGAAAATGAAGAA            GAAGAAAATGAAGAA            GAAGAAAATGAAGAA
+         +++ +++++++++++            +++ +++++++++++             +++++ ++++++ +
+1    AAATGAAAAAAATGAAGAAAATGGAAAAAATGAACAAAATGAAGAAGATAAAGTAGATAAAGAATATGAAGCAGA
+
+               [+1]
+               7.8e-06
+               GAAGAAAATGAAGAA
+                ++++ +++ +++++
+76   TATACTATATAAAGATAATAAAGAA
+
+
+Pf3D7_02_v3:758173-758273
+  LENGTH = 100  COMBINED P-VALUE = 1.30e-05  E-VALUE =   0.0018
+  DIAGRAM: 55-[+1]-3-[+1]-12
+
+                                                            [+1]              [+
+                                                            7.5e-08           4.
+                                                            GAAGAAAATGAAGAA   GA
+                                                            ++++++ ++++++++   ++
+1    AAAAAATGAGACGATAGATGATAAGTATGAAGAGGAGGAATATGAAGATGAAGGTGAAGAATATGAAGAAGAGGA
+
+     1]
+     5e-07
+     AGAAAATGAAGAA
+      ++ +++++++++
+76   TGACGATGAAGAAGAGGATGAGGAA
+
+
+Pf3D7_05_v3:822497-822597
+  LENGTH = 100  COMBINED P-VALUE = 1.30e-05  E-VALUE =   0.0018
+  DIAGRAM: 3-[-1]-27-[-1]-40
+
+        [-1]                                      [-1]
+        1.8e-05                                   7.5e-08
+        TTCTTCATTTTCTTC                           TTCTTCATTTTCTTC
+        ++++++ +++++ +                            +++++++++ +++++
+1    ATATTCTTCTTCTTCATTTAAATCCTCGTCTCTTTTTTGATCATTTTCTTCATCCTCTTCTATCATATCATTATC
+
+
+Pf3D7_12_v3:1997197-1997297
+  LENGTH = 100  COMBINED P-VALUE = 1.47e-05  E-VALUE =    0.002
+  DIAGRAM: 7-[+1]-12-[+1]-12-[+1]-24
+
+            [+1]                       [+1]                       [+1]
+            4.0e-06                    8.5e-08                    3.9e-05
+            GAAGAAAATGAAGAA            GAAGAAAATGAAGAA            GAAGAAAATGAAGA
+            +++++ +++++  +             ++++++++ +++++             ++ ++ ++ +++ +
+1    GGAAGAGGAAGATAATGAGCATTCTAATGATGATGAAGAAAAAGAAGATGTACATTATAACGATGAGGAAGAAAA
+
+     
+     
+     A
+     +
+76   AAAAAGTGATTTGAATAACGACAGT
+
+
+Pf3D7_11_v3:1792458-1792558
+  LENGTH = 100  COMBINED P-VALUE = 1.47e-05  E-VALUE =    0.002
+  DIAGRAM: 5-[-1]-3-[-1]-6-[-1]-6-[-1]-20
+
+          [-1]              [-1]                 [-1]                 [-1]
+          8.5e-08           4.3e-06              1.8e-05              7.8e-06
+          TTCTTCATTTTCTTC   TTCTTCATTTTCTTC      TTCTTCATTTTCTTC      TTCTTCATTT
+          +++ +++++++++++    ++ ++ ++++++++      +++++++++ ++ ++      +++++ +++
+1    TCGTCTTCCTCATCTTCTTCTTCCTCCTCTTCTTCTTCCTCCTCTTCTTCATCCTCCTCCTCTTCTTCTTTATTA
+
+     
+     
+     TCTTC
+     ++++
+76   TCTTTATATACATTTCCATCATTAT
+
+
+Pf3D7_02_v3:799623-799723
+  LENGTH = 100  COMBINED P-VALUE = 1.47e-05  E-VALUE =    0.002
+  DIAGRAM: 76-[+1]-9
+
+      [+1]
+      8.5e-08
+      GAAGAAAATGAAGAA
+      ++++++++ +++++
+76   GGAAGAAAAAGAAGATTTAACAGAC
+
+
+Pf3D7_14_v3:1312454-1312554
+  LENGTH = 100  COMBINED P-VALUE = 1.59e-05  E-VALUE =   0.0022
+  DIAGRAM: 17-[-1]-3-[-1]-50
+
+                      [-1]              [-1]
+                      9.3e-08           7.4e-06
+                      TTCTTCATTTTCTTC   TTCTTCATTTTCTTC
+                       + ++++++++++++    + ++++++ + +++
+1    TCTTCATTTTCTTCATTATTTTCATTTTCTTCATTATTTTCATTATTTTCATTCATACTTTCTTGTTCCGTTTTA
+
+
+Pf3D7_07_v3:946601-946701
+  LENGTH = 100  COMBINED P-VALUE = 1.59e-05  E-VALUE =   0.0022
+  DIAGRAM: 61-[+1]-24
+
+                                                                  [+1]
+                                                                  9.3e-08
+                                                                  GAAGAAAATGAAGA
+                                                                  ++++++++++++ +
+1    TAATGTGGCACATACAGGGGTAAATAAAAAAGGGGAAACAAAAAATGAGGAGGTTGAGAAGGAAGAAAATGAAAA
+
+     
+     
+     A
+     
+76   TGAAGAGATTGAAAAGGAGGAAATT
+
+
+Pf3D7_09_v3:1137590-1137690
+  LENGTH = 100  COMBINED P-VALUE = 1.59e-05  E-VALUE =   0.0022
+  DIAGRAM: 5-[-1]-15-[-1]-6-[-1]-9-[-1]-5
+
+          [-1]                          [-1]                 [-1]
+          9.3e-08                       3.0e-07              7.9e-07
+          TTCTTCATTTTCTTC               TTCTTCATTTTCTTC      TTCTTCATTTTCTTC
+          +++++++++++ +++               ++ +++++++++ ++      ++ + ++++++++++
+1    TATTCTTCTTCATCTTGTTCGTATTCTTCTTCATATTGTTCATTTTCGTCAACATCTTGTCCATTTTCTTCTTGT
+
+          [-1]
+          3.0e-05
+          TTCTTCATTTTCTTC
+           +++ +++ +++ ++
+76   TCCTCCTCTACATATTCATCTGTAT
+
+
+Pf3D7_05_v3:889562-889662
+  LENGTH = 100  COMBINED P-VALUE = 1.73e-05  E-VALUE =   0.0024
+  DIAGRAM: 28-[+1]-15-[+1]-9-[+1]-3
+
+                                 [+1]                          [+1]
+                                 1.0e-07                       1.2e-05
+                                 GAAGAAAATGAAGAA               GAAGAAAATGAAGAA
+                                 +++++ +++++ +++               ++ +++++++  ++
+1    AAAAAATAAGAAGGAAGGAAAACAAAATGAAGATAATGATGAAGAAGATGAGCAAGATGATGAAGATGTCGATGA
+
+            [+1]
+            1.5e-06
+            GAAGAAAATGAAGAA
+            ++ +++++ +++++
+76   AGGTGATGACGAAGACGAAGAGGAT
+
+
+Pf3D7_12_v3:747965-748065
+  LENGTH = 100  COMBINED P-VALUE = 1.73e-05  E-VALUE =   0.0024
+  DIAGRAM: 19-[+1]-3-[+1]-3-[+1]-3-[+1]-12
+
+                        [+1]              [+1]              [+1]              [+
+                        1.6e-07           2.0e-06           1.6e-07           1.
+                        GAAGAAAATGAAGAA   GAAGAAAATGAAGAA   GAAGAAAATGAAGAA   GA
+                        +++++++++++ ++    +++++ +++++ ++    +++++++++++ ++    ++
+1    GGATGTGTATGATGAAAGTGAAGAAAATGATGAGATTGAAGAGAATGATGAGAGCGAAGAAAATGATGAGAGCGA
+
+     1]
+     0e-07
+     AGAAAATGAAGAA
+     +++ +++++ +++
+76   AGATAATGATGAAAGTGAAGATAAT
+
+
+Pf3D7_13_v3:537743-537843
+  LENGTH = 100  COMBINED P-VALUE = 1.84e-05  E-VALUE =   0.0025
+  DIAGRAM: 17-[-1]-6-[-1]-24-[-1]-8
+
+                      [-1]                 [-1]
+                      1.9e-07              5.9e-07
+                      TTCTTCATTTTCTTC      TTCTTCATTTTCTTC
+                       ++ +++++ +++++       ++++++++ ++ ++
+1    TCATCATCTTCACCATCATCATCATCATCTTCATCGTCATCTTCATCATCATCACCATCATCATCTTTATCATCA
+
+       [-1]
+       1.1e-07
+       TTCTTCATTTTCTTC
+       +++ +++++ +++++
+76   TCTTCATCATCATCTTCATCATCAT
+
+
+Pf3D7_10_v3:1035607-1035707
+  LENGTH = 100  COMBINED P-VALUE = 1.84e-05  E-VALUE =   0.0025
+  DIAGRAM: 7-[+1]-33-[+1]-3-[+1]-12
+
+            [+1]                                            [+1]              [+
+            7.2e-05                                         1.9e-07           1.
+            GAAGAAAATGAAGAA                                 GAAGAAAATGAAGAA   GA
+            ++  + +++++ ++                                  +++++ +++++ ++    ++
+1    CAATGACGATAACAATGACGATAACAATGACGATAACAACGACGATGATGAAGACGAAGATGATGATGATGATGA
+
+     1]
+     1e-07
+     AGAAAATGAAGAA
+     +++ +++++ +++
+76   AGATGATGATGAAGATGATGATGAA
+
+
+Pf3D7_09_v3:896727-896827
+  LENGTH = 100  COMBINED P-VALUE = 1.90e-05  E-VALUE =   0.0026
+  DIAGRAM: 58-[+1]-3-[+1]-9
+
+                                                               [+1]
+                                                               1.1e-07
+                                                               GAAGAAAATGAAGAA
+                                                               ++ +++++++++++
+1    TTCATATTCAGCTTTGTATACTAGTAATAATGAAGAGGAACAGGAAGATGAAGATGAAGATGAAAATGAAGATGA
+
+      [+1]
+      1.1e-07
+      GAAGAAAATGAAGAA
+      ++ +++++++++++
+76   AGATGAAAATGAAGATGAAGATGAA
+
+
+Pf3D7_13_v3:1832107-1832207
+  LENGTH = 100  COMBINED P-VALUE = 2.27e-05  E-VALUE =   0.0031
+
+         [+1]                                [+1]           [+1]
+         3.2e-06                             1.3e-07        2.4e-06
+         GAAGAAAATGAAGAA                     GAAGAAAATGAAGAAGAAGAAAATGAAGAA
+         ++ ++ +++++ ++                      ++ +++++++++++ ++ ++ +++++ ++
+1    TGATGACGATGATGACGATGATGACGATGATGACGATGATGATGAAGATGAAGATGATGATGATGATGATGAGGA
+
+               [+1]
+               1.2e-05
+               GAAGAAAATGAAGAA
+               ++ ++ ++++++ +
+76   TGAATATGAGGATGATGATGAACAC
+
+
+Pf3D7_14_v3:2786365-2786465
+  LENGTH = 100  COMBINED P-VALUE = 2.51e-05  E-VALUE =   0.0035
+  DIAGRAM: 35-[-1]-3-[-1]-9-[-1]-8
+
+                                        [-1]              [-1]
+                                        1.4e-06           2.6e-07
+                                        TTCTTCATTTTCTTC   TTCTTCATTTTCTTC
+                                         + +++++ ++++++   +++++++++ ++ ++
+1    TCACTATTATTTTTATTATATTTTTCATTATCATTATTTTCATATTCTTCCTCTTCTTCATTATCATCATTTTTT
+
+       [-1]
+       1.5e-07
+       TTCTTCATTTTCTTC
+       +++++++++++ +++
+76   TCTTCTTCATTTTTTTCTTCATTAT
+
+
+Pf3D7_03_v3:699679-699779
+  LENGTH = 100  COMBINED P-VALUE = 2.72e-05  E-VALUE =   0.0037
+  DIAGRAM: 8-[-1]-12-[-1]-50
+
+             [-1]                       [-1]
+             4.9e-07                    1.6e-07
+             TTCTTCATTTTCTTC            TTCTTCATTTTCTTC
+             +++ ++++++++ ++            +++ ++++++++ ++
+1    TCGTCATTTTCGTCATTTTCGTCATTTTCATCATTTTCATCATTTTCGTCATTTTCATTCGATGAATCAATACTT
+
+
+Pf3D7_10_v3:176249-176349
+  LENGTH = 100  COMBINED P-VALUE = 2.86e-05  E-VALUE =    0.004
+  DIAGRAM: 19-[-1]-66
+
+                        [-1]
+                        1.7e-07
+                        TTCTTCATTTTCTTC
+                         ++ +++++ +++++
+1    CATTATCTTCCTCATTATCATCATCATTATCTTCCTCATTATCATCATTGTTTGAGCTTCCTTTACTATACTCTC
+
+
+Pf3D7_11_v3:1194809-1194909
+  LENGTH = 100  COMBINED P-VALUE = 2.86e-05  E-VALUE =    0.004
+  DIAGRAM: 5-[-1]-3-[-1]-6-[-1]-12-[-1]-14
+
+          [-1]              [-1]                 [-1]                       [-1]
+          4.1e-05           5.7e-06              1.7e-07                    4.4e
+          TTCTTCATTTTCTTC   TTCTTCATTTTCTTC      TTCTTCATTTTCTTC            TTCT
+           +  + +++ +++++    +  +++++ +++++       ++ +++++ +++++             +++
+1    TCCTCCTTATTATTGTCTTCCTCCTTATCATCATCTTCCTCCTTATCATCATTATCTTCCTTTTTATCACCATCT
+
+     
+     -05
+     TCATTTTCTTC
+     + + + +++ +
+76   TTACCATCTCCCTTTTCATGAAACA
+
+
+Pf3D7_06_v3:1091958-1092058
+  LENGTH = 100  COMBINED P-VALUE = 3.09e-05  E-VALUE =   0.0043
+  DIAGRAM: 63-[+1]-22
+
+                                                                    [+1]
+                                                                    1.8e-07
+                                                                    GAAGAAAATGAA
+                                                                    +++++++++++
+1    ACAGCGGAAAATATATTCTGTATGAATATTTTACATAATAATGTTAATACATTTGATGAAGAGGAAGAAGATGAT
+
+     
+     
+     GAA
+     ++
+76   GACGATGATGAGGAGGAAGATGATG
+
+
+Pf3D7_14_v3:1673785-1673885
+  LENGTH = 100  COMBINED P-VALUE = 3.20e-05  E-VALUE =   0.0044
+  DIAGRAM: 17-[-1]-3-[-1]-3-[-1]-32
+
+                      [-1]              [-1]              [-1]
+                      1.9e-07           1.9e-07           2.5e-05
+                      TTCTTCATTTTCTTC   TTCTTCATTTTCTTC   TTCTTCATTTTCTTC
+                       ++ +++++ +++++    ++ +++++ +++++    ++ ++ ++ + +++
+1    TCATCATCATCGTCATCATCATCATCATCTTCGTCATCATCATCATCTTCCTTATCATCTTCATTTTCACTAGTA
+
+
+Pf3D7_11_v3:533150-533250
+  LENGTH = 100  COMBINED P-VALUE = 3.70e-05  E-VALUE =   0.0051
+  DIAGRAM: 18-[-1]-67
+
+                       [-1]
+                       2.2e-07
+                       TTCTTCATTTTCTTC
+                       ++++++++++++++
+1    TTCTTTCTTCTCATTCTCTTCTTCATTTTCTTTTTCTCCATCCACACATGATGATTTATCACCCATTACATTATT
+
+
+Pf3D7_07_v3:202000-202100
+  LENGTH = 100  COMBINED P-VALUE = 3.70e-05  E-VALUE =   0.0051
+  DIAGRAM: 19-[+1]-6-[+1]-[+1]-30
+
+                        [+1]                 [+1]           [+1]
+                        9.2e-07              2.2e-07        2.9e-06
+                        GAAGAAAATGAAGAA      GAAGAAAATGAAGAAGAAGAAAATGAAGAA
+                        ++++++++ +++ +        ++++++++++++++ ++++++++++ +++
+1    AGAAAATGTAAAAAATATAGAAGAAAAAGAAAATGACGAAAAAGAAAATGAAGAAAAAGAAAATGACGAAAAAGA
+
+
+Pf3D7_01_v3:102211-102311
+  LENGTH = 100  COMBINED P-VALUE = 4.20e-05  E-VALUE =   0.0058
+  DIAGRAM: 29-[+1]-9-[+1]-32
+
+                                  [+1]                    [+1]
+                                  2.4e-07                 4.0e-07
+                                  GAAGAAAATGAAGAA         GAAGAAAATGAAGAA
+                                  ++++++++++  +++         ++++++ ++++ +++
+1    ATGTTGAAGAGAATGTTGAAGAATATGATGAAGAAAATGTTGAAGAACACAATGAAGAATATGATGAATAAAAAA
+
+
+Pf3D7_07_v3:894062-894162
+  LENGTH = 100  COMBINED P-VALUE = 4.42e-05  E-VALUE =   0.0061
+  DIAGRAM: 19-[+1]-6-[+1]-6-[+1]-6-[+1]-3
+
+                        [+1]                 [+1]                 [+1]
+                        2.6e-07              2.6e-07              1.5e-06
+                        GAAGAAAATGAAGAA      GAAGAAAATGAAGAA      GAAGAAAATGAAGA
+                        ++ ++++++++ ++       ++ ++++++++ ++       ++ ++ +++++ ++
+1    TGAAAATTATGATGAAGATGACGAAAATGATGATGAAGATGACGAAAATGATGATGAATATGATGATGATGATGA
+
+            [+1]
+            6.3e-07
+     A      GAAGAAAATGAAGAA
+     +      ++ ++++++++ ++
+76   AAACGATGATGAAAATGATGATGAT
+
+
+Pf3D7_10_v3:998701-998801
+  LENGTH = 100  COMBINED P-VALUE = 5.23e-05  E-VALUE =   0.0072
+  DIAGRAM: 29-[-1]-10-[-1]-12-[-1]-4
+
+                                  [-1]                     [-1]
+                                  1.1e-05                  7.4e-06
+                                  TTCTTCATTTTCTTC          TTCTTCATTTTCTTC
+                                  ++++++ ++++ + +          ++++++ ++++  ++
+1    TTTATTACTACTCTTATAATACCTACTGTTTCTTCGTCTTTTCCTTTTTCCAGTTTCTTCTTCTTTGTCACATTC
+
+           [-1]
+           3.0e-07
+           TTCTTCATTTTCTTC
+           +++++++++ ++ ++
+76   TCCACTTTCTTCATCATCATCCTCA
+
+
+Pf3D7_12_v3:93800-93900
+  LENGTH = 100  COMBINED P-VALUE = 5.23e-05  E-VALUE =   0.0072
+  DIAGRAM: 11-[-1]-9-[-1]-21-[-1]-14
+
+                [-1]                    [-1]                                [-1]
+                3.0e-07                 3.0e-07                             3.6e
+                TTCTTCATTTTCTTC         TTCTTCATTTTCTTC                     TTCT
+                +++ + +++++++++         +++ + +++++++++                     +++
+1    TCCTTGTTTGTTTCATTATTTTCTTCATTATTTTCTTCATTATTTTCTTCCTTGTTTATTTCATTATTTCCTTCA
+
+     
+     -06
+     TCATTTTCTTC
+     + +++ +++++
+76   TTATTCTCTTCTTTATTCATGTCAT
+
+
+Pf3D7_13_v3:2514007-2514107
+  LENGTH = 100  COMBINED P-VALUE = 1.09e-04  E-VALUE =    0.015
+  DIAGRAM: 1-[+1]-21-[+1]-24-[+1]-9
+
+      [+1]                                [+1]
+      6.3e-07                             6.3e-07
+      GAAGAAAATGAAGAA                     GAAGAAAATGAAGAA
+      ++ ++++++++ ++                      ++ ++++++++ ++
+1    TGATGAAAATGATGATAAGGATGATGATGAGGATGATGATGAAAATGATGATAATGAGGATGATAATGAGGATGA
+
+      [+1]
+      6.3e-07
+      GAAGAAAATGAAGAA
+      ++ ++++++++ ++
+76   TGATGAAAATGATGATGATGAAAAT
+
+
+Pf3D7_11_v3:192991-193091
+  LENGTH = 100  COMBINED P-VALUE = 1.36e-04  E-VALUE =    0.019
+  DIAGRAM: 7-[-1]-78
+
+            [-1]
+            7.9e-07
+            TTCTTCATTTTCTTC
+            ++++++ ++ +++++
+1    CTTCATTTTCTTCTTCCTCTTCGACCTCGTCATCTTCCTTTTCATTCTCCCTTTTGTTAAAAAAAACAATCTCGT
+
+
+Pf3D7_11_v3:1197632-1197732
+  LENGTH = 100  COMBINED P-VALUE = 1.48e-04  E-VALUE =     0.02
+  DIAGRAM: 8-[-1]-9-[-1]-53
+
+             [-1]                    [-1]
+             8.6e-07                 8.6e-07
+             TTCTTCATTTTCTTC         TTCTTCATTTTCTTC
+             +++ ++ ++++++++         +++ ++ ++++++++
+1    TCCTCCTCTTCCTCTTCTTCTTCCTCCTCCTCTTCCTCTTCTTCTTCCTCCTCATCAATAAGACTTTTCCACAAA
+
+
+Pf3D7_05_v3:732722-732822
+  LENGTH = 100  COMBINED P-VALUE = 1.48e-04  E-VALUE =     0.02
+
+                                                            [+1]
+                                                            8.6e-07
+                                                            GAAGAAAATGAAGAA
+                                                            +++ +++++++ +++
+1    AGATACCAAAAGTGATGATGAAGAGGGGGACGATGATGAAAGAGATGATGATGATGAAAAAGATGATGAAAGAGA
+
+               [+1]
+               2.8e-05
+               GAAGAAAATGAAGAA
+               ++ ++ ++  ++++
+76   TGATGAAAGAGATGATGAAAAAGAT
+
+
+Pf3D7_05_v3:276254-276354
+  LENGTH = 100  COMBINED P-VALUE = 2.03e-04  E-VALUE =    0.028
+  DIAGRAM: 54-[+1]-[+1]-[+1]-1
+
+                                                           [+1]           [+1]
+                                                           3.6e-06        1.2e-0
+                                                           GAAGAAAATGAAGAAGAAGAA
+                                                           +++++++++ ++ + ++++++
+1    GAATTGTCAAAAATTGAAAAATTCGGAGCAAGTATTGGCCCAGTTTTTACGGATGAAGAAAATAAAAAGGAAGAA
+
+              [+1]
+     6        4.9e-05
+     AATGAAGAAGAAGAAAATGAAGAA
+     +++ ++ + ++++ ++++ ++ +
+76   AATAAAAATGAAGTAAATAAAAAGG
+
+
+Pf3D7_07_v3:1222824-1222924
+  LENGTH = 100  COMBINED P-VALUE = 2.15e-04  E-VALUE =     0.03
+  DIAGRAM: 2-[+1]-[+1]-15-[+1]-9-[+1]-14
+
+       [+1]           [+1]                          [+1]                    [+1]
+       2.4e-06        2.4e-06                       1.3e-06                 2.2e
+       GAAGAAAATGAAGAAGAAGAAAATGAAGAA               GAAGAAAATGAAGAA         GAAG
+       ++ ++ +++++ ++ ++ ++ +++++ ++                ++ ++ +++++ ++          ++ +
+1    ACGATGATGATGATGATGATGATGATGATGATGATGGTGATGATGATGACGATGATGATGATTATAATGATGATG
+
+     
+     -06
+     AAAATGAAGAA
+     + +++++ ++
+76   ATAATGATGATGATAATGATGATGA
+
+
+Pf3D7_14_v3:2878073-2878173
+  LENGTH = 100  COMBINED P-VALUE = 2.32e-04  E-VALUE =    0.032
+  DIAGRAM: 1-[-1]-30-[-1]-39
+
+      [-1]                                         [-1]
+      1.3e-06                                      2.6e-05
+      TTCTTCATTTTCTTC                              TTCTTCATTTTCTTC
+      +++ ++ ++ +++++                               +  ++++++++++
+1    TTTCATCTTTGTCTTCATTTTCCTTTTCATTTTCCTTTTCATTTTCATTGTCATTTTCTTTTTGATTTATTTTAT
+
+
+Pf3D7_05_v3:419405-419505
+  LENGTH = 100  COMBINED P-VALUE = 2.61e-04  E-VALUE =    0.036
+  DIAGRAM: 22-[+1]-63
+
+                           [+1]
+                           1.5e-06
+                           GAAGAAAATGAAGAA
+                           ++ ++ ++++++ ++
+1    CGATGAGGAAAAAGAAAATGATGACGATGATGAAAAAGCAAATTATTATGTGGAGAAAAAAGAGAGCGATGGTGA
+
+
+Pf3D7_03_v3:547611-547711
+  LENGTH = 100  COMBINED P-VALUE = 2.61e-04  E-VALUE =    0.036
+
+                  [-1]              [-1]                       [-1]
+                  1.5e-06           1.5e-06                    1.5e-06
+                  TTCTTCATTTTCTTC   TTCTTCATTTTCTTC            TTCTTCATTTTCTTC
+                  ++++ ++++++ +++   ++++ ++++++ +++            ++++ ++++++ +++
+1    CATTTTTTTCATTTTCTACATTTTTTTCATTTTCTACATTTTTTTCATTTTTTTCATTTTCTACATTTTTTTCAT
+
+               [-1]
+               1.5e-06
+               TTCTTCATTTTCTTC
+               ++++ ++++++ +++
+76   ATTTTTCATTTTCTACATTTTTTTC
+
+
+Pf3D7_13_v3:1074348-1074448
+  LENGTH = 100  COMBINED P-VALUE = 2.74e-04  E-VALUE =    0.038
+  DIAGRAM: 34-[+1]-15-[+1]-21
+
+                                       [+1]                          [+1]
+                                       2.2e-05                       1.6e-06
+                                       GAAGAAAATGAAGAA               GAAGAAAATGA
+                                       +++ + +++ ++++                +++++ +++ +
+1    CACTATTGAGGATGAGGAGGAAGCTAATAAAGAGGAAAATAATAAAGAGGAAAATTATAAAGAGGAAGATAATAA
+
+     
+     
+     AGAA
+     +++
+76   AGAGGAAAATTATAAAGAGGAAGAT
+
+
+Pf3D7_10_v3:568707-568807
+  LENGTH = 100  COMBINED P-VALUE = 2.88e-04  E-VALUE =     0.04
+  DIAGRAM: 4-[+1]-15-[+1]-[+1]-3-[+1]-[+1]-3
+
+         [+1]                          [+1]           [+1]              [+1]
+         2.3e-05                       1.4e-05        1.7e-06           2.2e-06
+         GAAGAAAATGAAGAA               GAAGAAAATGAAGAAGAAGAAAATGAAGAA   GAAGAAAA
+         ++ ++  ++++ ++                ++ ++  ++++ ++ ++ ++ +++++ ++    ++ ++ ++
+1    TGATGATGACTATGATGATGATGACTATGATAATGACGACTATGATGATGACGACGATGATGATAATGATGATAA
+
+            [+1]
+            9.2e-05
+     TGAAGAAGAAGAAAATGAAGAA
+     +++ ++ ++ ++++ +++  +
+76   TGATGATGATGAAGGTGATAACGAT
+
+
+Pf3D7_13_v3:200646-200746
+  LENGTH = 100  COMBINED P-VALUE = 3.05e-04  E-VALUE =    0.042
+  DIAGRAM: 17-[-1]-39-[-1]-14
+
+                      [-1]                                                  [-1]
+                      1.8e-06                                               6.6e
+                      TTCTTCATTTTCTTC                                       TTCT
+                       ++ ++++++++++                                         +++
+1    TTTTCTTCCTCATCTACATCATCATTTTCTTTTTCATCCACATCATCATTAAACTTTTTTTTTCCAATTTCATCT
+
+     
+     -05
+     TCATTTTCTTC
+     + ++  ++ ++
+76   TGATAATCATCATTGTACCTTTCTT
+
+
+Pf3D7_13_v3:902945-903045
+  LENGTH = 100  COMBINED P-VALUE = 3.25e-04  E-VALUE =    0.045
+  DIAGRAM: 43-[+1]-42
+
+                                                [+1]
+                                                1.9e-06
+                                                GAAGAAAATGAAGAA
+                                                +++++ +++++  +
+1    AAATTCTATAAGGAGTAAGAGTAGTAATAGTAAAACAAAAAAAGAAGATGATGATAATAATATTCATTGTAATAA
+
+
+Pf3D7_06_v3:355417-355517
+  LENGTH = 100  COMBINED P-VALUE = 4.65e-04  E-VALUE =    0.064
+  DIAGRAM: 40-[+1]-18-[+1]-12
+
+                                             [+1]                             [+
+                                             3.4e-06                          2.
+                                             GAAGAAAATGAAGAA                  GA
+                                             ++++ +++++++++                   ++
+1    TTTTATACCTTTGCTTATTTGTATTTGTTTTTTAATAGTTGAAGGAAATGAAGATCTGGAGAGCGAAGTTAACGA
+
+     1]
+     7e-06
+     AGAAAATGAAGAA
+     +++++++ ++ +
+76   AGAAAATCAAAATGAAGAAAATGAA
+
+
+Pf3D7_10_v3:1443222-1443322
+  LENGTH = 100  COMBINED P-VALUE = 5.24e-04  E-VALUE =    0.072
+  DIAGRAM: 49-[+1]-3-[+1]-18
+
+                                                      [+1]              [+1]
+                                                      1.1e-05           3.0e-06
+                                                      GAAGAAAATGAAGAA   GAAGAAAA
+                                                      + ++++ ++ +++++   ++ ++  +
+1    AGAAAAAGACGATATGAACGAGAAGATAAACGAATTAGCTGATGAGGAGGCAGAATATCAAGAAGATGACGATTA
+
+     
+     
+     TGAAGAA
+     ++++++
+76   TGAAGATATGGAAGACGAAGATGGC
+
+
+Pf3D7_13_v3:357088-357188
+  LENGTH = 100  COMBINED P-VALUE = 6.14e-04  E-VALUE =    0.085
+  DIAGRAM: 13-[+1]-[+1]-[+1]-12-[+1]-15
+
+                  [+1]           [+1]           [+1]                       [+1]
+                  1.5e-05        1.5e-05        3.6e-06                    4.3e-
+                  GAAGAAAATGAAGAAGAAGAAAATGAAGAAGAAGAAAATGAAGAA            GAAGA
+                  ++ ++  +++++++ ++ ++  +++++++ ++ ++  ++++++++            ++ ++
+1    AGATTATGAAGAAGATGATTATGAAGAGGATGATTATGAAGAGGATGATTATGAAGAAGATGATTATCAAGATGA
+
+     
+     06
+     AAATGAAGAA
+      + +++++++
+76   TGCTGAAGAACAAGAAGAAGAGGAA
+
+
+Pf3D7_04_v3:538324-538424
+  LENGTH = 100  COMBINED P-VALUE = 6.94e-04  E-VALUE =    0.096
+  DIAGRAM: 9-[+1]-76
+
+              [+1]
+              4.0e-06
+              GAAGAAAATGAAGAA
+              + +++ ++ +++++
+1    GAACGAGAAGGAGACAACGAAGATGGACATCCTTACGAATTTAACCAATATGAGGAACCATTTATAAATGATCCT
+
+
+Pf3D7_11_v3:1187331-1187431
+  LENGTH = 100  COMBINED P-VALUE = 8.81e-04  E-VALUE =     0.12
+  DIAGRAM: 33-[-1]-52
+
+                                      [-1]
+                                      5.1e-06
+                                      TTCTTCATTTTCTTC
+                                      ++ ++  ++++++++
+1    CTTTCTCTTTCTCATTTTCCTTTTCCTTTTTCTTTTTTTTTTTTCTTCCCATTTTATGTTTTAAAAGGTCTTTAA
+
+
+Pf3D7_10_v3:1508026-1508126
+  LENGTH = 100  COMBINED P-VALUE = 1.28e-03  E-VALUE =     0.18
+  DIAGRAM: 80-[-1]-5
+
+          [-1]
+          7.4e-06
+          TTCTTCATTTTCTTC
+          +  ++ +++++++++
+76   TCATTTGGTTTATTTTCTTCCTTAT
+
+
+Pf3D7_12_v3:515214-515314
+  LENGTH = 100  COMBINED P-VALUE = 1.35e-03  E-VALUE =     0.19
+  DIAGRAM: 1-[+1]-3-[+1]-12-[+1]-39
+
+      [+1]              [+1]                       [+1]
+      7.8e-06           7.8e-06                    1.1e-05
+      GAAGAAAATGAAGAA   GAAGAAAATGAAGAA            GAAGAAAATGAAGAA
+      +++++ ++++ + ++   +++++ ++++ + ++            +++ +++++ ++ +
+1    TGAAGAGAATGGAAAAAATGAAGAGAATGGAAAAAATGGAAAAAATGAACAAAATAAAAATAATGAGAAAACATC
+
+
+Pf3D7_11_v3:1273906-1274006
+  LENGTH = 100  COMBINED P-VALUE = 2.88e-03  E-VALUE =      0.4
+  DIAGRAM: 25-[+1]-60
+
+                              [+1]
+                              1.7e-05
+                              GAAGAAAATGAAGAA
+                              ++++++++  +  ++
+1    ACAACAAAATGAAATTAATTGTATGGAAGAAAAAAATAAAAATAAAATTTTTGATATAAATGATATGAAAAACAT
+
+
+Pf3D7_05_v3:427015-427115
+  LENGTH = 100  COMBINED P-VALUE = 3.19e-03  E-VALUE =     0.44
+  DIAGRAM: 62-[-1]-23
+
+                                                                   [-1]
+                                                                   1.9e-05
+                                                                   TTCTTCATTTTCT
+                                                                   ++ ++++++++ +
+1    TTGAGCTTTGCATTATTTGTTAAATTTTCATTATGATGTTTTTGATTTTGATTGTCATTTGGTTTTTCATTTTGT
+
+     
+     
+     TC
+     +
+76   TTTCCATTTTGTATTTCATTTTGTA
+
+
+Pf3D7_01_v3:434287-434387
+  LENGTH = 100  COMBINED P-VALUE = 3.49e-03  E-VALUE =     0.48
+  DIAGRAM: 44-[-1]-41
+
+                                                 [-1]
+                                                 2.0e-05
+                                                 TTCTTCATTTTCTTC
+                                                  ++++++++++ ++
+1    TCTTTCATTTTTTCCTCTTTCAATTTTTCCTCTTTCAATTTTTCCTCTTCATTTTTTTTTTCTTGTTCTTTTTTC
+
+
+Pf3D7_11_v3:1624757-1624857
+  LENGTH = 100  COMBINED P-VALUE = 4.02e-03  E-VALUE =     0.55
+  DIAGRAM: 72-[-1]-13
+
+                                                                             [-1
+                                                                             2.3
+                                                                             TTC
+                                                                              ++
+1    TTCTTCTTCCAATTTTTCCTCTTCCAATTTTTCCTCCTCCAATTTTTCACCACCAACCTGATTAGTATCAACATC
+
+     ]
+     e-05
+     TTCATTTTCTTC
+     + ++++ ++  +
+76   TACATCGTCAGCACGTGTTTTATAA
+
+
+Pf3D7_04_v3:885604-885704
+  LENGTH = 100  COMBINED P-VALUE = 4.21e-03  E-VALUE =     0.58
+  DIAGRAM: 77-[+1]-8
+
+       [+1]
+       2.5e-05
+       GAAGAAAATGAAGAA
+       ++ +++++ ++  ++
+76   ATGACGAAGAAGAGAAAATGATTAA
+
+
+Pf3D7_13_v3:2103987-2104087
+  LENGTH = 100  COMBINED P-VALUE = 4.61e-03  E-VALUE =     0.64
+  DIAGRAM: 84-[+1]-1
+
+              [+1]
+              2.7e-05
+              GAAGAAAATGAAGAA
+              +++ ++++ ++++++
+76   GTAGTAGGGGAAAAAAAGGAAGAAA
+
+
+Pf3D7_07_v3:1242218-1242318
+  LENGTH = 100  COMBINED P-VALUE = 7.29e-03  E-VALUE =        1
+  DIAGRAM: 43-[+1]-42
+
+                                                [+1]
+                                                4.3e-05
+                                                GAAGAAAATGAAGAA
+                                                +++ + +++ + +++
+1    TAATGAAGGAGAATGTGTTATCATAGAAGAGACAAACGAGGAGGAAAATGATAACGAAGTTGAAGATATTTATGA
+
+
+Pf3D7_04_v3:337099-337199
+  LENGTH = 100  COMBINED P-VALUE = 7.97e-03  E-VALUE =      1.1
+  DIAGRAM: 14-[-1]-71
+
+                   [-1]
+                   4.7e-05
+                   TTCTTCATTTTCTTC
+                   ++ + + ++++++ +
+1    TCTCCTCAGTCATATTTTCCTTCTTCTCCGTTTTTTCTTCCTTCTTCTCCGTTTTTTCTTCCTTCTCTTTTTCCC
+
+
+Pf3D7_10_v3:1464177-1464277
+  LENGTH = 100  COMBINED P-VALUE = 8.69e-03  E-VALUE =      1.2
+  DIAGRAM: 62-[+1]-23
+
+                                                                   [+1]
+                                                                   5.1e-05
+                                                                   GAAGAAAATGAAG
+                                                                   +++ ++++  + +
+1    TGATTAGTAATAAAAAAAAGGATCATATGGGAATATCACCTAATTTGTTCATACAAAATAAAGAACAAGAAAAGG
+
+     
+     
+     AA
+     ++
+76   AAAAACAGGATGAAAGAGAAAAGGA
+
+
+Pf3D7_02_v3:400651-400751
+  LENGTH = 100  COMBINED P-VALUE = 1.13e-02  E-VALUE =      1.6
+  DIAGRAM: 33-[-1]-52
+
+                                      [-1]
+                                      6.6e-05
+                                      TTCTTCATTTTCTTC
+                                      +++++  ++ +++++
+1    AATGATATTTTATTATTGTTACTAATATTTATGTTCTTATTTGTCTTCTTTATAAGATGGTTCTTCTCAACATTG
+
+
+Pf3D7_02_v3:672941-673041
+  LENGTH = 100  COMBINED P-VALUE = 1.28e-02  E-VALUE =      1.8
+  DIAGRAM: 78-[+1]-7
+
+        [+1]
+        7.5e-05
+        GAAGAAAATGAAGAA
+        ++ +++++ ++ +++
+76   GAGGAGGAAAAAGAGGAAGAGGAAG
+
+
+Pf3D7_11_v3:709926-710026
+  LENGTH = 100  COMBINED P-VALUE = 1.39e-02  E-VALUE =      1.9
+  DIAGRAM: 4-[-1]-81
+
+         [-1]
+         8.1e-05
+         TTCTTCATTTTCTTC
+         ++ +++ ++ +++++
+1    TTCTTTTTTCCTCCTCTTCCTTTTTCTTCATTTCATCCATTTGAATTTTCAAATATTCCTCATGCTTCTTCAATT
+
+
+Pf3D7_14_v3:1934922-1935022
+  LENGTH = 100  COMBINED P-VALUE = 1.45e-02  E-VALUE =        2
+  DIAGRAM: 40-[+1]-45
+
+                                             [+1]
+                                             8.5e-05
+                                             GAAGAAAATGAAGAA
+                                                ++ ++++++++
+1    AAGTAAAGTTAATTGGGATTATAATAATGATGGAAGGAAAAGTGATGATGAAGATTTAAATGAAGAAGTATCCGG
+
+
+Pf3D7_11_v3:872707-872807
+  LENGTH = 100  COMBINED P-VALUE = 1.57e-02  E-VALUE =      2.2
+  DIAGRAM: 10-[+1]-75
+
+               [+1]
+               9.2e-05
+               GAAGAAAATGAAGAA
+               +++ ++ ++ + +++
+1    ATACTTCCATGAAAAATATAACGAAAAGGATAAAAGTACTTATGAATATCATATTGACGCATGTGATAATTTTTA
+
+
+Pf3D7_07_v3:923271-923371
+  LENGTH = 100  COMBINED P-VALUE = 1.57e-02  E-VALUE =      2.2
+  DIAGRAM: 6-[+1]-79
+
+           [+1]
+           9.2e-05
+           GAAGAAAATGAAGAA
+           ++ ++++  ++  ++
+1    ATATTAGATGAAGCCGATAAAATAATATATTTGGGGACACAAGACAAAATAAAACTTATATATGACATGATAAGA
+
+
+Pf3D7_11_v3:1412243-1412343
+  LENGTH = 100  COMBINED P-VALUE = 2.00e-02  E-VALUE =      2.8
+  DIAGRAM: 100
+
+
+Pf3D7_10_v3:706711-706811
+  LENGTH = 100  COMBINED P-VALUE = 2.74e-02  E-VALUE =      3.8
+  DIAGRAM: 100
+
+
+Pf3D7_13_v3:2641216-2641316
+  LENGTH = 100  COMBINED P-VALUE = 2.74e-02  E-VALUE =      3.8
+  DIAGRAM: 100
+
+
+Pf3D7_08_v3:1124089-1124189
+  LENGTH = 100  COMBINED P-VALUE = 2.84e-02  E-VALUE =      3.9
+  DIAGRAM: 100
+
+
+Pf3D7_10_v3:455619-455719
+  LENGTH = 100  COMBINED P-VALUE = 3.69e-02  E-VALUE =      5.1
+  DIAGRAM: 100
+
+
+Pf3D7_11_v3:1635134-1635234
+  LENGTH = 100  COMBINED P-VALUE = 4.28e-02  E-VALUE =      5.9
+  DIAGRAM: 100
+
+
+Pf3D7_12_v3:694025-694125
+  LENGTH = 100  COMBINED P-VALUE = 4.60e-02  E-VALUE =      6.4
+  DIAGRAM: 100
+
+
+Pf3D7_14_v3:496362-496462
+  LENGTH = 100  COMBINED P-VALUE = 5.12e-02  E-VALUE =      7.1
+  DIAGRAM: 100
+
+
+Pf3D7_09_v3:483030-483130
+  LENGTH = 100  COMBINED P-VALUE = 5.49e-02  E-VALUE =      7.6
+  DIAGRAM: 100
+
+
+Pf3D7_11_v3:1962357-1962457
+  LENGTH = 100  COMBINED P-VALUE = 5.68e-02  E-VALUE =      7.8
+  DIAGRAM: 100
+
+
+Pf3D7_07_v3:906460-906560
+  LENGTH = 100  COMBINED P-VALUE = 6.53e-02  E-VALUE =        9
+  DIAGRAM: 100
+
+********************************************************************************
+
+
+CPU: Timothys-Mac-Mini.local
+Time 0.017 secs.
+
+mast -mi 1 -oc results/mast_top25 motif.html lnc13_top25.txt
