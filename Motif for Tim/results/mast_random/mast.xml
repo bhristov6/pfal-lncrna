@@ -1,0 +1,3482 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<mast version="5.4.0" release="Tue Mar 9 17:38:20 2021 -0800">
+	<command_line><arg>mast</arg><arg>-mi</arg><arg>1</arg><arg>-oc</arg><arg>results/mast_random</arg><arg>motif.html</arg><arg>random_seq.txt</arg></command_line>
+	<settings strand_handling="combine" max_correlation="0.60" remove_correlated="n" max_seq_evalue="10" adjust_hit="n" max_hit_pvalue="0.0001" max_weak_pvalue="0.0001"/>
+	<alphabet name="DNA" like="dna">
+		<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+		<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+		<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+		<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+		<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+		<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+		<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+		<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+		<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+		<letter id="M" symbol="M" equals="AC" name="Amino"/>
+		<letter id="R" symbol="R" equals="AG" name="Purine"/>
+		<letter id="W" symbol="W" equals="AT" name="Weak"/>
+		<letter id="S" symbol="S" equals="CG" name="Strong"/>
+		<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+		<letter id="K" symbol="K" equals="GT" name="Keto"/>
+	</alphabet>
+	<background source="--nrdb--" A="0.274262" C="0.22521" G="0.22521" T="0.274262"/>
+	<motif_dbs>
+		<motif_db source="motif.html" last_mod_date="Sat Aug 14 09:40:49 2021">
+			<background A="0.357" C="0.143" G="0.143" T="0.357"/>
+		</motif_db>
+	</motif_dbs>
+	<motifs>
+		<motif db="0" id="1-GAAGAAAATGAAGAW" alt="STREME-1" length="15" nsites="88" evalue="1.8e-003">
+			<pos A="-357.033" C="-881.442" G="276.024" T="-881.71"/>
+			<pos A="139.707" C="-169.772" G="-326.204" T="-881.71"/>
+			<pos A="135.146" C="-169.772" G="-881.442" T="-299.946"/>
+			<pos A="-299.806" C="-200.926" G="268.405" T="-881.71"/>
+			<pos A="146.271" C="-881.442" G="-881.442" T="-453.679"/>
+			<pos A="114.035" C="-178.317" G="-326.204" T="-118.888"/>
+			<pos A="101.183" C="-881.442" G="80.4963" T="-357.44"/>
+			<pos A="144.116" C="-326.204" G="-326.204" T="-881.71"/>
+			<pos A="-244.356" C="-169.772" G="-881.442" T="131.784"/>
+			<pos A="-160.223" C="-326.204" G="259.954" T="-881.71"/>
+			<pos A="137.451" C="-881.442" G="-326.204" T="-259.358"/>
+			<pos A="122.964" C="-325.795" G="-325.383" T="-142.595"/>
+			<pos A="-142.417" C="-128.528" G="249.746" T="-881.71"/>
+			<pos A="146.271" C="-326.204" G="-881.442" T="-881.71"/>
+			<pos A="79.8684" C="-227.749" G="-227.749" T="-15.7828"/>
+		</motif>
+	</motifs>
+	<correlations>
+	</correlations>
+	<sequence_dbs>
+		<sequence_db source="random_seq.txt" last_mod_date="Sat Aug 14 14:49:32 2021" seq_count="10000" residue_count="999984"/>
+	</sequence_dbs>
+	<sequences>
+		<sequence db="0" name="Pf3D7_08_v3:657188-657288" comment="" length="100">
+			<score strand="both" combined_pvalue="5.32e-07" evalue="0.0053"/>
+			<seg start="1">
+				<data>
+TGAAGAAGAAGATGACGACGAAGAAGATGAAGATGATGAAGAAGATGACGAAGATGATGATGATGAAGAAGAAGA
+AGATGAAGAAGATGAGGATGAAGAA
+				</data>
+				<hit pos="5" idx="0" rc="n" pvalue="5.9e-07" match="+++++++++++ ++ "/>
+				<hit pos="20" idx="0" rc="n" pvalue="6.2e-09" match="++++++++++++++ "/>
+				<hit pos="38" idx="0" rc="n" pvalue="8.5e-08" match="+++++++++++ +++"/>
+				<hit pos="71" idx="0" rc="n" pvalue="3.1e-09" match="+++++++++++++++"/>
+				<hit pos="86" idx="0" rc="n" pvalue="1.1e-06" match="++ ++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:83022-83122" comment="" length="100">
+			<score strand="both" combined_pvalue="5.32e-07" evalue="0.0053"/>
+			<seg start="1">
+				<data>
+GCAGAACCATCTTCACATGGCTCTTCAAAAAAGACCATGAAAGAAAATGAAAACGAAGAAGAAGATGAAGAAGTA
+				</data>
+				<hit pos="58" idx="0" rc="n" pvalue="3.1e-09" match="+++++++++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+AATGAAGATCAAAATGAAGATCAAA
+				</data>
+				<hit pos="82" idx="0" rc="n" pvalue="1.8e-06" match="++  ++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:468287-468387" comment="" length="100">
+			<score strand="both" combined_pvalue="5.32e-07" evalue="0.0053"/>
+			<seg start="1">
+				<data>
+GCTCTTTGTTTATGTGAAACATGATTTGGATCATTTATATTTTCTACAAAATTTTGTTCATATTGTTCTTCATCT
+TCTTCAAGAAATTCAAAAGAATCCT
+				</data>
+				<hit pos="66" idx="0" rc="y" pvalue="3.1e-09" match="+++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:343881-343981" comment="" length="100">
+			<score strand="both" combined_pvalue="8.24e-07" evalue="0.0082"/>
+			<seg start="76">
+				<data>
+TATCTTCATTTTCTTCATCTTTATT
+				</data>
+				<hit pos="77" idx="0" rc="y" pvalue="4.8e-09" match=" ++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:251953-252053" comment="" length="100">
+			<score strand="both" combined_pvalue="1.06e-06" evalue="0.011"/>
+			<seg start="1">
+				<data>
+TTATCATTATCATCTTCATCTTCTTCAGTATCATAACTGTACTGTACATTATCCATATGATTTACATAATCGTAT
+				</data>
+				<hit pos="12" idx="0" rc="y" pvalue="6.2e-09" match=" ++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:245911-246011" comment="" length="100">
+			<score strand="both" combined_pvalue="1.06e-06" evalue="0.011"/>
+			<seg start="1">
+				<data>
+TTTTATTTATTTCCATAAAAAATGGCAACTATCCTTACCATGCAATTTCCTTCATCAGACGAAGAAGATGAAGAT
+				</data>
+				<hit pos="61" idx="0" rc="n" pvalue="6.2e-09" match="++++++++++++++ "/>
+			</seg>
+			<seg start="76">
+				<data>
+TATTTTGTAGATGAAGAAAATGATA
+				</data>
+				<hit pos="85" idx="0" rc="n" pvalue="3.3e-05" match="++ +++++  + ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:422415-422515" comment="" length="100">
+			<score strand="both" combined_pvalue="1.89e-06" evalue="0.019"/>
+			<seg start="1">
+				<data>
+TATTTCCAAATTTTTCTGTTTCATATTTAATTCATTATTTATCATTAAAAACATAATTTCTTCATCATTTTCTTC
+				</data>
+				<hit pos="61" idx="0" rc="y" pvalue="1.1e-08" match="+++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:344187-344287" comment="" length="100">
+			<score strand="both" combined_pvalue="4.06e-06" evalue="0.041"/>
+			<seg start="1">
+				<data>
+TATTTTCATTATCTTCATTATCTTCATTATTATTATAATCCGTGTGACATGTGCTGCCACTTTTTTTAACGCTTA
+				</data>
+				<hit pos="11" idx="0" rc="y" pvalue="2.4e-08" match=" ++++++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:611479-611579" comment="" length="100">
+			<score strand="both" combined_pvalue="5.04e-06" evalue="0.05"/>
+			<seg start="1">
+				<data>
+AAATCTGATGATCATAAAATAGAAGAAGTAAAAAAAGTAGAGGAACATGAAGAAGACGAAGAAGAGGATAAGAAA
+				</data>
+				<hit pos="49" idx="0" rc="n" pvalue="2.9e-08" match="++++++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:2558599-2558699" comment="" length="100">
+			<score strand="both" combined_pvalue="5.28e-06" evalue="0.053"/>
+			<seg start="1">
+				<data>
+GAAAATATGGATTCCTTATATGAAGATGATGAAGATTTTAATTTAAGCAGTAAACATCATAATAATACAGAATAT
+				</data>
+				<hit pos="22" idx="0" rc="n" pvalue="3.1e-08" match="+++++ ++++++++ "/>
+			</seg>
+			<seg start="76">
+				<data>
+TTAATAAAAAAGAGAAAGAAAAAGA
+				</data>
+				<hit pos="84" idx="0" rc="n" pvalue="7.5e-05" match=" ++++ ++ +++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1419757-1419857" comment="" length="100">
+			<score strand="both" combined_pvalue="5.57e-06" evalue="0.056"/>
+			<seg start="1">
+				<data>
+ATTTTGTCCTAAGAATGTGTCATCATTCATATCTAATTCATATGTATTGTCATCATCATTATTTTCTTCGTTATC
+ATCATTTTCTTCATTTTTTTCTATT
+				</data>
+				<hit pos="55" idx="0" rc="y" pvalue="5.9e-07" match=" ++ + +++++++++"/>
+				<hit pos="73" idx="0" rc="y" pvalue="3.2e-08" match=" ++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:694300-694400" comment="" length="100">
+			<score strand="both" combined_pvalue="6.64e-06" evalue="0.066"/>
+			<seg start="1">
+				<data>
+ATATATATATCATAGGATTAAAAAAAAAAAAAAAAAGAAGAAAAAGAAGAAAAGAAAAAGCAAGGAGAAATAAAA
+				</data>
+				<hit pos="37" idx="0" rc="n" pvalue="3.9e-08" match="++++++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:1029904-1030004" comment="" length="100">
+			<score strand="both" combined_pvalue="6.64e-06" evalue="0.066"/>
+			<seg start="1">
+				<data>
+GATTTTAATAAACAAGAAGAAGGGGAATATGTAGAAAATGACGAGGGTGTTGCCGTTATTTTTGAAGAAGATGAT
+GATTATTTTAATATAGGAAGGAATA
+				</data>
+				<hit pos="31" idx="0" rc="n" pvalue="5.8e-05" match="+ +++++++++ ++ "/>
+				<hit pos="64" idx="0" rc="n" pvalue="3.9e-08" match="+++++++++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:1253066-1253166" comment="" length="100">
+			<score strand="both" combined_pvalue="6.64e-06" evalue="0.066"/>
+			<seg start="1">
+				<data>
+AAGATGATGATGTAGAAGATGATGATGTAGAAGATGATGATGTAGAAGATGATGATGAAGAAGATGATGATGATG
+AAGAAGATGATGATGATGAAGAAGA
+				</data>
+				<hit pos="3" idx="0" rc="n" pvalue="2.9e-06" match="++ ++ ++++ ++++"/>
+				<hit pos="18" idx="0" rc="n" pvalue="2.9e-06" match="++ ++ ++++ ++++"/>
+				<hit pos="57" idx="0" rc="n" pvalue="3.9e-08" match="+++++++++++ ++ "/>
+				<hit pos="75" idx="0" rc="n" pvalue="3.9e-08" match="+++++++++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:1031661-1031761" comment="" length="100">
+			<score strand="both" combined_pvalue="6.64e-06" evalue="0.066"/>
+			<seg start="1">
+				<data>
+AATATAGAAGAAAATGAACAAAGCAGAGAATATATTTTAATAGAAATTACAAAAAGTATATGCTCTATAATCAAT
+				</data>
+				<hit pos="7" idx="0" rc="n" pvalue="3.9e-08" match="++++++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:474930-475030" comment="" length="100">
+			<score strand="both" combined_pvalue="7.29e-06" evalue="0.073"/>
+			<seg start="1">
+				<data>
+AAATTTACTACACATGAAGCTTGAAAAGCCCTAGGTGAAGGTACATTATACGTTTTGATTTTTTTCCAATTTATA
+				</data>
+				<hit pos="52" idx="0" rc="y" pvalue="7.8e-05" match=" + ++ +++++ +++"/>
+			</seg>
+			<seg start="76">
+				<data>
+AATTTTTCATTTTCTTCTTCACATA
+				</data>
+				<hit pos="78" idx="0" rc="y" pvalue="4.2e-08" match="++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:297427-297527" comment="" length="100">
+			<score strand="both" combined_pvalue="7.29e-06" evalue="0.073"/>
+			<seg start="1">
+				<data>
+AACGAAAATAATTCGAGTGATAAAAATGACGATATCAATAAAAATTCATCAAAGCATTCGAATAATAAACCTGAA
+GAAAATGTAGAAACCAAACAAACTT
+				</data>
+				<hit pos="19" idx="0" rc="n" pvalue="2.3e-05" match="++  +++++++ ++ "/>
+				<hit pos="73" idx="0" rc="n" pvalue="4.2e-08" match="++++++++++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:273811-273911" comment="" length="100">
+			<score strand="both" combined_pvalue="7.29e-06" evalue="0.073"/>
+			<seg start="1">
+				<data>
+TATTAGGAGGCATATCATTAAAAATAGCTGTCTCATTGTGATTATTTGCTTGTTTTTGATTTTTTTCATTTTCTT
+CATTTTTTTCATTTTCTTCATTTTT
+				</data>
+				<hit pos="62" idx="0" rc="y" pvalue="4.2e-08" match="++ ++++++++++++"/>
+				<hit pos="80" idx="0" rc="y" pvalue="4.2e-08" match="++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:1069908-1070008" comment="" length="100">
+			<score strand="both" combined_pvalue="7.29e-06" evalue="0.073"/>
+			<seg start="1">
+				<data>
+CTGAGTTTTTAATTTTTTTTTTTTTTTTTTTTCATTTTCTTCATTTTTTATCCATGATTTTGTCAATTAATAAAA
+				</data>
+				<hit pos="28" idx="0" rc="y" pvalue="4.2e-08" match="++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1402188-1402288" comment="" length="100">
+			<score strand="both" combined_pvalue="8.68e-06" evalue="0.087"/>
+			<seg start="1">
+				<data>
+ATTTATATTGTACGCCTTTTTATATATATTAGTTTTCTTGTGTGTAGATTTTTTTATTTTTTTTTTTTCTTCTTC
+TTCTTCTTCTTCTACTTTATTATCT
+				</data>
+				<hit pos="67" idx="0" rc="y" pvalue="5.0e-08" match="++++++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:224225-224325" comment="" length="100">
+			<score strand="both" combined_pvalue="8.68e-06" evalue="0.087"/>
+			<seg start="1">
+				<data>
+CTTTCATTAATAATTTTCCTTTTGACGTTTTTATCTTTTTCTTCTTCTTCTTCTTTTACTTCTCCTTTTTCAAAT
+				</data>
+				<hit pos="39" idx="0" rc="y" pvalue="5.0e-08" match="++++++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1721199-1721299" comment="" length="100">
+			<score strand="both" combined_pvalue="8.68e-06" evalue="0.087"/>
+			<seg start="1">
+				<data>
+TGTATGCTTGCAATATTTGATATGTTATTTTCATTATTATTATTATTATTATTATATAATTTCAAAAGTTCCATT
+TCTTCTTCTTCTTCTTTAGTAAGTT
+				</data>
+				<hit pos="75" idx="0" rc="y" pvalue="5.0e-08" match="++++++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:223971-224071" comment="" length="100">
+			<score strand="both" combined_pvalue="8.68e-06" evalue="0.087"/>
+			<seg start="1">
+				<data>
+TAGTAATAAAAATGATATATATAATGAAGAAAACGAAGATATAAATAATAAAAATAAATATACTATTGAAGTCCT
+				</data>
+				<hit pos="26" idx="0" rc="n" pvalue="5.0e-08" match="++++++++ +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:22876-22976" comment="" length="100">
+			<score strand="both" combined_pvalue="8.68e-06" evalue="0.087"/>
+			<seg start="1">
+				<data>
+AGACGAAGAAGAAGAAGAAGAAGAAGAAGAGGAGGAGGAAGGCGAAAACACCACAGTGGAACACACAGAGACAAC
+				</data>
+				<hit pos="5" idx="0" rc="n" pvalue="5.0e-08" match="++++++++ ++++++"/>
+				<hit pos="20" idx="0" rc="n" pvalue="4.3e-06" match="++++++++ ++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:1440816-1440916" comment="" length="100">
+			<score strand="both" combined_pvalue="8.68e-06" evalue="0.087"/>
+			<seg start="1">
+				<data>
+GTTGCCTCCCCCCCTCCGTCCTCCGGTCCGTTCACCGTGGCGTCCTGCTCTTCGGAGTCGTCTTCTTCTTCTTCT
+TCCTCCTGCTCGGGGTCAACGTTGG
+				</data>
+				<hit pos="63" idx="0" rc="y" pvalue="5.0e-08" match="++++++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:632404-632504" comment="" length="100">
+			<score strand="both" combined_pvalue="8.68e-06" evalue="0.087"/>
+			<seg start="1">
+				<data>
+AATTCCTAAAATCTATTAATTGGAATAATAAAGAAGAAGAAGAAGAAGCCATAATTTTATTAAATAAGTGGGCAA
+				</data>
+				<hit pos="33" idx="0" rc="n" pvalue="5.0e-08" match="++++++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:1330806-1330906" comment="" length="100">
+			<score strand="both" combined_pvalue="8.68e-06" evalue="0.087"/>
+			<seg start="1">
+				<data>
+GAAGAAGAAGAAGAATTGGAAGAACACAAACATAAGAATATGTTAGAGTCAAAAGTCGAAGATAATGATAAATTA
+				</data>
+				<hit pos="1" idx="0" rc="n" pvalue="5.0e-08" match="++++++++ ++++++"/>
+				<hit pos="58" idx="0" rc="n" pvalue="1.1e-06" match="+++++ +++++  ++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TTTTATGAAAAAAATGAAGATTATA
+				</data>
+				<hit pos="82" idx="0" rc="n" pvalue="2.4e-07" match="+++ ++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1130621-1130721" comment="" length="100">
+			<score strand="both" combined_pvalue="8.68e-06" evalue="0.087"/>
+			<seg start="1">
+				<data>
+AGCTGTTAACCATAAAAGTGTTATTTTTTTCATTTTCATTTTCTTCTTCTTCTTCTTCTTCTTCTTCATTATAAA
+				</data>
+				<hit pos="41" idx="0" rc="y" pvalue="5.0e-08" match="++++++ ++++++++"/>
+				<hit pos="56" idx="0" rc="y" pvalue="1.8e-05" match="++++++ +++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:788732-788832" comment="" length="100">
+			<score strand="both" combined_pvalue="8.68e-06" evalue="0.087"/>
+			<seg start="1">
+				<data>
+ATTCTAATTCTAATTCTTCTTTTTTTTTTTTTTTTTCTTCTTCTTCTTCTTCTTCTTTTTTTTCTTTTTCTTTTT
+CTTCTTCTTCCTCTTCTTTTATTTG
+				</data>
+				<hit pos="35" idx="0" rc="y" pvalue="5.0e-08" match="++++++ ++++++++"/>
+				<hit pos="50" idx="0" rc="y" pvalue="1.4e-06" match="++++++ ++++ +++"/>
+				<hit pos="65" idx="0" rc="y" pvalue="5.4e-07" match="++ +++ ++++++++"/>
+				<hit pos="80" idx="0" rc="y" pvalue="3.9e-05" match="++++++ +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:630089-630189" comment="" length="100">
+			<score strand="both" combined_pvalue="9.22e-06" evalue="0.092"/>
+			<seg start="1">
+				<data>
+CTATATTTTTAATAATATAATCACTATCATTTTCCACCATATTTGTAATATTACTTGTATATTTTTCATCTTCTT
+CGTAAGGTAAAGAATTATATTTTTT
+				</data>
+				<hit pos="62" idx="0" rc="y" pvalue="5.4e-08" match="++ ++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:83294-83394" comment="" length="100">
+			<score strand="both" combined_pvalue="1.15e-05" evalue="0.11"/>
+			<seg start="1">
+				<data>
+TGATGAAGAAGTAAATGAAGACGAAGAAAATGAGGAACAATATTGTGAATTAATACCTATTCTACCAAATAGCTC
+				</data>
+				<hit pos="8" idx="0" rc="n" pvalue="1.2e-06" match="++++ +++++++++ "/>
+				<hit pos="23" idx="0" rc="n" pvalue="6.7e-08" match="+++++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:722386-722486" comment="" length="100">
+			<score strand="both" combined_pvalue="1.30e-05" evalue="0.13"/>
+			<seg start="76">
+				<data>
+ACAGAAGAATATGAAGAAAAATTAT
+				</data>
+				<hit pos="79" idx="0" rc="n" pvalue="7.5e-08" match="++++++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:341111-341211" comment="" length="100">
+			<score strand="both" combined_pvalue="1.30e-05" evalue="0.13"/>
+			<seg start="1">
+				<data>
+ATATGGATGATGATTATGAACAAAATGAAGAATTTAATGATAATAATCAAAGCGAAGATATGAAAGAAACAAATG
+				</data>
+				<hit pos="18" idx="0" rc="n" pvalue="7.5e-08" match="+++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:799650-799750" comment="" length="100">
+			<score strand="both" combined_pvalue="1.47e-05" evalue="0.15"/>
+			<seg start="1">
+				<data>
+TGTTAGTATTATTGAAGAAATGGAAGAAAATATTGTAGATGTATTAGAGGAAGAAAAAGAAGATTTAACAGACAA
+				</data>
+				<hit pos="50" idx="0" rc="n" pvalue="8.5e-08" match="++++++++ +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:1313817-1313917" comment="" length="100">
+			<score strand="both" combined_pvalue="1.59e-05" evalue="0.16"/>
+			<seg start="1">
+				<data>
+AATGTTAACTGAAAATCAGATAAATGAAGAAGAAAATGAAAATACAAAAGTAGGAGGTGCAAATACAAAAGTAAG
+				</data>
+				<hit pos="29" idx="0" rc="n" pvalue="9.3e-08" match="++++++++++++ + "/>
+			</seg>
+			<seg start="76">
+				<data>
+AGGTGAAAATAAAAAAGTAAGAGGT
+				</data>
+				<hit pos="77" idx="0" rc="n" pvalue="4.7e-05" match="+  ++++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:1002074-1002174" comment="" length="100">
+			<score strand="both" combined_pvalue="1.84e-05" evalue="0.18"/>
+			<seg start="1">
+				<data>
+GTGCCCGATTAATATCTGATAATAATAAGAATAATAAAAATGATGATAATAGTGATGATGAAGATGATGATGAAG
+AAGAAGATGAGGTAAATTATTATAA
+				</data>
+				<hit pos="60" idx="0" rc="n" pvalue="1.1e-07" match="+++++ +++++ +++"/>
+				<hit pos="75" idx="0" rc="n" pvalue="1.9e-05" match="+++++++++++ + +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:1003112-1003212" comment="" length="100">
+			<score strand="both" combined_pvalue="2.09e-05" evalue="0.21"/>
+			<seg start="1">
+				<data>
+AAGCATAGTCTAAAAACCATAAATATTTTATATAATAAAGAAAGGATGAATAATCATCAAGAAAATAAAAAAGAA
+GAAGATAAAGATAAAGAAAAAGAAA
+				</data>
+				<hit pos="73" idx="0" rc="n" pvalue="1.2e-07" match="+++++++++ ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:29646-29746" comment="" length="100">
+			<score strand="both" combined_pvalue="2.51e-05" evalue="0.25"/>
+			<seg start="1">
+				<data>
+AGTACGTATTAGTACAAAAAAATAAATAAATAAAAACAAAAAAAAACAAAACAATAATTAGAAAAAAATGAAGAA
+				</data>
+				<hit pos="61" idx="0" rc="n" pvalue="1.5e-07" match="+++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1419830-1419930" comment="" length="100">
+			<score strand="both" combined_pvalue="2.51e-05" evalue="0.25"/>
+			<seg start="1">
+				<data>
+TCATCATTTTCTTCATTTTTTTCTATTTCATCAATAATTGAATTTCCATTAATTAATACATGTACATTTTTTTCT
+				</data>
+				<hit pos="9" idx="0" rc="y" pvalue="1.5e-07" match="+++++++++++ +++"/>
+				<hit pos="60" idx="0" rc="y" pvalue="1.4e-05" match=" + + ++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:109602-109702" comment="" length="100">
+			<score strand="both" combined_pvalue="2.86e-05" evalue="0.29"/>
+			<seg start="1">
+				<data>
+GTTTTTCTATTATTCCCATCTGATAAAGCTAAAGTTGATATTTCTTTGAGTTCTTTATTAATAACATTATCATCA
+TCATTATCTTCATCAAGGATTGTTA
+				</data>
+				<hit pos="72" idx="0" rc="y" pvalue="1.7e-07" match=" ++ +++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:186246-186346" comment="" length="100">
+			<score strand="both" combined_pvalue="2.86e-05" evalue="0.29"/>
+			<seg start="1">
+				<data>
+TGATAAGGTTTCATCGTACCATTAATATTCATTGGCTGTTTTAAAATTATAGCTTCATCTTCTTCATTTGCATCC
+				</data>
+				<hit pos="51" idx="0" rc="y" pvalue="1.7e-07" match="  +++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:556981-557081" comment="" length="100">
+			<score strand="both" combined_pvalue="3.54e-05" evalue="0.35"/>
+			<seg start="1">
+				<data>
+AATATCTATTGCAAACTCTTCATTTTCTGCATTCGTTATTTCTTCTGTGGAAACATGATTTTTTGTTATATTCTT
+				</data>
+				<hit pos="16" idx="0" rc="y" pvalue="2.1e-07" match=" ++++++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:266296-266396" comment="" length="100">
+			<score strand="both" combined_pvalue="3.54e-05" evalue="0.35"/>
+			<seg start="1">
+				<data>
+TATAAGTGAAAGGAAAAGAAGACGACGAAGAAGAAATAGTAGTAGTAAAAGTACGAGTAGAAGAAAATCAAGACA
+				</data>
+				<hit pos="18" idx="0" rc="n" pvalue="2.1e-07" match="+++++ ++ ++++++"/>
+				<hit pos="60" idx="0" rc="n" pvalue="1.1e-06" match="+++++++++ ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:1459554-1459654" comment="" length="100">
+			<score strand="both" combined_pvalue="3.54e-05" evalue="0.35"/>
+			<seg start="1">
+				<data>
+CGGAACACCATGAAAATGTAAATGAAGATAATGTAGAAAAACCAAAATTGCAACAACATAAAGTTCAACCACCAA
+				</data>
+				<hit pos="24" idx="0" rc="n" pvalue="2.1e-07" match="+++++ ++++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:75633-75733" comment="" length="100">
+			<score strand="both" combined_pvalue="3.70e-05" evalue="0.37"/>
+			<seg start="1">
+				<data>
+CTACTATAGTAGTTATAATTTTAGTTATGATAGTTATTTATTTAATTTTACGTTATAGTAGAAAAAAGAAAATGA
+AGAAAAAACTGCAATATATAAAATT
+				</data>
+				<hit pos="65" idx="0" rc="n" pvalue="2.2e-07" match=" ++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:914404-914504" comment="" length="100">
+			<score strand="both" combined_pvalue="3.70e-05" evalue="0.37"/>
+			<seg start="1">
+				<data>
+GAAAAAAGAAAATGAAGAAAAAACTCCAATATATAAAATTGTTAAAAGAATAGATGTGATGTATTTGGTATTTTT
+				</data>
+				<hit pos="5" idx="0" rc="n" pvalue="2.2e-07" match=" ++++++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:3121736-3121836" comment="" length="100">
+			<score strand="both" combined_pvalue="3.70e-05" evalue="0.37"/>
+			<seg start="1">
+				<data>
+GAAGAAGAAGATATCATGATGAAAATGGTAATGAAGAAGAGAATATTAGTTTTGTTAGAAATAAAAGGAATGATA
+				</data>
+				<hit pos="18" idx="0" rc="n" pvalue="3.6e-05" match="++ +++++++   + "/>
+			</seg>
+			<seg start="76">
+				<data>
+ATGAAGATGAAGAAGAAGTAACATA
+				</data>
+				<hit pos="78" idx="0" rc="n" pvalue="2.2e-07" match="+++++ ++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:109223-109323" comment="" length="100">
+			<score strand="both" combined_pvalue="3.70e-05" evalue="0.37"/>
+			<seg start="1">
+				<data>
+TTTTACAATCAGGAGAACAAATCAAAATAATTAATGAAGATGAAGAAGAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				</data>
+				<hit pos="36" idx="0" rc="n" pvalue="2.2e-07" match="+++++ ++ ++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+AAGATAACAAGAACAAAAAAAAGAC
+				</data>
+				<hit pos="86" idx="0" rc="n" pvalue="2.7e-05" match="+++ ++++  ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:1228836-1228936" comment="" length="100">
+			<score strand="both" combined_pvalue="3.70e-05" evalue="0.37"/>
+			<seg start="1">
+				<data>
+TTATGAAGAAGAAATAGAACAAAATAATGATGATGATCTAAATAATATTAATAATGATGAAGATGATGAACAAAT
+				</data>
+				<hit pos="5" idx="0" rc="n" pvalue="5.7e-06" match="++++++++   ++++"/>
+				<hit pos="59" idx="0" rc="n" pvalue="2.2e-07" match="+++++ ++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:156979-157079" comment="" length="100">
+			<score strand="both" combined_pvalue="3.98e-05" evalue="0.4"/>
+			<seg start="1">
+				<data>
+TTTTTTATTTTTGTTCTTAAGATCTGAAGAAATATTACTAATTTTAACAATTTCATGGTCACCATCTTTTTCATC
+ATCTTCCCTTTCAGATGAACTATCA
+				</data>
+				<hit pos="67" idx="0" rc="y" pvalue="2.3e-07" match="++ ++++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:235994-236094" comment="" length="100">
+			<score strand="both" combined_pvalue="3.98e-05" evalue="0.4"/>
+			<seg start="1">
+				<data>
+CTCTTCCTCTTCATCTTCTGCATTTCTCACATTTTCATCACTCGTTACCTTTTTGTTCTTTTTGAGTTCTTTTTT
+				</data>
+				<hit pos="7" idx="0" rc="y" pvalue="2.3e-07" match=" ++++++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:771637-771737" comment="" length="100">
+			<score strand="both" combined_pvalue="3.98e-05" evalue="0.4"/>
+			<seg start="1">
+				<data>
+TCTTTTCCTCTTCCTCCTCCTCTTCGGCGTCATCGTCTTCATCTTCGTCGTCTTCGTCGTGTTCTTCGTCGTCGA
+				</data>
+				<hit pos="35" idx="0" rc="y" pvalue="2.3e-07" match=" +++++++++++ ++"/>
+				<hit pos="50" idx="0" rc="y" pvalue="1.2e-05" match=" +++++ ++ + +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_01_v3:230505-230605" comment="" length="100">
+			<score strand="both" combined_pvalue="3.98e-05" evalue="0.4"/>
+			<seg start="1">
+				<data>
+TCCTGTTCCTGTTCCTTTTTATTTTCTTCGTCTTCGTCGTCCTCTTCATCTTCATCATCACTATCTTCTCTTCCT
+				</data>
+				<hit pos="24" idx="0" rc="y" pvalue="2.3e-07" match="++++++ +++++ ++"/>
+				<hit pos="42" idx="0" rc="y" pvalue="5.4e-07" match=" +++++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:361516-361616" comment="" length="100">
+			<score strand="both" combined_pvalue="4.20e-05" evalue="0.42"/>
+			<seg start="1">
+				<data>
+TAATACAAGAAAATTGTCCGTCAGCGAAGAAAATGTTGAATTAAAACCATATATAAAACAAGGAGAAAGAAATGA
+				</data>
+				<hit pos="26" idx="0" rc="n" pvalue="2.4e-07" match="++++++++++  +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:1295048-1295148" comment="" length="100">
+			<score strand="both" combined_pvalue="4.20e-05" evalue="0.42"/>
+			<seg start="1">
+				<data>
+AATAATTATGTGATAATAGAAAAGAACTATGTATTCCTTATAAGATATTATACATTTTATAATAAGAAGAAAATG
+ATAAAGAATTTTTTTTTTTTTTTTT
+				</data>
+				<hit pos="66" idx="0" rc="n" pvalue="2.4e-07" match="+++++++++++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1556874-1556974" comment="" length="100">
+			<score strand="both" combined_pvalue="4.42e-05" evalue="0.44"/>
+			<seg start="1">
+				<data>
+GTCACTATCCACATCATTATCCATATCGTCATCATCATATTCGTCATTATCTTCTGCCTCTTCTTCATCTTGATC
+ATCTTCTTCATTTATAACATTAGTT
+				</data>
+				<hit pos="40" idx="0" rc="y" pvalue="2.7e-07" match="+++ +++++ +++++"/>
+				<hit pos="70" idx="0" rc="y" pvalue="2.6e-07" match="++  +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:168937-169037" comment="" length="100">
+			<score strand="both" combined_pvalue="5.23e-05" evalue="0.52"/>
+			<seg start="1">
+				<data>
+TTCCCATTTGCTTGTAAATTTTTTATGTGCTCATTGTCAACATATTCCTTTTTGTATTCTTTTCTCTTTCTCTTC
+TTTTTCTTCTTTTTATCATTACTTA
+				</data>
+				<hit pos="70" idx="0" rc="y" pvalue="3.0e-07" match=" +++++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:460056-460156" comment="" length="100">
+			<score strand="both" combined_pvalue="5.23e-05" evalue="0.52"/>
+			<seg start="1">
+				<data>
+TCAATGTACGAACTTTCATATTCTTCTTCTTCATCATCATCTCCAACTTGTGCTTCTGTATCTAAAAAGGTTGAT
+				</data>
+				<hit pos="27" idx="0" rc="y" pvalue="3.0e-07" match="+++++++++ ++ ++"/>
+			</seg>
+			<seg start="76">
+				<data>
+AAATATTTATTTTTTCCTATTCTTC
+				</data>
+				<hit pos="86" idx="0" rc="y" pvalue="8.1e-05" match="++ +++ + ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:236432-236532" comment="" length="100">
+			<score strand="both" combined_pvalue="5.23e-05" evalue="0.52"/>
+			<seg start="76">
+				<data>
+TTCTTCATAATCTTCGATACATTCC
+				</data>
+				<hit pos="76" idx="0" rc="y" pvalue="3.0e-07" match="++++++++  +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:94195-94295" comment="" length="100">
+			<score strand="both" combined_pvalue="5.23e-05" evalue="0.52"/>
+			<seg start="1">
+				<data>
+TTCGTCATTTCCTTTATTATTTTCTTCCTTGTTTGTTTCATTATTCACTTCATTATTTTCTTCATTATTCACTTC
+ATTATTTTCTTCATTATTCACTTCA
+				</data>
+				<hit pos="13" idx="0" rc="y" pvalue="2.9e-06" match="++  + +++++++++"/>
+				<hit pos="49" idx="0" rc="y" pvalue="3.0e-07" match="+++ + +++++++++"/>
+				<hit pos="73" idx="0" rc="y" pvalue="3.0e-07" match="+++ + +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:930568-930668" comment="" length="100">
+			<score strand="both" combined_pvalue="5.23e-05" evalue="0.52"/>
+			<seg start="1">
+				<data>
+ATTATTATTATTATTATTAGATGGTGGTGATGATGATGATGATGAAGAATGATCACCAGTTAATAATACATCATC
+				</data>
+				<hit pos="35" idx="0" rc="n" pvalue="3.0e-07" match="++ ++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1502926-1503026" comment="" length="100">
+			<score strand="both" combined_pvalue="5.23e-05" evalue="0.52"/>
+			<seg start="1">
+				<data>
+TTAATATATTTTTGTAATCTTCTTCATTATGTTCAATTAATTCTTTACTTACATCATATATATTATTATTATTAT
+				</data>
+				<hit pos="20" idx="0" rc="y" pvalue="3.0e-07" match="+++++++++ + +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:430578-430678" comment="" length="100">
+			<score strand="both" combined_pvalue="5.23e-05" evalue="0.52"/>
+			<seg start="1">
+				<data>
+CACTATAATCATCATCTTCGTCATTATTCTTATTAATTTTTTTCTTTACTTGAAAGAAAAACCCTGTAATTTTAC
+				</data>
+				<hit pos="8" idx="0" rc="y" pvalue="3.0e-07" match=" ++ ++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:594557-594657" comment="" length="100">
+			<score strand="both" combined_pvalue="5.79e-05" evalue="0.58"/>
+			<seg start="1">
+				<data>
+ATTTGGACAAATGTTCGGTTGCGCCACTTGGTTTTCATTTTCTTCAAGGAGTAAGTCCTCTTCATCATCAGGGTG
+				</data>
+				<hit pos="31" idx="0" rc="y" pvalue="3.4e-07" match=" + ++++++++++++"/>
+				<hit pos="55" idx="0" rc="y" pvalue="7.2e-05" match=" ++ ++ ++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1319444-1319544" comment="" length="100">
+			<score strand="both" combined_pvalue="5.79e-05" evalue="0.58"/>
+			<seg start="1">
+				<data>
+TCATCCCCCTTTTCTTTCTTTTGTTCGTCTACATTTTCTGCATTTTCTGCATTTTCTGCATTTTCTGCATTTTCT
+GCATTTTCTACATTTTCTGCATTTT
+				</data>
+				<hit pos="12" idx="0" rc="y" pvalue="9.2e-05" match="+++++  ++++ +++"/>
+				<hit pos="27" idx="0" rc="y" pvalue="2.0e-06" match=" +++ ++++++++ +"/>
+				<hit pos="45" idx="0" rc="y" pvalue="9.2e-06" match="++++ ++++++++ +"/>
+				<hit pos="63" idx="0" rc="y" pvalue="9.2e-06" match="++++ ++++++++ +"/>
+				<hit pos="81" idx="0" rc="y" pvalue="3.4e-07" match="++++ ++++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1668000-1668100" comment="" length="100">
+			<score strand="both" combined_pvalue="5.79e-05" evalue="0.58"/>
+			<seg start="1">
+				<data>
+TTCTTCCTCATCATCTTCTATTATTTCTTCATCTATTTTATCATTAATAACCGTAAGGTCATAAAAATCTGCATC
+				</data>
+				<hit pos="4" idx="0" rc="y" pvalue="3.4e-07" match="+++ +++++ +++++"/>
+				<hit pos="25" idx="0" rc="y" pvalue="6.9e-05" match="++++++++++  ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1805499-1805599" comment="" length="100">
+			<score strand="both" combined_pvalue="5.79e-05" evalue="0.58"/>
+			<seg start="1">
+				<data>
+CAATTTTGTATGGAATAATAATGATATTGATGAAAATGATGAAAAAAATGATCATCTTAAAAAAAAAAATGAAAT
+				</data>
+				<hit pos="29" idx="0" rc="n" pvalue="3.4e-07" match="++ ++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:1438272-1438372" comment="" length="100">
+			<score strand="both" combined_pvalue="5.79e-05" evalue="0.58"/>
+			<seg start="1">
+				<data>
+CCGTCTTCATCCTCTTGTTTTGGTGGTGTTTGTTGTTTTGGACAAAATTTAGGTTGTATGTTTGTTTTTTCATTT
+TCGTCTTCATTTTCATACTCTTCGT
+				</data>
+				<hit pos="66" idx="0" rc="y" pvalue="3.4e-07" match="++ +++++++++ ++"/>
+				<hit pos="84" idx="0" rc="y" pvalue="1.2e-05" match=" + +++++  +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:885700-885800" comment="" length="100">
+			<score strand="both" combined_pvalue="5.79e-05" evalue="0.58"/>
+			<seg start="1">
+				<data>
+TTAAACTTAATTTTAATGAGAAAAAGAAAGGGAAGAAAATGAAAAGAAGGAAAACATATTATGAAGAGGGATTTA
+				</data>
+				<hit pos="32" idx="0" rc="n" pvalue="3.4e-07" match="++++++++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1805464-1805564" comment="" length="100">
+			<score strand="both" combined_pvalue="5.79e-05" evalue="0.58"/>
+			<seg start="1">
+				<data>
+ATAAATAACAAAATCCCTTGGAACCATTCAGAGCACAATTTTGTATGGAATAATAATGATATTGATGAAAATGAT
+GAAAAAAATGATCATCTTAAAAAAA
+				</data>
+				<hit pos="64" idx="0" rc="n" pvalue="3.4e-07" match="++ ++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:475547-475647" comment="" length="100">
+			<score strand="both" combined_pvalue="5.79e-05" evalue="0.58"/>
+			<seg start="1">
+				<data>
+AAAAAACAAAAACTATATATAGTAAGGATGTTAGAAATATGGAAAAGCTTAAAATTATATGTGAAGATAATGAAC
+ATGATTTTGATACACCTGTATGTAT
+				</data>
+				<hit pos="63" idx="0" rc="n" pvalue="3.4e-07" match="+++++ ++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1406942-1407042" comment="" length="100">
+			<score strand="both" combined_pvalue="6.29e-05" evalue="0.63"/>
+			<seg start="1">
+				<data>
+CTTCTCAGGATTTTCACTCAATTTGTCATCATTATAATTATGATTATGCTCATCATCATATTCATCATCTACATT
+ATCTTCAACATCTAGATCATCTTCA
+				</data>
+				<hit pos="52" idx="0" rc="y" pvalue="6.7e-06" match=" ++ ++++ +++ ++"/>
+				<hit pos="67" idx="0" rc="y" pvalue="3.7e-07" match=" +++ ++++ +++++"/>
+				<hit pos="85" idx="0" rc="y" pvalue="9.2e-06" match=" +++  +++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:1238524-1238624" comment="" length="100">
+			<score strand="both" combined_pvalue="6.29e-05" evalue="0.63"/>
+			<seg start="1">
+				<data>
+GAAGATCGAAATTTTTATAATATATATGAAAATATGATAGAAGTAGATGAAGATAATGTTAAAGAAATTATATTT
+				</data>
+				<hit pos="40" idx="0" rc="n" pvalue="3.7e-07" match="++++ +++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2739458-2739558" comment="" length="100">
+			<score strand="both" combined_pvalue="6.82e-05" evalue="0.68"/>
+			<seg start="1">
+				<data>
+TTTAAATAATAGTTACCTAAAAAGATCTGATAATTCTAAGGGAAAATATTTTGATGAAAGAAAAGAAGAAGAATA
+TGATGAAGAAGAAAAGTTTGCGTAC
+				</data>
+				<hit pos="53" idx="0" rc="n" pvalue="4.7e-05" match="++ ++++   +++++"/>
+				<hit pos="68" idx="0" rc="n" pvalue="4.0e-07" match="++++++ ++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:402269-402369" comment="" length="100">
+			<score strand="both" combined_pvalue="6.82e-05" evalue="0.68"/>
+			<seg start="1">
+				<data>
+AATGATCAAAGTGATGAGAGCGAAGAAAATTATGAAATGAAAGATAATAATGAAAAAAAATATGAACAAAATGAT
+GAAAAGAAAACAAAGAAACAGAAAA
+				</data>
+				<hit pos="22" idx="0" rc="n" pvalue="1.3e-05" match="+++++++++ + +++"/>
+				<hit pos="40" idx="0" rc="n" pvalue="2.5e-05" match=" ++++ +++ + +++"/>
+				<hit pos="64" idx="0" rc="n" pvalue="4.0e-07" match="+++ +++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:758996-759096" comment="" length="100">
+			<score strand="both" combined_pvalue="6.82e-05" evalue="0.68"/>
+			<seg start="1">
+				<data>
+CAAAAGACACAAATAAAATGAAGATTCAAAATTATAATGATGATAAAGAAAATGAAGATACCATTAATGATGTAA
+				</data>
+				<hit pos="11" idx="0" rc="n" pvalue="8.1e-05" match=" ++ ++++++++++ "/>
+				<hit pos="45" idx="0" rc="n" pvalue="4.0e-07" match=" +++++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:704862-704962" comment="" length="100">
+			<score strand="both" combined_pvalue="7.76e-05" evalue="0.78"/>
+			<seg start="1">
+				<data>
+AAATGCTGATGAAAATCAGGAAGATGTAGATCAACAACAAGACTCCAATGAAAATGAGGAGGACGAAGATCAAGA
+AGAAAATGATAATGATGATTAAGAT
+				</data>
+				<hit pos="8" idx="0" rc="n" pvalue="1.8e-05" match="++ ++++++ + +++"/>
+				<hit pos="47" idx="0" rc="n" pvalue="7.2e-05" match=" + ++++++++ ++ "/>
+				<hit pos="74" idx="0" rc="n" pvalue="4.5e-07" match="+++++++++++  + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:192148-192248" comment="" length="100">
+			<score strand="both" combined_pvalue="7.76e-05" evalue="0.78"/>
+			<seg start="1">
+				<data>
+TAATCATTATTGCTAATATCATCATTTAAACTTAAATCACTTTCACCATCTTCTTCTTTTTTATTATTTTCCTCC
+				</data>
+				<hit pos="42" idx="0" rc="y" pvalue="4.5e-07" match="+++  ++++++++++"/>
+				<hit pos="57" idx="0" rc="y" pvalue="3.1e-05" match="++ ++ +++ + +++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TTTTCTACTTCTTCTTCATCTCTTT
+				</data>
+				<hit pos="78" idx="0" rc="y" pvalue="6.3e-07" match="++++ + ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:732624-732724" comment="" length="100">
+			<score strand="both" combined_pvalue="8.38e-05" evalue="0.84"/>
+			<seg start="1">
+				<data>
+TGGATTAGTGATACCATATGTATTGATGATAATGAAGATGTAATTGTATTAACAGATGCAATTAGTAAGGAAATT
+				</data>
+				<hit pos="25" idx="0" rc="n" pvalue="4.9e-07" match="++ ++ ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:603342-603442" comment="" length="100">
+			<score strand="both" combined_pvalue="9.29e-05" evalue="0.93"/>
+			<seg start="1">
+				<data>
+ATTATAAATAAAATAAAATTAGATAATCTTAAAAATATTAGCACAGAAGAAAAAGAAAAAATGAAAATAATAAAA
+AAAAAAATATATAAAACTTATCGAA
+				</data>
+				<hit pos="46" idx="0" rc="n" pvalue="5.4e-07" match="++++++++ +++ ++"/>
+				<hit pos="63" idx="0" rc="n" pvalue="3.1e-05" match="+++ + +++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:479514-479614" comment="" length="100">
+			<score strand="both" combined_pvalue="9.29e-05" evalue="0.93"/>
+			<seg start="1">
+				<data>
+GAAGAAAAAGAAAAAGCAAATATTAAGAGGGAATATGTTGATGAGGAACAAAATATGTTTAATATGAATGTACCT
+				</data>
+				<hit pos="1" idx="0" rc="n" pvalue="5.4e-07" match="++++++++ +++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:830257-830357" comment="" length="100">
+			<score strand="both" combined_pvalue="9.29e-05" evalue="0.93"/>
+			<seg start="1">
+				<data>
+ACGAAGAAAAAGAAAAAAAAAAAAAGTATATTAATATTTCCATATTAATACAAGCTAATTAAAAGATTAATAAAT
+				</data>
+				<hit pos="3" idx="0" rc="n" pvalue="5.4e-07" match="++++++++ +++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1436723-1436823" comment="" length="100">
+			<score strand="both" combined_pvalue="9.29e-05" evalue="0.93"/>
+			<seg start="1">
+				<data>
+GTTTCTGATGTGTGGGAAAAAGAAAGATTACAAAGAATAAAAGAAAGAAAAGAATATGAAGAAAAAGAAAAAAAA
+				</data>
+				<hit pos="58" idx="0" rc="n" pvalue="5.4e-07" match="++++++++ +++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:74164-74264" comment="" length="100">
+			<score strand="both" combined_pvalue="9.29e-05" evalue="0.93"/>
+			<seg start="1">
+				<data>
+TATAAAATAAAAGAATATGATGTTTATTTCTTTTTCTTTTTCTTCTTTTTTCTCTGCAAAGTTTTTATTCTCTTT
+				</data>
+				<hit pos="31" idx="0" rc="y" pvalue="5.4e-07" match="++ +++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:804724-804824" comment="" length="100">
+			<score strand="both" combined_pvalue="1.02e-04" evalue="1"/>
+			<seg start="1">
+				<data>
+TTTTCATTATCTTCATCATCATCATATAAATGTCCATATTGATCTTTTATAATAACAACGGGATGCAGTTCACAA
+				</data>
+				<hit pos="9" idx="0" rc="y" pvalue="5.9e-07" match=" ++++++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:299941-300041" comment="" length="100">
+			<score strand="both" combined_pvalue="1.09e-04" evalue="1.1"/>
+			<seg start="1">
+				<data>
+TTCTTCTTTTAAAAAAGGTTGATTTAAATTAACTTCCTCATCACTACTAAAATTTTCGTTTTCTTCCTTATTCTT
+				</data>
+				<hit pos="52" idx="0" rc="y" pvalue="6.3e-07" match=" + +++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:619922-620022" comment="" length="100">
+			<score strand="both" combined_pvalue="1.09e-04" evalue="1.1"/>
+			<seg start="1">
+				<data>
+GGACAGTATGGTAATGTAGAACAGAAACAAAATGGAAAATCACCTGAACGAGCTAGCCATGAAAGTGAAGAAGAA
+GAAAAAAAAAAAAAAAAAAATATAA
+				</data>
+				<hit pos="67" idx="0" rc="n" pvalue="6.3e-07" match="++++++++ +++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:775243-775343" comment="" length="100">
+			<score strand="both" combined_pvalue="1.09e-04" evalue="1.1"/>
+			<seg start="1">
+				<data>
+CTGTTTTAGCTTTAATTATTTTTTCTTCTTCTTCCTTTAACTTTTCCATGTCCTATAAAAATATAAGAAAAATTT
+				</data>
+				<hit pos="20" idx="0" rc="y" pvalue="6.3e-07" match="++ +++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1457264-1457364" comment="" length="100">
+			<score strand="both" combined_pvalue="1.16e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+AATTTATGGATATGGATGGTATATATGATGAAGAAGAAAAAAAAGAATCTCTTATTGAATTAAATCAAAAGGTAA
+				</data>
+				<hit pos="33" idx="0" rc="n" pvalue="6.7e-07" match="++++++++  +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:505705-505805" comment="" length="100">
+			<score strand="both" combined_pvalue="1.16e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+ATTAACGAAGAGAATAATGTGAATGAAGATATTGAAAAGAAGAAAAAAAAGAAAAGTATAGAGGAAGAAGGTTCA
+				</data>
+				<hit pos="39" idx="0" rc="n" pvalue="6.7e-07" match="++++++++  +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1685973-1686073" comment="" length="100">
+			<score strand="both" combined_pvalue="1.22e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+TAATATTTAAAACTTGAAAGGATGTAGCATTTATTTGAGCTTTTAATTTTTCTTCTTTTTCATCAGGTTTGATAT
+				</data>
+				<hit pos="50" idx="0" rc="y" pvalue="7.1e-07" match="++++++ +++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:469814-469914" comment="" length="100">
+			<score strand="both" combined_pvalue="1.22e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+GATGAATATAATGAAGATGATGAATATAATGTAGATGATGAATATAATGAAAATGATGAATATAATGAAGATGGT
+GAAGATAATCTAAGTCAAGATAATG
+				</data>
+				<hit pos="10" idx="0" rc="n" pvalue="1.1e-05" match=" + ++++++++ +++"/>
+				<hit pos="46" idx="0" rc="n" pvalue="9.7e-06" match=" + ++++++++ +++"/>
+				<hit pos="67" idx="0" rc="n" pvalue="7.1e-07" match="+++++ + ++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2144196-2144296" comment="" length="100">
+			<score strand="both" combined_pvalue="1.22e-04" evalue="1.2"/>
+			<seg start="76">
+				<data>
+ATAAAAATGTGAAGAAAATAAAAAA
+				</data>
+				<hit pos="86" idx="0" rc="n" pvalue="7.1e-07" match="+++++++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:1125108-1125208" comment="" length="100">
+			<score strand="both" combined_pvalue="1.22e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+TTATATGTATATAAATAATTATTTATTTATTATTATTTTGCTTTGAAGAAAATAAAAAAAATATATATATATATA
+				</data>
+				<hit pos="45" idx="0" rc="n" pvalue="7.1e-07" match="+++++++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:259435-259535" comment="" length="100">
+			<score strand="both" combined_pvalue="1.22e-04" evalue="1.2"/>
+			<seg start="76">
+				<data>
+TTTGTGTCATCATCATATTCTTCCT
+				</data>
+				<hit pos="84" idx="0" rc="y" pvalue="7.1e-07" match=" ++ ++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:1416896-1416996" comment="" length="100">
+			<score strand="both" combined_pvalue="1.22e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+GAAGAAAATAAAAAATATAATTTAAGTAATGTTATATTTAGTAGGTAATAATGAATATATAAGAAGAACATATAA
+				</data>
+				<hit pos="1" idx="0" rc="n" pvalue="7.1e-07" match="+++++++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:903804-903904" comment="" length="100">
+			<score strand="both" combined_pvalue="1.22e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+ACAATGCATTGACCTTTGTCATTTTTTTTGCTGCTTTTTCTTTTTGTTTTTTATTTTCTTCTAATAAAATGTACA
+				</data>
+				<hit pos="47" idx="0" rc="y" pvalue="7.1e-07" match="++ ++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:376515-376615" comment="" length="100">
+			<score strand="both" combined_pvalue="1.22e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+ACCATGAAAGTTACTCTAAATAAAGATGAAAAAGAAGAAGAAGATTTTAAAACAGCTCAAGGTATTAAACATAAT
+				</data>
+				<hit pos="25" idx="0" rc="n" pvalue="7.1e-07" match="++ +++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1711026-1711126" comment="" length="100">
+			<score strand="both" combined_pvalue="1.22e-04" evalue="1.2"/>
+			<seg start="1">
+				<data>
+AAAATAATTAAGTCCAACTTCTCTTATCTGTATTATAATATTATTATTATTATTATTATTACAATCATCATATTC
+TTCTTTCTTTATTTTATCGTTTATT
+				</data>
+				<hit pos="64" idx="0" rc="y" pvalue="7.1e-07" match=" ++ ++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:1171577-1171677" comment="" length="100">
+			<score strand="both" combined_pvalue="1.29e-04" evalue="1.3"/>
+			<seg start="1">
+				<data>
+ACAAAAATGTGAAAAGAAAAAGTTGGTAGTAGAAGAAGAAAAAGAAATTCTCTTAAAAAAAAGAATACAAAAACA
+				</data>
+				<hit pos="32" idx="0" rc="n" pvalue="7.5e-07" match="++++++++  +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:184520-184620" comment="" length="100">
+			<score strand="both" combined_pvalue="1.29e-04" evalue="1.3"/>
+			<seg start="1">
+				<data>
+GTTAAAAGAAGAGGAAAGAATAAGAGAAGAGAAAAGGTTAAAAGAAGAAGAAAAAGAAAGATTAATGGAAAGAGA
+				</data>
+				<hit pos="44" idx="0" rc="n" pvalue="7.5e-07" match="++++++++  +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1900091-1900191" comment="" length="100">
+			<score strand="both" combined_pvalue="1.29e-04" evalue="1.3"/>
+			<seg start="1">
+				<data>
+AAACAAGAGATGGTATGTGCTATTACCATAATATAAATAATTCCTTTATGTATGAAAAAAATGATGAAAAATTAG
+				</data>
+				<hit pos="54" idx="0" rc="n" pvalue="7.5e-07" match="+++ +++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:356402-356502" comment="" length="100">
+			<score strand="both" combined_pvalue="1.29e-04" evalue="1.3"/>
+			<seg start="1">
+				<data>
+TGACTGTAATATATATGAAAATAATAAAGAAAAATTATTTGATAATGATTATTCCGGATTAGTGGAAGAAAATGA
+CCAAGAGGTTTTCTCATTTTTTGAT
+				</data>
+				<hit pos="17" idx="0" rc="n" pvalue="5.7e-06" match="+++ + +++ +++++"/>
+				<hit pos="65" idx="0" rc="n" pvalue="7.5e-07" match="+++++++++++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:1094500-1094600" comment="" length="100">
+			<score strand="both" combined_pvalue="1.29e-04" evalue="1.3"/>
+			<seg start="1">
+				<data>
+TGATTATTTATATCTTTGTTCTTCTTCAATAATTTTATTTCATTTCTATATTTTTCATTCTCTTCATTTAAATGT
+				</data>
+				<hit pos="51" idx="0" rc="y" pvalue="7.5e-07" match="++ ++++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:1052791-1052891" comment="" length="100">
+			<score strand="both" combined_pvalue="1.29e-04" evalue="1.3"/>
+			<seg start="1">
+				<data>
+AAACAAGCAGATGATTTTATTTTTTATAAAAATGAATTAATGTTGGATAAGAGTATTAGTGACTATGAAGAGAAT
+GTAGAAGATATGAATACACTCACTA
+				</data>
+				<hit pos="67" idx="0" rc="n" pvalue="7.5e-07" match="+++++ ++++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1803032-1803132" comment="" length="100">
+			<score strand="both" combined_pvalue="1.29e-04" evalue="1.3"/>
+			<seg start="1">
+				<data>
+AATATATAATTATAATCAAACAAAGGTTCCATTTCTACATTTTCATCAAGAGGATTATAAATAACTATATGTTCA
+				</data>
+				<hit pos="33" idx="0" rc="y" pvalue="7.5e-07" match="++++ +++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:1117456-1117556" comment="" length="100">
+			<score strand="both" combined_pvalue="1.29e-04" evalue="1.3"/>
+			<seg start="1">
+				<data>
+ATTCTAAAATAACAGCTTCATCATCATATTCTTTTTCTTCTTCTACATCTTTTTCTTTTTGATAATTTATTATTT
+				</data>
+				<hit pos="29" idx="0" rc="y" pvalue="7.5e-07" match="+++++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2829306-2829406" comment="" length="100">
+			<score strand="both" combined_pvalue="1.36e-04" evalue="1.4"/>
+			<seg start="1">
+				<data>
+ACTAGAAGATTTTCTATTTCTTCTTCTATGTGTACTATTAGAAGAACTTGAATAAGAATCTTTATCTATATTATG
+				</data>
+				<hit pos="12" idx="0" rc="y" pvalue="5.7e-06" match="++++   ++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TCTTGACTTTCTTCTTTTTGTTCTT
+				</data>
+				<hit pos="84" idx="0" rc="y" pvalue="7.9e-07" match="++++++ ++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:1327027-1327127" comment="" length="100">
+			<score strand="both" combined_pvalue="1.36e-04" evalue="1.4"/>
+			<seg start="1">
+				<data>
+GCTGGAAAGATGAAGAAGAAGAATATATGAAAAGAGCTTATAAAGAATTATTAATTAGTTTAAGAGGTGATAAAT
+				</data>
+				<hit pos="9" idx="0" rc="n" pvalue="7.9e-07" match="++ +++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:736971-737071" comment="" length="100">
+			<score strand="both" combined_pvalue="1.36e-04" evalue="1.4"/>
+			<seg start="1">
+				<data>
+AGTTTCCACCATTTGGCTAGTTCCCTCCATTTTGTTAGTTTCCCCCACTTGTTCTGAATTTTTTTTTTTTTTTCT
+CATTTTCTTCTTGTATTCTTTTGTT
+				</data>
+				<hit pos="71" idx="0" rc="y" pvalue="7.9e-07" match="++  +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:335995-336095" comment="" length="100">
+			<score strand="both" combined_pvalue="1.36e-04" evalue="1.4"/>
+			<seg start="1">
+				<data>
+AAACTACAGATGATGAAGATGAACAACAAGATCAACACCTACAACAAAAGGTAGAAAAAGATAAAGATAAAGATC
+				</data>
+				<hit pos="12" idx="0" rc="n" pvalue="7.9e-07" match="++ +++++++++ ++"/>
+				<hit pos="54" idx="0" rc="n" pvalue="3.2e-06" match="+++ +++++ ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_01_v3:390199-390299" comment="" length="100">
+			<score strand="both" combined_pvalue="1.36e-04" evalue="1.4"/>
+			<seg start="1">
+				<data>
+ATTGTTGTTATTCTTCTTATTCTTCTTATTGTTGTTATTATTTTCCTTCTGTGTGTCATCATAACAAAGTTTATT
+				</data>
+				<hit pos="11" idx="0" rc="y" pvalue="7.9e-07" match="++++++ + ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:1326958-1327058" comment="" length="100">
+			<score strand="both" combined_pvalue="1.36e-04" evalue="1.4"/>
+			<seg start="76">
+				<data>
+AAGATGAAGAAGAAGAATATATGAA
+				</data>
+				<hit pos="78" idx="0" rc="n" pvalue="7.9e-07" match="++ +++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:769776-769876" comment="" length="100">
+			<score strand="both" combined_pvalue="1.36e-04" evalue="1.4"/>
+			<seg start="1">
+				<data>
+CAGGTAATGTAGCCATTTGTATTAAAAAAAAAAAAAAAAAAAATGAATAAAATGAACAAAATGAACAAAATGAAC
+AAAATGAACAAAAAATAAAATAACA
+				</data>
+				<hit pos="54" idx="0" rc="n" pvalue="7.9e-07" match="+++ ++++++++ ++"/>
+				<hit pos="72" idx="0" rc="n" pvalue="7.9e-07" match="+++ ++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:250473-250573" comment="" length="100">
+			<score strand="both" combined_pvalue="1.48e-04" evalue="1.5"/>
+			<seg start="1">
+				<data>
+TTTTCCATTTTCTTCTTCTTTGTTTATTTTATACTCTTCACAACTAACATATTTTATTATATGAATAAATAAAAA
+				</data>
+				<hit pos="1" idx="0" rc="y" pvalue="8.6e-07" match="++ + ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:828317-828417" comment="" length="100">
+			<score strand="both" combined_pvalue="1.48e-04" evalue="1.5"/>
+			<seg start="76">
+				<data>
+TAAATGTTCTTTTTCTTCATGTTCC
+				</data>
+				<hit pos="79" idx="0" rc="y" pvalue="8.6e-07" match=" + +++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:889929-890029" comment="" length="100">
+			<score strand="both" combined_pvalue="1.48e-04" evalue="1.5"/>
+			<seg start="1">
+				<data>
+AAAAAAAAAAAAAAAAACATAGCATTAAGTGATAGTTATTCTAGAGAAAATACAAAACTAAATATGAACAAAATG
+AAAAATAAATTACATGAACTCAAAG
+				</data>
+				<hit pos="66" idx="0" rc="n" pvalue="8.6e-07" match="+++ ++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_01_v3:508541-508641" comment="" length="100">
+			<score strand="both" combined_pvalue="1.48e-04" evalue="1.5"/>
+			<seg start="1">
+				<data>
+CCTCTTCATTATCGTCATAAGTATAAAATTTGTTATCGTCTAAATAATTCATATAATCTGTCTGGGAACTTGGAA
+				</data>
+				<hit pos="2" idx="0" rc="y" pvalue="8.6e-07" match=" ++++++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:890125-890225" comment="" length="100">
+			<score strand="both" combined_pvalue="1.48e-04" evalue="1.5"/>
+			<seg start="1">
+				<data>
+AGCGATATTCAAGTATGTATGAAAAAAGGAGGGTACATAATACTAATGAGTATGGAGAAAATGAAAAAATGATAT
+				</data>
+				<hit pos="54" idx="0" rc="n" pvalue="8.6e-07" match="+ ++++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:2876567-2876667" comment="" length="100">
+			<score strand="both" combined_pvalue="1.48e-04" evalue="1.5"/>
+			<seg start="1">
+				<data>
+TATTTTAATGTTCTGCTTTTTCGTTGTTTTTGGTTCGTTCTTGCTTTTTCATTTTGTTCTAGTTATTAATTTTGC
+				</data>
+				<hit pos="8" idx="0" rc="y" pvalue="9.6e-05" match=" + +++  +++ +++"/>
+				<hit pos="45" idx="0" rc="y" pvalue="8.6e-07" match="++ ++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:809775-809875" comment="" length="100">
+			<score strand="both" combined_pvalue="1.59e-04" evalue="1.6"/>
+			<seg start="76">
+				<data>
+TATTTTCTTTTTCTTCACTTTCATC
+				</data>
+				<hit pos="77" idx="0" rc="y" pvalue="9.2e-07" match=" + +++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1846103-1846203" comment="" length="100">
+			<score strand="both" combined_pvalue="1.59e-04" evalue="1.6"/>
+			<seg start="1">
+				<data>
+AATTATAAAGATTTTCTTTTTCTTCACTTTTATATAACATATTCTTTGGCGCGATATATTCATTGTTATTTTCAT
+				</data>
+				<hit pos="11" idx="0" rc="y" pvalue="9.2e-07" match=" + +++ ++++++++"/>
+				<hit pos="59" idx="0" rc="y" pvalue="6.3e-05" match="+++ +  ++ + +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1394096-1394196" comment="" length="100">
+			<score strand="both" combined_pvalue="1.59e-04" evalue="1.6"/>
+			<seg start="76">
+				<data>
+AGAAGAAAAAGAAAATAATATTTTG
+				</data>
+				<hit pos="77" idx="0" rc="n" pvalue="9.2e-07" match="++++++++ +++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:392963-393063" comment="" length="100">
+			<score strand="both" combined_pvalue="1.59e-04" evalue="1.6"/>
+			<seg start="1">
+				<data>
+CTGAAACACTACCAATATATGTATATGGATTATATTTACTAATTAATGGTTCTTCATTATCTTTTGTATCATTAT
+CTTTTTCATGTTTTAAAAATAATTC
+				</data>
+				<hit pos="50" idx="0" rc="y" pvalue="9.2e-07" match="+++++++++ ++++ "/>
+				<hit pos="68" idx="0" rc="y" pvalue="1.1e-05" match=" ++ + +++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:2427814-2427914" comment="" length="100">
+			<score strand="both" combined_pvalue="1.59e-04" evalue="1.6"/>
+			<seg start="1">
+				<data>
+TACCATTTATATTTTTTTCATGTACATTTTCTTCATCACTATCCGATATACATATAACTTCTTGATTGCCTATAG
+				</data>
+				<hit pos="5" idx="0" rc="y" pvalue="8.1e-05" match=" + +  +++++ +++"/>
+				<hit pos="20" idx="0" rc="y" pvalue="9.2e-07" match=" + + ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:1429530-1429630" comment="" length="100">
+			<score strand="both" combined_pvalue="1.70e-04" evalue="1.7"/>
+			<seg start="1">
+				<data>
+TCTGAAGATAAAGATGAAGATGACGAGAATGGCTACTGTAAGTTATATAAAATAAAAAATATAAATATGTTTAAA
+				</data>
+				<hit pos="4" idx="0" rc="n" pvalue="9.9e-07" match="+++++ ++ ++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2211168-2211268" comment="" length="100">
+			<score strand="both" combined_pvalue="1.70e-04" evalue="1.7"/>
+			<seg start="1">
+				<data>
+TTTTTTTTTTGCTTCTTCTTCTTCAATAGTTGTTAAATATTTATTAAAATTTTCAAAACTTTCTGAAGACGAATA
+				</data>
+				<hit pos="10" idx="0" rc="y" pvalue="9.9e-07" match="+ ++++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:1580419-1580519" comment="" length="100">
+			<score strand="both" combined_pvalue="1.70e-04" evalue="1.7"/>
+			<seg start="1">
+				<data>
+TGATGAACACAATACAGACGATATAAAAGATGATGAACATAATGCAGATGATATAAAAGATGAAGATAATGATCA
+AGTAGAAGACAATCAAGAATTAAAT
+				</data>
+				<hit pos="26" idx="0" rc="n" pvalue="1.1e-05" match=" ++++ ++++++ + "/>
+				<hit pos="44" idx="0" rc="n" pvalue="5.8e-05" match="+ +++ +++  + ++"/>
+				<hit pos="62" idx="0" rc="n" pvalue="9.9e-07" match="+++++ +++++  ++"/>
+				<hit pos="80" idx="0" rc="n" pvalue="9.9e-07" match="+++++ +++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:355555-355655" comment="" length="100">
+			<score strand="both" combined_pvalue="1.70e-04" evalue="1.7"/>
+			<seg start="1">
+				<data>
+AAATGAAAGTGAAGAAAATGTAAATGAAGAAAATGTAAATGAAGAAAATAAAAATGAAGAAAATAAAAATAAAGA
+				</data>
+				<hit pos="11" idx="0" rc="n" pvalue="9.9e-07" match="++++++++++ + + "/>
+				<hit pos="26" idx="0" rc="n" pvalue="9.9e-07" match="++++++++++ + + "/>
+				<hit pos="41" idx="0" rc="n" pvalue="1.2e-06" match="+++++++++ ++ + "/>
+				<hit pos="56" idx="0" rc="n" pvalue="1.2e-06" match="+++++++++ ++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:199820-199920" comment="" length="100">
+			<score strand="both" combined_pvalue="1.70e-04" evalue="1.7"/>
+			<seg start="1">
+				<data>
+AAAAAAACAAAATATATATAATAATACACTAAATTAATCTATAATCCTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+TTTCATCTTGTTCATAATCAATTCA
+				</data>
+				<hit pos="74" idx="0" rc="y" pvalue="9.9e-07" match="++ ++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:269671-269771" comment="" length="100">
+			<score strand="both" combined_pvalue="1.81e-04" evalue="1.8"/>
+			<seg start="1">
+				<data>
+ATTCTTTATTTTGTTCACATAATCGTAAAATATCAAAAGAAAAACTTCCTAAATGTTTTGTTGACAATTTTTTTA
+				</data>
+				<hit pos="2" idx="0" rc="y" pvalue="1.1e-06" match="+++++ +++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:737505-737605" comment="" length="100">
+			<score strand="both" combined_pvalue="1.91e-04" evalue="1.9"/>
+			<seg start="1">
+				<data>
+TTTTTTTTATAATATCTGTACTATTATTATTAGTAGTATTCTCATCAATATTATTTATTTTTTTAAATTCATTTA
+CATCTTCTTCAAAAAATTCATCAGA
+				</data>
+				<hit pos="71" idx="0" rc="y" pvalue="1.1e-06" match=" + + ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:275977-276077" comment="" length="100">
+			<score strand="both" combined_pvalue="1.91e-04" evalue="1.9"/>
+			<seg start="1">
+				<data>
+TACCAAAATGTAATCTATTTGGAGGTTCTTGACCTATTTCTGCATTCTCATTAATTTCAAGATCTAAAGGTTCTT
+CTCCATTCTCTTCTTTCGTCTCTGG
+				</data>
+				<hit pos="74" idx="0" rc="y" pvalue="1.1e-06" match="++++ ++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:822094-822194" comment="" length="100">
+			<score strand="both" combined_pvalue="1.91e-04" evalue="1.9"/>
+			<seg start="1">
+				<data>
+CGAAGACATATTTCGATAACAGGGTCCACCAGATCCTCCTACTCCTCCTATATTTTCTACGTCTTGCATTTCTTC
+ATATTCATCATTTGTCATCTTATTA
+				</data>
+				<hit pos="70" idx="0" rc="y" pvalue="1.1e-06" match="++++++++ +++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:1234887-1234987" comment="" length="100">
+			<score strand="both" combined_pvalue="1.91e-04" evalue="1.9"/>
+			<seg start="1">
+				<data>
+TAATTTTTATAATGAAGAAAATAAACATAGAAAAATTAAAAATAATAAAACAATGCATTATGGATACATTGATAA
+				</data>
+				<hit pos="14" idx="0" rc="n" pvalue="1.1e-06" match="+++++++++ ++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:1450161-1450261" comment="" length="100">
+			<score strand="both" combined_pvalue="1.91e-04" evalue="1.9"/>
+			<seg start="1">
+				<data>
+TTACTATTTTTTAATTTATTTTTTTCTTCATTTTGATCTGACATCTCTTTCTTAAAACAGGTAAATATAGTAAGC
+				</data>
+				<hit pos="24" idx="0" rc="y" pvalue="1.1e-06" match="+++++++++++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:36357-36457" comment="" length="100">
+			<score strand="both" combined_pvalue="1.91e-04" evalue="1.9"/>
+			<seg start="1">
+				<data>
+ATAAGGACGCATGTGAGTGTGATGGTAAGTCACCACAAGCGCCAAAGAAGGAAGAAGAAAAAAAAGATGCGTGTA
+				</data>
+				<hit pos="54" idx="0" rc="n" pvalue="1.1e-06" match="++++++++  ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1071609-1071709" comment="" length="100">
+			<score strand="both" combined_pvalue="2.03e-04" evalue="2"/>
+			<seg start="1">
+				<data>
+AGAAGAAAATAAAAATAGTTTTAATAATATGGGAAATGAATATTTAAATGATTATGATGATAATAAAGAAAAAGA
+				</data>
+				<hit pos="2" idx="0" rc="n" pvalue="1.2e-06" match="+++++++++ ++ + "/>
+				<hit pos="56" idx="0" rc="n" pvalue="3.0e-06" match="++ ++ +++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:424476-424576" comment="" length="100">
+			<score strand="both" combined_pvalue="2.15e-04" evalue="2.2"/>
+			<seg start="1">
+				<data>
+ATTAAAAAAGAACGACCATTTCAATTGTAATAATAGTAACATTTCATCAGATGAAAATGAAAATAATATGAATGA
+				</data>
+				<hit pos="50" idx="0" rc="n" pvalue="1.3e-06" match="++ +++++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:835805-835905" comment="" length="100">
+			<score strand="both" combined_pvalue="2.15e-04" evalue="2.2"/>
+			<seg start="1">
+				<data>
+TTTCTCATTCAATAAAAATAGCATGTTGTCATTTTCATTCTCTTCTACAATATTATCAATTGTATGGTTTGTATA
+				</data>
+				<hit pos="31" idx="0" rc="y" pvalue="1.3e-06" match=" + ++++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:510811-510911" comment="" length="100">
+			<score strand="both" combined_pvalue="2.32e-04" evalue="2.3"/>
+			<seg start="1">
+				<data>
+ATTTTCTTTTATTTTCTTCGGACAGCATGCAATTTTTTTAACAGATTTTACATGTTCATCTTCATCCGAATCAAT
+				</data>
+				<hit pos="5" idx="0" rc="y" pvalue="7.5e-05" match="+  ++ +++++++++"/>
+				<hit pos="52" idx="0" rc="y" pvalue="1.3e-06" match=" + +++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:43881-43981" comment="" length="100">
+			<score strand="both" combined_pvalue="2.32e-04" evalue="2.3"/>
+			<seg start="1">
+				<data>
+TTCAGATTCTTCTTCAGACTCTTCTTCAGATTCTTCTTCAGATTCTTCTTCAGACTCTTCTTCAGATTCTTCTTC
+				</data>
+				<hit pos="22" idx="0" rc="y" pvalue="1.3e-06" match="+++++++  ++++++"/>
+				<hit pos="58" idx="0" rc="y" pvalue="1.3e-06" match="+++++++  ++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+AGACTCTTCTTCAGATTCTTCTTCA
+				</data>
+				<hit pos="82" idx="0" rc="y" pvalue="1.3e-06" match="+++++++  ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1198015-1198115" comment="" length="100">
+			<score strand="both" combined_pvalue="2.32e-04" evalue="2.3"/>
+			<seg start="1">
+				<data>
+CATATGTTTATTTATATCTATATCTTCTTCACAAGAAAAATATAAATGATAATCAATTATGTCATCTTTTTTTAA
+				</data>
+				<hit pos="16" idx="0" rc="y" pvalue="1.3e-06" match=" +++  +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2920290-2920390" comment="" length="100">
+			<score strand="both" combined_pvalue="2.32e-04" evalue="2.3"/>
+			<seg start="1">
+				<data>
+TTTATTATTAAAATAATTCATATTATTATTATTGTTTTTACTATTATATATATTTTTATCTTCTTCATCAACTTT
+				</data>
+				<hit pos="52" idx="0" rc="y" pvalue="1.3e-06" match=" + ++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1380944-1381044" comment="" length="100">
+			<score strand="both" combined_pvalue="2.32e-04" evalue="2.3"/>
+			<seg start="1">
+				<data>
+TATCATCTTCCCATTTTTGATTATCTTGGCCAGCATCATCTTTATCTTCTTTTTCTCCATCATTATCAGAGTAAG
+				</data>
+				<hit pos="44" idx="0" rc="y" pvalue="1.3e-06" match=" +++++ ++++++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:406395-406495" comment="" length="100">
+			<score strand="both" combined_pvalue="2.46e-04" evalue="2.5"/>
+			<seg start="1">
+				<data>
+TCTTCAAAATATTCATCTTCTGTTTCTTCTTCATCATTTATTTGTACTACTCCTCTTGTAGTATGAATATTTTGT
+				</data>
+				<hit pos="15" idx="0" rc="y" pvalue="1.4e-06" match=" +++++  +++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:1038570-1038670" comment="" length="100">
+			<score strand="both" combined_pvalue="2.46e-04" evalue="2.5"/>
+			<seg start="1">
+				<data>
+AATTATCAGACATGTTACTAAGACTACTATTTTGTGTTGATCCTTTATCCATTTTTAATAAATCATTTTCATCTT
+CATCTAGTACATTATTTAATAATAC
+				</data>
+				<hit pos="65" idx="0" rc="y" pvalue="1.4e-06" match=" + +++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2941384-2941484" comment="" length="100">
+			<score strand="both" combined_pvalue="2.46e-04" evalue="2.5"/>
+			<seg start="1">
+				<data>
+TTGAAGGGTGTGAGGGAACTACTATTTAAAGAAAATGAAGACAAAAAACAACTTAATATAAAAAAGAAAAAGGAT
+				</data>
+				<hit pos="28" idx="0" rc="n" pvalue="1.4e-06" match=" +++++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:40207-40307" comment="" length="100">
+			<score strand="both" combined_pvalue="2.61e-04" evalue="2.6"/>
+			<seg start="1">
+				<data>
+TTATGTATTTATATTGAAAATGAAAAAAATGAAAAAAAAAAATATATATCATCAAATAAAAAAAAATGAAAGAAA
+				</data>
+				<hit pos="22" idx="0" rc="n" pvalue="1.5e-06" match="+++ ++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:603035-603135" comment="" length="100">
+			<score strand="both" combined_pvalue="2.61e-04" evalue="2.6"/>
+			<seg start="1">
+				<data>
+AGGCTAATGATTTTACTGATCCTCCACATGTTTTTTCATAATTTTTATTTTTTTCATATTTTTCATTTTTTTCAC
+				</data>
+				<hit pos="59" idx="0" rc="y" pvalue="1.5e-06" match="++ ++++++++ +++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TTTTATCATTTTTTTCATATTTTTC
+				</data>
+				<hit pos="77" idx="0" rc="y" pvalue="5.7e-06" match="++  +++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:3234676-3234776" comment="" length="100">
+			<score strand="both" combined_pvalue="2.61e-04" evalue="2.6"/>
+			<seg start="1">
+				<data>
+AAAATAAGCAGAATAGCCAAGATAAAACAAATAAACAAAGTAAATTAGATACACAAAATGGAAAAAATGAAAAAA
+ATGAAAAAAGTATTCCAAACAAATT
+				</data>
+				<hit pos="69" idx="0" rc="n" pvalue="1.5e-06" match="+++ ++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:22283-22383" comment="" length="100">
+			<score strand="both" combined_pvalue="2.61e-04" evalue="2.6"/>
+			<seg start="1">
+				<data>
+TATTGAAAAAGAAAAAAATGAAAAAAAAAAAAAAAAAGAAAAAAGAAATATAAAAAAAAATTTATTAAAATAAAA
+				</data>
+				<hit pos="11" idx="0" rc="n" pvalue="1.5e-06" match="+++ ++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:509966-510066" comment="" length="100">
+			<score strand="both" combined_pvalue="2.61e-04" evalue="2.6"/>
+			<seg start="1">
+				<data>
+CAAAAAGAAATAAAATATTAAATGAAGAAATTTATAAAAATAAAGATAATGAAGATATGATGTGTGATATGTCCA
+				</data>
+				<hit pos="42" idx="0" rc="n" pvalue="1.5e-06" match=" ++++ ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:554534-554634" comment="" length="100">
+			<score strand="both" combined_pvalue="2.61e-04" evalue="2.6"/>
+			<seg start="1">
+				<data>
+CATTTATTTTTTCATTTTTTTCTTCATTTATTTTTTCATTTATTTTTTCATTTACATCTTTTATTTCCATGTGCC
+CCTTTTTCTTCTCATTTTTGTTGTC
+				</data>
+				<hit pos="8" idx="0" rc="y" pvalue="1.5e-06" match="++ ++++++++ +++"/>
+				<hit pos="44" idx="0" rc="y" pvalue="1.4e-05" match="++ +++++++ + ++"/>
+				<hit pos="72" idx="0" rc="y" pvalue="5.5e-05" match="+ +  + ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:762203-762303" comment="" length="100">
+			<score strand="both" combined_pvalue="2.61e-04" evalue="2.6"/>
+			<seg start="1">
+				<data>
+AATAAAGCTCATTGTCTTTTTGTAATTGTAAAAAGAAAAAAATGAAAAACAAAAAACATAAAAAAGGAAAGAAAA
+AAAAAAAAAAAAGAGGAGAAAAAGT
+				</data>
+				<hit pos="35" idx="0" rc="n" pvalue="1.5e-06" match="+++ ++++++++ ++"/>
+				<hit pos="71" idx="0" rc="n" pvalue="5.5e-05" match="+++ ++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:960032-960132" comment="" length="100">
+			<score strand="both" combined_pvalue="2.61e-04" evalue="2.6"/>
+			<seg start="1">
+				<data>
+TATATTTCTTTTTTTTTTTTTCATTTTTTTCATTTTTTTCATTTTTTTCTTTTTCAATATAAATATATATATATA
+				</data>
+				<hit pos="17" idx="0" rc="y" pvalue="1.5e-06" match="++ ++++++++ +++"/>
+				<hit pos="35" idx="0" rc="y" pvalue="1.5e-06" match="++ ++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:602174-602274" comment="" length="100">
+			<score strand="both" combined_pvalue="2.74e-04" evalue="2.7"/>
+			<seg start="1">
+				<data>
+AAGTTCGTTTCTTTCAATTTGTTACATTCATTATTTAAATTTTTTATTTGAGTTTGATTATTTAATAAAACATCC
+TTATTTTCTTCTAACATAATAGTTA
+				</data>
+				<hit pos="72" idx="0" rc="y" pvalue="1.6e-06" match=" ++ + +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:100016-100116" comment="" length="100">
+			<score strand="both" combined_pvalue="2.74e-04" evalue="2.7"/>
+			<seg start="1">
+				<data>
+TAATCATTTCTAACATCCTTTAAATCATATACTTCTTCTTCTTTTTCGATTTTACGTAATAACAATTCTTTAGTC
+				</data>
+				<hit pos="33" idx="0" rc="y" pvalue="1.6e-06" match="++++++ ++++ +++"/>
+			</seg>
+			<seg start="76">
+				<data>
+CCTTCTTCATCTTTATTATTATCCC
+				</data>
+				<hit pos="78" idx="0" rc="y" pvalue="3.7e-05" match="+++++++++++  + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:195928-196028" comment="" length="100">
+			<score strand="both" combined_pvalue="2.74e-04" evalue="2.7"/>
+			<seg start="1">
+				<data>
+AATTTTTTATATTTCTTTTATTTTTTATATTTCTTTTATTTTTTTTATTTCTCTTATCATTTTCTTCCACATTTT
+				</data>
+				<hit pos="53" idx="0" rc="y" pvalue="1.6e-06" match=" +  +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:1025250-1025350" comment="" length="100">
+			<score strand="both" combined_pvalue="2.74e-04" evalue="2.7"/>
+			<seg start="1">
+				<data>
+GGAAAAAAAAATAATAAAAAGAACAAGGAAGATAAAGATGATAATATACATTTAAGAAATATAGTAAAAGATATG
+				</data>
+				<hit pos="28" idx="0" rc="n" pvalue="1.6e-06" match="+++++ ++ ++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:860829-860929" comment="" length="100">
+			<score strand="both" combined_pvalue="2.74e-04" evalue="2.7"/>
+			<seg start="1">
+				<data>
+AGAAGAAATTGGAGATGAAAGTACAGATTCTAGTTCAATGGAAATTCAGGATTCTACATCTAATGAACAAGATGA
+AAATGTTAAAGGAATGAGTTCATCA
+				</data>
+				<hit pos="2" idx="0" rc="n" pvalue="2.7e-05" match="+++++++ ++ +++ "/>
+				<hit pos="65" idx="0" rc="n" pvalue="1.6e-06" match="+++ ++++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:532607-532707" comment="" length="100">
+			<score strand="both" combined_pvalue="2.74e-04" evalue="2.7"/>
+			<seg start="1">
+				<data>
+ATTAGTGATTTTATAGATATGGATATAGAAAAAAAATTATTAGAATTAGAAAAAGAAGAAGAAGAATTATATGAT
+				</data>
+				<hit pos="49" idx="0" rc="n" pvalue="1.6e-06" match="+++ ++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:740584-740684" comment="" length="100">
+			<score strand="both" combined_pvalue="2.74e-04" evalue="2.7"/>
+			<seg start="1">
+				<data>
+TATGATAAAGATGAAAACATAAATGAAGATAAAGATGATGACATAAATGAAAATAAAGATGATGACATAAATGAA
+AATAAAGATGAAAACATAAATGAAG
+				</data>
+				<hit pos="4" idx="0" rc="n" pvalue="4.9e-05" match="++  ++++++++ + "/>
+				<hit pos="25" idx="0" rc="n" pvalue="1.6e-06" match="+++++ ++ ++ ++ "/>
+				<hit pos="49" idx="0" rc="n" pvalue="2.2e-05" match="+++ + ++ ++ ++ "/>
+				<hit pos="73" idx="0" rc="n" pvalue="1.5e-05" match="+++ + ++ ++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:1086441-1086541" comment="" length="100">
+			<score strand="both" combined_pvalue="2.88e-04" evalue="2.9"/>
+			<seg start="76">
+				<data>
+GAATAATGTAGACGACGATGATGAT
+				</data>
+				<hit pos="86" idx="0" rc="n" pvalue="1.7e-06" match="++ ++ +++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:805896-805996" comment="" length="100">
+			<score strand="both" combined_pvalue="2.88e-04" evalue="2.9"/>
+			<seg start="76">
+				<data>
+AATATAGAAGAAGGTGAAAATGTTG
+				</data>
+				<hit pos="82" idx="0" rc="n" pvalue="1.7e-06" match="+++++++ ++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:141555-141655" comment="" length="100">
+			<score strand="both" combined_pvalue="3.05e-04" evalue="3"/>
+			<seg start="1">
+				<data>
+TTAATTAAAAAAAAAAAAAAAAAAAAAAATGAAAAAAAAAGAAAAATTAAAGAAAAAAATAAAGAAAATATAAAG
+				</data>
+				<hit pos="22" idx="0" rc="n" pvalue="2.8e-05" match=" ++ ++++++++ ++"/>
+				<hit pos="52" idx="0" rc="n" pvalue="1.8e-06" match="+++ +++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:1148812-1148912" comment="" length="100">
+			<score strand="both" combined_pvalue="3.05e-04" evalue="3"/>
+			<seg start="1">
+				<data>
+ATTCATAATCCTCGCTCTTATCCTCTTCTCCTTCATCTTCCTCATTATCGTCAACATACATATTTACACTTTCGA
+				</data>
+				<hit pos="38" idx="0" rc="y" pvalue="1.8e-06" match="+++ +++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:579506-579606" comment="" length="100">
+			<score strand="both" combined_pvalue="3.05e-04" evalue="3"/>
+			<seg start="1">
+				<data>
+TTTATTTTTTACAATATTAACTGCACCAGCAAAACCCTTTTCCTCAGATATGAACACACACCATGTTCCTGGTTC
+TTTATTTTTTTCATGATAGAAATAT
+				</data>
+				<hit pos="73" idx="0" rc="y" pvalue="1.8e-06" match="+++++ +++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:371446-371546" comment="" length="100">
+			<score strand="both" combined_pvalue="3.05e-04" evalue="3"/>
+			<seg start="1">
+				<data>
+GTTTTAATGATGAGGATGAAGATTCTGTAGAAGCACGGGATGGAGATATGATAAGAGTTGACGAATATTATGAAG
+ACCAAGATGGTGATACTTATGATAG
+				</data>
+				<hit pos="9" idx="0" rc="n" pvalue="1.8e-06" match="++ ++ ++++++++ "/>
+				<hit pos="75" idx="0" rc="n" pvalue="3.1e-05" match="++  ++++++  ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:356983-357083" comment="" length="100">
+			<score strand="both" combined_pvalue="3.25e-04" evalue="3.3"/>
+			<seg start="1">
+				<data>
+AGAGAAAAATGAAGAAGATATTGATAAGGAAGAAGAAGTGTATGAAGGTGTAGATCAAGCAGATTATGAAGAAGA
+AGATTACGAAGAAGAAGATTATGAA
+				</data>
+				<hit pos="11" idx="0" rc="n" pvalue="5.1e-06" match="+++++++++   ++ "/>
+				<hit pos="59" idx="0" rc="n" pvalue="1.9e-06" match="+ +++  ++++++++"/>
+				<hit pos="74" idx="0" rc="n" pvalue="1.9e-06" match="+++++  + ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1746254-1746354" comment="" length="100">
+			<score strand="both" combined_pvalue="3.25e-04" evalue="3.3"/>
+			<seg start="1">
+				<data>
+TGTAGATGCTCATTTAAAATAATAAAATTTTTATTACACAAACTAATATTATCATCATCTTCTATAATATTGTGT
+				</data>
+				<hit pos="48" idx="0" rc="y" pvalue="1.9e-06" match=" +  +++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2510040-2510140" comment="" length="100">
+			<score strand="both" combined_pvalue="3.25e-04" evalue="3.3"/>
+			<seg start="1">
+				<data>
+GATGTTGAAGATGACGATGTTGAAGATGATGAAACTGAAGATGATGATGTTGAAGATGACGACACTGAAGATGAC
+GATGTTGAAGATGACGATACTGAAG
+				</data>
+				<hit pos="28" idx="0" rc="n" pvalue="1.9e-06" match="++ ++++ ++++++ "/>
+				<hit pos="43" idx="0" rc="n" pvalue="6.6e-05" match="++ ++ + ++++++ "/>
+				<hit pos="58" idx="0" rc="n" pvalue="4.3e-06" match="++ ++ + ++++++ "/>
+				<hit pos="73" idx="0" rc="n" pvalue="4.1e-05" match="++ ++ + ++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1399095-1399195" comment="" length="100">
+			<score strand="both" combined_pvalue="3.25e-04" evalue="3.3"/>
+			<seg start="1">
+				<data>
+TCTAGTTCAACAACTAATAATAATTCATCTTATTTAGATATAGATGAAGAAGATCAAAAAATTATTAATGAAACC
+				</data>
+				<hit pos="46" idx="0" rc="n" pvalue="1.9e-06" match="+++++++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:266479-266579" comment="" length="100">
+			<score strand="both" combined_pvalue="3.25e-04" evalue="3.3"/>
+			<seg start="1">
+				<data>
+TAGTTATGAAAAAGATTATAGTATTGATAAATATTCAAGTCGTAGTCATAGTAGAAGTAGAAGAAGAAAACATAG
+				</data>
+				<hit pos="54" idx="0" rc="n" pvalue="1.9e-06" match="++++ +++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:450224-450324" comment="" length="100">
+			<score strand="both" combined_pvalue="3.25e-04" evalue="3.3"/>
+			<seg start="1">
+				<data>
+AAACATGTAGCACTCGAAGCATTTATAGCTTGTGATAAAAATGAAGAAATGGCTGCAAACTATCTTTTTGAAAAT
+				</data>
+				<hit pos="34" idx="0" rc="n" pvalue="1.9e-06" match="++  +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:169281-169381" comment="" length="100">
+			<score strand="both" combined_pvalue="3.25e-04" evalue="3.3"/>
+			<seg start="1">
+				<data>
+TGTCCTTTTCTTTATTAAAACATGATCTTATAACTTCTTCATTCTTTTCTTGATTACAGTAATATATTCTTTTAT
+				</data>
+				<hit pos="35" idx="0" rc="y" pvalue="1.9e-06" match="+++++++++ + +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:502352-502452" comment="" length="100">
+			<score strand="both" combined_pvalue="3.25e-04" evalue="3.3"/>
+			<seg start="1">
+				<data>
+TCTTTTGATACATTATCGTGTACTACATTATTACTTTTATTATTATCATCATCTTCCGAATATGTATCTTTTTCA
+				</data>
+				<hit pos="42" idx="0" rc="y" pvalue="1.9e-06" match=" +  +++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:969307-969407" comment="" length="100">
+			<score strand="both" combined_pvalue="3.25e-04" evalue="3.3"/>
+			<seg start="1">
+				<data>
+TAACAACATGTTCGATGATTTTTATAATGAAGATGATGATAATGATAAAAACTCTCTTATCTATTCATCTCTACA
+				</data>
+				<hit pos="29" idx="0" rc="n" pvalue="1.9e-06" match="+++++ +++++  + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:1219839-1219939" comment="" length="100">
+			<score strand="both" combined_pvalue="3.25e-04" evalue="3.3"/>
+			<seg start="1">
+				<data>
+CAAAATTGATTTATTTATTACATTGTATTAGTTATCTGATATATTCCAAAGAAGATAAAGAAAAAGCCTTACATT
+				</data>
+				<hit pos="51" idx="0" rc="n" pvalue="1.9e-06" match="+++++ ++ +++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:103329-103429" comment="" length="100">
+			<score strand="both" combined_pvalue="3.49e-04" evalue="3.5"/>
+			<seg start="1">
+				<data>
+ATATCTTTCTAATTCAAAAAGTAATTATATTTTATGAATCAACTGCAGAGATTATTTAACCACAGCATCCTCTTT
+TCTTCTTTTTCTTTCCTGCTTCTTG
+				</data>
+				<hit pos="75" idx="0" rc="y" pvalue="2.0e-06" match="++++++ +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:1092873-1092973" comment="" length="100">
+			<score strand="both" combined_pvalue="3.49e-04" evalue="3.5"/>
+			<seg start="1">
+				<data>
+GAGGTTAATGAGGAAGATGGTAATAAATGTGGAGACAATGATGAAGATGGTAATAAATGTGGAGACAATGATGAA
+				</data>
+				<hit pos="13" idx="0" rc="n" pvalue="6.6e-05" match="+++++ + + +  ++"/>
+				<hit pos="31" idx="0" rc="n" pvalue="2.0e-06" match="+ +++ +++++ +++"/>
+				<hit pos="61" idx="0" rc="n" pvalue="2.0e-06" match="+ +++ +++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:957087-957187" comment="" length="100">
+			<score strand="both" combined_pvalue="3.49e-04" evalue="3.5"/>
+			<seg start="1">
+				<data>
+TAAATTAATTAATGGGTTATTTGTTAAGACATTATTTTTTTTTTTTTTTAAGAGTTCTTGTTCTTCTTTTTCTTT
+				</data>
+				<hit pos="61" idx="0" rc="y" pvalue="2.0e-06" match="++++++ +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:272262-272362" comment="" length="100">
+			<score strand="both" combined_pvalue="3.49e-04" evalue="3.5"/>
+			<seg start="1">
+				<data>
+TACCTTTCATTGTTTCTACATCTACTTCTAAATCTAAACTCTTTCTTACATTTTGGCATTGAACTAAAAATTGTA
+				</data>
+				<hit pos="14" idx="0" rc="y" pvalue="2.0e-06" match="++++ +++++ ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:712330-712430" comment="" length="100">
+			<score strand="both" combined_pvalue="3.49e-04" evalue="3.5"/>
+			<seg start="1">
+				<data>
+TTAAGGCTTACTAATTCTATTGCCTTTTTTTTTTTTTTTTTTTTTTTTTTAATATGGAAATACCTCTTTCTTCTT
+TTTCTTTTCTGTGTCTTTTTGATTA
+				</data>
+				<hit pos="68" idx="0" rc="y" pvalue="2.0e-06" match="++++++ +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:1596143-1596243" comment="" length="100">
+			<score strand="both" combined_pvalue="3.49e-04" evalue="3.5"/>
+			<seg start="1">
+				<data>
+GAAAAAGATAAAGAAAAATAATAATAAAAAAATAAAAAATATTACTTGATCCTAAAAAAAATAGCTACATATTTT
+				</data>
+				<hit pos="1" idx="0" rc="n" pvalue="2.0e-06" match="+++ +++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1858681-1858781" comment="" length="100">
+			<score strand="both" combined_pvalue="3.49e-04" evalue="3.5"/>
+			<seg start="1">
+				<data>
+AATGATGATGATAAAGAAAAAGAAGAATATACAGCAGAGGATACATTTTCGGAAAGACGAAATAGTCGAGATATA
+				</data>
+				<hit pos="13" idx="0" rc="n" pvalue="2.0e-06" match=" +++++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:149968-150068" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+TCACTTTCATCTTCACCTTCATCCTTAAAATCCTTACTTCCTATATCCCTAAGCAATTTGCTAACATCAACATTT
+				</data>
+				<hit pos="9" idx="0" rc="y" pvalue="2.2e-06" match=" ++++++ ++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:733262-733362" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+TTATTATTAGGGTTATTATTTATATTAATGTTATTTTTACTCTTTTTCTTCATCTTCAAATTATTATTATTATTA
+				</data>
+				<hit pos="43" idx="0" rc="y" pvalue="2.2e-06" match="++ +++ ++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:346259-346359" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+CGACAATTAAAAATGTGATAAAAACGAAGAATTTGAAAAGGGAGGATATGGAAACTGAGAACGAACAAAATGAAG
+CTCAACCAAATAATGAAAAAAATGA
+				</data>
+				<hit pos="17" idx="0" rc="n" pvalue="8.7e-06" match="++  ++++ ++++++"/>
+				<hit pos="63" idx="0" rc="n" pvalue="2.2e-06" match="+++ +++++++++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:636852-636952" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+GAATCCTTTTTTTTTTGGTGACTTGAATTATTTGATAAATGGAAATTTTTATTTTTAGAATCATCATTATCATCA
+				</data>
+				<hit pos="60" idx="0" rc="y" pvalue="2.2e-06" match=" ++ +++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2220336-2220436" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+CACCTAACTAATTTAGTTACCCCAGAAGAAGTAGATGAAACATTGAAAGAAGAAATTGAAGAAGAAGCATCCAAA
+				</data>
+				<hit pos="28" idx="0" rc="n" pvalue="1.9e-05" match="++++ +++++++  +"/>
+				<hit pos="49" idx="0" rc="n" pvalue="2.2e-06" match="+++++++ +++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:400816-400916" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="76">
+				<data>
+TCATCATCATTATCATCATCTGTTT
+				</data>
+				<hit pos="78" idx="0" rc="y" pvalue="2.2e-06" match=" ++ +++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:1276119-1276219" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+AATTATAAGAAATAATCAATATAATGAAAATAATGGTGATGAAGAAGATGGCGATGATGAAGAAGATGGCGATGA
+				</data>
+				<hit pos="26" idx="0" rc="n" pvalue="3.1e-05" match="+++ + ++++  ++ "/>
+				<hit pos="41" idx="0" rc="n" pvalue="2.2e-06" match="++++++++++  ++ "/>
+				<hit pos="59" idx="0" rc="n" pvalue="2.2e-06" match="++++++++++  ++ "/>
+			</seg>
+			<seg start="76">
+				<data>
+TGAAGAAGATGGCGATGATGAAGAT
+				</data>
+				<hit pos="77" idx="0" rc="n" pvalue="2.2e-06" match="++++++++++  ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:511047-511147" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+TGATAATAATAATAATATTAATGATGATGATGATAATGATGATGATGGTCATCATGATGATGGTCATCATGATCA
+				</data>
+				<hit pos="29" idx="0" rc="n" pvalue="2.2e-06" match="++ ++ +++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:594250-594350" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+CATCATCATCATTATTATCATCATCATTATTATCATCATCATTATTATCATCATCATTATTATCATCATCATTAT
+CATCATCATCATCATTATTTTTGAT
+				</data>
+				<hit pos="8" idx="0" rc="y" pvalue="1.6e-05" match=" ++ + +++ ++ ++"/>
+				<hit pos="23" idx="0" rc="y" pvalue="1.6e-05" match=" ++ + +++ ++ ++"/>
+				<hit pos="38" idx="0" rc="y" pvalue="1.6e-05" match=" ++ + +++ ++ ++"/>
+				<hit pos="65" idx="0" rc="y" pvalue="2.2e-06" match=" ++ +++++ ++ ++"/>
+				<hit pos="83" idx="0" rc="y" pvalue="6.1e-05" match=" ++ +++++ + ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:50302-50402" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+ACATAACAAAAACGATATAGTACAAAAATTCACGAAATAAATTAAAGAAAAAGAAAATGAAAAAAGTTATAAAAT
+				</data>
+				<hit pos="50" idx="0" rc="n" pvalue="2.2e-06" match=" +++++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:202221-202321" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+TATCATCATCATTATCATCATTATTATCATCATCATTATTATCATCATCATTATCATCATCATCATTATCATCAT
+				</data>
+				<hit pos="5" idx="0" rc="y" pvalue="2.2e-06" match=" ++ +++++ ++ ++"/>
+				<hit pos="44" idx="0" rc="y" pvalue="2.2e-06" match=" ++ +++++ ++ ++"/>
+				<hit pos="59" idx="0" rc="y" pvalue="2.2e-06" match=" ++ +++++ ++ ++"/>
+			</seg>
+			<seg start="76">
+				<data>
+CATTATCATCATTATGGTCATCATT
+				</data>
+				<hit pos="80" idx="0" rc="y" pvalue="1.1e-05" match=" ++ +++++ +  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:735872-735972" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+TAATGAGGATGTAGAACAATATAAGATATGTGATTTTTTGGAAGATTATAAAGAAAATGAAAAAATTACTTTTAA
+				</data>
+				<hit pos="50" idx="0" rc="n" pvalue="2.2e-06" match=" +++++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:1234726-1234826" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+GATATTGGAAATACTATAATTAAGGAAAATGAACAAGTCAAAGAAGAATTATATAAAAAAAGCAAACCTGGAGAA
+GAATGTGAAGATGAAAACGAACATG
+				</data>
+				<hit pos="73" idx="0" rc="n" pvalue="2.2e-06" match="++++++  ++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:298951-299051" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+CCTGGTGAATAATGATCTTTACATTCATTCCACTTGGTTAAACAGAATTTTTTACATTCTTCATATTTTTCTGCA
+				</data>
+				<hit pos="57" idx="0" rc="y" pvalue="2.2e-06" match="++++++++ ++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1001784-1001884" comment="" length="100">
+			<score strand="both" combined_pvalue="3.71e-04" evalue="3.7"/>
+			<seg start="1">
+				<data>
+GTTTTTTCTTTGTTTTTATTTTTTTCATCATTTTTATTCAAATCATCATTATCATCATTTACAACAAAATAATTT
+				</data>
+				<hit pos="12" idx="0" rc="y" pvalue="4.3e-05" match=" + ++ +++++ +++"/>
+				<hit pos="42" idx="0" rc="y" pvalue="2.2e-06" match=" ++ +++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:511728-511828" comment="" length="100">
+			<score strand="both" combined_pvalue="3.95e-04" evalue="3.9"/>
+			<seg start="76">
+				<data>
+AAATGAAAAAAAGAAGAAGAAGAAG
+				</data>
+				<hit pos="85" idx="0" rc="n" pvalue="2.3e-06" match=" +++++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2290047-2290147" comment="" length="100">
+			<score strand="both" combined_pvalue="3.95e-04" evalue="3.9"/>
+			<seg start="1">
+				<data>
+GAATCTCCAAATGAAGAATTAAAAAAATCCTGTGAAGATGATAATGATAAAGAAGAATGTTTGATAGAAATGTGT
+				</data>
+				<hit pos="34" idx="0" rc="n" pvalue="2.3e-06" match="+++++ +++ + ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:549083-549183" comment="" length="100">
+			<score strand="both" combined_pvalue="3.95e-04" evalue="3.9"/>
+			<seg start="1">
+				<data>
+CTTATGAAAAATAATTGAAGATCATGTCGTATGGCCTATAATTTGGTTCCTTGAGGTCATTTTTTTTTTGCTTCA
+TTTTTTTCCCTCCTCTTTTCTTTTT
+				</data>
+				<hit pos="69" idx="0" rc="y" pvalue="2.3e-06" match="+ +++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:2608917-2609017" comment="" length="100">
+			<score strand="both" combined_pvalue="3.95e-04" evalue="3.9"/>
+			<seg start="1">
+				<data>
+ATCAATTAAATGATAAAATAAAAGAATACATTAAAGAACATGAAGAACCTGCACTAACAACACATGAAAAAAAAG
+AAGATAAAAAAGAACGTATAGATGA
+				</data>
+				<hit pos="33" idx="0" rc="n" pvalue="3.1e-05" match=" +++++ ++++++++"/>
+				<hit pos="66" idx="0" rc="n" pvalue="2.3e-06" match="+++ ++++ +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:324279-324379" comment="" length="100">
+			<score strand="both" combined_pvalue="3.95e-04" evalue="3.9"/>
+			<seg start="1">
+				<data>
+AGATGGTAATTACGAAAATTTTCATCATCCTCTGCTTCTGCTTTAATTTGATTGAAATTCTCTCTAACGTCATTT
+				</data>
+				<hit pos="21" idx="0" rc="y" pvalue="2.3e-06" match="+++ +++++ +++ +"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:1042809-1042909" comment="" length="100">
+			<score strand="both" combined_pvalue="3.95e-04" evalue="3.9"/>
+			<seg start="1">
+				<data>
+GATATAATGAAAAGTTGGTAAACTTTTTCAGACGATCTTCTTTTTTTTCAGCCAAGAGAGGTAAACTTTTTCTGT
+				</data>
+				<hit pos="35" idx="0" rc="y" pvalue="2.3e-06" match=" +++++ ++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:81530-81630" comment="" length="100">
+			<score strand="both" combined_pvalue="3.95e-04" evalue="3.9"/>
+			<seg start="1">
+				<data>
+TATATTCCAAAACCTACACCAGCACCTATTAAGGCAGCGAGAACAGAAGCTACGGAAGAAAATATTATAATATTC
+TTCTTCTTCTTTTGAGCATCTGTTA
+				</data>
+				<hit pos="73" idx="0" rc="y" pvalue="2.3e-06" match="++++++ +++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:284047-284147" comment="" length="100">
+			<score strand="both" combined_pvalue="4.17e-04" evalue="4.2"/>
+			<seg start="1">
+				<data>
+TACCCACCTGTACAAAATGAAAAAGATATAAATAATAAAAAAAAAGATGATGATGATGATAATAATAAAAAGAAT
+				</data>
+				<hit pos="10" idx="0" rc="n" pvalue="8.1e-05" match="+ + ++++++++ ++"/>
+				<hit pos="46" idx="0" rc="n" pvalue="2.4e-06" match="++ ++ +++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:565423-565523" comment="" length="100">
+			<score strand="both" combined_pvalue="4.17e-04" evalue="4.2"/>
+			<seg start="1">
+				<data>
+TATATACTGTGATGGAATAAGTCTTAGCAGTTCGCCTTTTGAAATAAATATTTGCCCATCTTCACCTTGTTCTAA
+				</data>
+				<hit pos="58" idx="0" rc="y" pvalue="2.4e-06" match=" ++++++ +++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1278164-1278264" comment="" length="100">
+			<score strand="both" combined_pvalue="4.17e-04" evalue="4.2"/>
+			<seg start="1">
+				<data>
+CAATTAGATGATAGTGACGACGAAATTTATGATAATCAAAAGGAATATTCGCATGATGATGAAATGTACAACGAT
+				</data>
+				<hit pos="7" idx="0" rc="n" pvalue="9.2e-05" match="++ ++ + +++ ++ "/>
+			</seg>
+			<seg start="76">
+				<data>
+GAAAAAAATGTAGATAAAGCTAACT
+				</data>
+				<hit pos="76" idx="0" rc="n" pvalue="2.4e-06" match="+++ ++++++ +++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:344776-344876" comment="" length="100">
+			<score strand="both" combined_pvalue="4.17e-04" evalue="4.2"/>
+			<seg start="1">
+				<data>
+AATACGATGTATTTCAAAAATGTGTGCATCCTCTATTTTGTTATCTACATCATCGTCATTATTATTACTCTTCAT
+GTTGTTCTTATGTTGTTCCTTATCT
+				</data>
+				<hit pos="43" idx="0" rc="y" pvalue="2.4e-06" match=" +++ ++++ ++ ++"/>
+				<hit pos="68" idx="0" rc="y" pvalue="5.3e-05" match=" +++++++ ++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:972590-972690" comment="" length="100">
+			<score strand="both" combined_pvalue="4.17e-04" evalue="4.2"/>
+			<seg start="1">
+				<data>
+TACTTACTTCTTAAAACGAATGGATATTTTCATTTTTTTCTTCTTTTCATCCTTGTCAACATTTTCTTTCAATAA
+				</data>
+				<hit pos="26" idx="0" rc="y" pvalue="2.4e-06" match=" + ++++++++ +++"/>
+				<hit pos="55" idx="0" rc="y" pvalue="3.0e-05" match=" ++  +++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:232032-232132" comment="" length="100">
+			<score strand="both" combined_pvalue="4.17e-04" evalue="4.2"/>
+			<seg start="1">
+				<data>
+TATTTGTGCTATTATAATTAGAATTTATATTTTCATTTTTTTCAGACACATTACAATTTTGATAATTATCTCCAT
+				</data>
+				<hit pos="29" idx="0" rc="y" pvalue="2.4e-06" match=" + ++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:691250-691350" comment="" length="100">
+			<score strand="both" combined_pvalue="4.17e-04" evalue="4.2"/>
+			<seg start="1">
+				<data>
+TTTTACCTACACCACGAACTTGCTTATTAACAAAATTGTTACCAACATAACCATTGTTAATATCATCATCACCAT
+CATCATCATCATCATCACCATCATC
+				</data>
+				<hit pos="74" idx="0" rc="y" pvalue="2.4e-06" match=" ++ +++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:2046729-2046829" comment="" length="100">
+			<score strand="both" combined_pvalue="4.17e-04" evalue="4.2"/>
+			<seg start="1">
+				<data>
+AATAATCATGATGATGATGATGATGATGATAATGATAATAATAAGGTGATAAGTAAAGATACCAATAATAATGAT
+				</data>
+				<hit pos="10" idx="0" rc="n" pvalue="2.4e-06" match="++ ++ +++++ ++ "/>
+				<hit pos="25" idx="0" rc="n" pvalue="1.4e-05" match="++ ++ +++++  + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:905735-905835" comment="" length="100">
+			<score strand="both" combined_pvalue="4.17e-04" evalue="4.2"/>
+			<seg start="1">
+				<data>
+TATATTTTTATCTATTTCATAAGTTGATAATTCTTTATATTTTTCTTCTAATATGTTTGACATTTTTTCATTTTC
+ATTTTTTTCTTTTAAATAACTTTCT
+				</data>
+				<hit pos="31" idx="0" rc="y" pvalue="1.6e-05" match="+++++ ++ ++ +++"/>
+				<hit pos="70" idx="0" rc="y" pvalue="2.4e-06" match=" + ++++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:264705-264805" comment="" length="100">
+			<score strand="both" combined_pvalue="4.17e-04" evalue="4.2"/>
+			<seg start="1">
+				<data>
+TATAAATTTTTTTATTTTCTCTTCTTCTTCTTTGTATTTCTTAAAATTATTATTATTATTATTATTATTATTATT
+				</data>
+				<hit pos="16" idx="0" rc="y" pvalue="6.4e-06" match="++  ++ ++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+ATTATTATTATCATCATCATCATCA
+				</data>
+				<hit pos="85" idx="0" rc="y" pvalue="2.4e-06" match=" ++ +++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_01_v3:251832-251932" comment="" length="100">
+			<score strand="both" combined_pvalue="4.39e-04" evalue="4.4"/>
+			<seg start="1">
+				<data>
+TCTTCTCATACATATGAGCCACTGTGCATCTACGTTTCCTTATATTTTCTTTTTCATCTTCAATAAATTTACTAG
+				</data>
+				<hit pos="47" idx="0" rc="y" pvalue="2.6e-06" match="+++++  ++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:992285-992385" comment="" length="100">
+			<score strand="both" combined_pvalue="4.39e-04" evalue="4.4"/>
+			<seg start="1">
+				<data>
+AATTATGAGGAGCAAAAAGAAAATAAAGAAGAGTATATTAATACTCCGAAAGCCAAAAATAATTTATATAATTTA
+				</data>
+				<hit pos="16" idx="0" rc="n" pvalue="2.6e-06" match=" ++++++++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:812979-813079" comment="" length="100">
+			<score strand="both" combined_pvalue="4.39e-04" evalue="4.4"/>
+			<seg start="1">
+				<data>
+GGTTCCTATTTTTAAAACAATTGTCCTTATTATCTTGAACATGTTCTAAATGATCCTTCCCAGTTTTTTCATTAT
+CATCTAAATTGTATGTTTTATTTAT
+				</data>
+				<hit pos="65" idx="0" rc="y" pvalue="2.6e-06" match="++ ++++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1209832-1209932" comment="" length="100">
+			<score strand="both" combined_pvalue="4.39e-04" evalue="4.4"/>
+			<seg start="1">
+				<data>
+ATGTACATCAATTAATCAATATATTATGTACTTACCTCTATTTTTAATAAATCCTTCTTTATTTTCTTTAACAAC
+				</data>
+				<hit pos="55" idx="0" rc="y" pvalue="2.6e-06" match="+++++ ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_01_v3:204777-204877" comment="" length="100">
+			<score strand="both" combined_pvalue="4.39e-04" evalue="4.4"/>
+			<seg start="1">
+				<data>
+TTTGATACATATAATTGAATAATCACAATGTGAAATATTTTTTGGTTTGTTTTTCATTTCTTTATTTTCTTTATC
+				</data>
+				<hit pos="58" idx="0" rc="y" pvalue="2.6e-06" match="+++++ ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:829095-829195" comment="" length="100">
+			<score strand="both" combined_pvalue="4.39e-04" evalue="4.4"/>
+			<seg start="1">
+				<data>
+TGATATCAAGTGATAATTGTAAGAATGGAATCATACATTCTATTCATGAATATAAAGAAGACAAAGAAAAACAAA
+				</data>
+				<hit pos="57" idx="0" rc="n" pvalue="2.6e-06" match="+++++ ++ +++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2781103-2781203" comment="" length="100">
+			<score strand="both" combined_pvalue="4.39e-04" evalue="4.4"/>
+			<seg start="1">
+				<data>
+TCCATAATAAAACGATCAAAAATAAAAGATATGAAAATAATGATGAATTACCAAAAAATATGTTAAGTTTATATT
+				</data>
+				<hit pos="33" idx="0" rc="n" pvalue="2.6e-06" match="+++ + +++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:942381-942481" comment="" length="100">
+			<score strand="both" combined_pvalue="4.65e-04" evalue="4.6"/>
+			<seg start="1">
+				<data>
+AATAAAAGAGAATGAAGAAAAATATATACCATCTTATAATTACAGTAAAGTGGATGATAAAATAGTAAATGTTGA
+				</data>
+				<hit pos="5" idx="0" rc="n" pvalue="2.7e-06" match=" ++++ +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1606575-1606675" comment="" length="100">
+			<score strand="both" combined_pvalue="4.65e-04" evalue="4.6"/>
+			<seg start="1">
+				<data>
+TATCAGAAGATGATAAAAAAAAAAAAAATCTGTACACCATATATGAAGATAATTATATATAAACTTTTCAAAAAA
+				</data>
+				<hit pos="6" idx="0" rc="n" pvalue="2.7e-06" match="+++++ +++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:419219-419319" comment="" length="100">
+			<score strand="both" combined_pvalue="4.65e-04" evalue="4.6"/>
+			<seg start="1">
+				<data>
+GGAAAAAGAAAATGACGACGATGAGGAAAAAGAAAATGACGACGATGAGGAAAAAGAAAATGACGACGATGAGGA
+AAAAGAAAATGACGACGATGAGGAA
+				</data>
+				<hit pos="14" idx="0" rc="n" pvalue="2.7e-06" match="++ ++ +++++ +++"/>
+				<hit pos="38" idx="0" rc="n" pvalue="2.7e-06" match="++ ++ +++++ +++"/>
+				<hit pos="62" idx="0" rc="n" pvalue="2.7e-06" match="++ ++ +++++ +++"/>
+				<hit pos="86" idx="0" rc="n" pvalue="2.7e-06" match="++ ++ +++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:1287451-1287551" comment="" length="100">
+			<score strand="both" combined_pvalue="4.65e-04" evalue="4.6"/>
+			<seg start="1">
+				<data>
+TGGCTCTGATAACACAAAATGAGAAGAAAAAAATGAAAAGAAAAAAATGAAAAGAATTGTGGTTGAAAATAAAAA
+				</data>
+				<hit pos="23" idx="0" rc="n" pvalue="2.7e-06" match="++++++++  + +++"/>
+				<hit pos="40" idx="0" rc="n" pvalue="7.1e-06" match="+++ ++++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:1081162-1081262" comment="" length="100">
+			<score strand="both" combined_pvalue="4.65e-04" evalue="4.6"/>
+			<seg start="1">
+				<data>
+TTATACTATTTTCATTTTGTGCATTGTTATATTTTTTTTATCATCTTCACATTTTTTTTAAAACACTATTCTTTT
+				</data>
+				<hit pos="8" idx="0" rc="y" pvalue="6.7e-06" match=" + ++++++++ + +"/>
+				<hit pos="34" idx="0" rc="y" pvalue="2.7e-06" match="++ ++ +++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:951830-951930" comment="" length="100">
+			<score strand="both" combined_pvalue="4.95e-04" evalue="5"/>
+			<seg start="76">
+				<data>
+AGTATGAAGAAAATATTGAAAAGGA
+				</data>
+				<hit pos="81" idx="0" rc="n" pvalue="2.9e-06" match="+++++++++   +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:521023-521123" comment="" length="100">
+			<score strand="both" combined_pvalue="4.95e-04" evalue="5"/>
+			<seg start="1">
+				<data>
+TCATTTCCAACATAATTTTCCATATTTTTAGCATTATAATAAATATTATTTTGAACGTGTTTATTATTTTCTTCA
+				</data>
+				<hit pos="60" idx="0" rc="y" pvalue="2.9e-06" match="++  + +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:532704-532804" comment="" length="100">
+			<score strand="both" combined_pvalue="4.95e-04" evalue="5"/>
+			<seg start="1">
+				<data>
+TGTTTTTTATTTAGACATATAAACATTTTTATTTCTTTATTATTTTCTTCTTTCATTTCATTATTCTCAATTTTA
+				</data>
+				<hit pos="36" idx="0" rc="y" pvalue="2.9e-06" match="++  + +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:26076-26176" comment="" length="100">
+			<score strand="both" combined_pvalue="4.95e-04" evalue="5"/>
+			<seg start="1">
+				<data>
+GCAATTTGTGGAAATGTGGATACAACAGAACCAGTCAAAGAGGAAGATGAAGAGGAATGTAAAGCTGCAGAATCC
+				</data>
+				<hit pos="43" idx="0" rc="n" pvalue="2.9e-06" match="+++++ ++ ++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:675623-675723" comment="" length="100">
+			<score strand="both" combined_pvalue="4.95e-04" evalue="5"/>
+			<seg start="1">
+				<data>
+GTAATAAACCTTGTCTTAATTTTGATAATTCTTTATCTTCTTTTTTTATTTCTAGCATGCTCGAATTAATATCTA
+				</data>
+				<hit pos="29" idx="0" rc="y" pvalue="2.9e-06" match="+++++ ++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:937671-937771" comment="" length="100">
+			<score strand="both" combined_pvalue="5.24e-04" evalue="5.2"/>
+			<seg start="1">
+				<data>
+ACTTTAGGTTCTCTTTCATTTCCATCAAAATTCTTTATGTATTCAACATTTTCATCATTTATTTCATCTAATAAT
+				</data>
+				<hit pos="42" idx="0" rc="y" pvalue="3.0e-06" match="+++  +++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1397521-1397621" comment="" length="100">
+			<score strand="both" combined_pvalue="5.24e-04" evalue="5.2"/>
+			<seg start="1">
+				<data>
+CTTTTTAATTCTGGTATATATAATTCTTTATTATCATCTAATATTCTGTTTAACGATTCTAAAACTTCGGACGGA
+				</data>
+				<hit pos="24" idx="0" rc="y" pvalue="3.0e-06" match="+++++ +++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1428693-1428793" comment="" length="100">
+			<score strand="both" combined_pvalue="5.24e-04" evalue="5.2"/>
+			<seg start="1">
+				<data>
+ATTATTGCTGTTTGTATCCTTTATGTCGTCAGTAATTTCTTCATCTTCATTACTATTTATATCTTTACTTTCATT
+				</data>
+				<hit pos="37" idx="0" rc="y" pvalue="3.0e-06" match="++++++++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1422274-1422374" comment="" length="100">
+			<score strand="both" combined_pvalue="5.24e-04" evalue="5.2"/>
+			<seg start="1">
+				<data>
+GATCCTTTATTATTTGGTAATTCTGAATAATATCATTTTCTGCAGGAGATGAAGAAGAATAAGAACTTGCTGTTG
+				</data>
+				<hit pos="45" idx="0" rc="n" pvalue="3.0e-06" match="+ +++ ++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:550495-550595" comment="" length="100">
+			<score strand="both" combined_pvalue="5.24e-04" evalue="5.2"/>
+			<seg start="1">
+				<data>
+AATATATGATAATATGTTTTACACTTTTTAAAAATATTTCATACATATCTTCATTCTTTTCCATAGTACATCTAA
+				</data>
+				<hit pos="47" idx="0" rc="y" pvalue="3.0e-06" match=" ++++++++ + +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:185840-185940" comment="" length="100">
+			<score strand="both" combined_pvalue="5.24e-04" evalue="5.2"/>
+			<seg start="1">
+				<data>
+TTTTTCTTTAAAACAACAAAAATTATATCAAGCTCATGAAATTATTCTTATGGACGAAAATAATGATTCCTCATC
+				</data>
+				<hit pos="53" idx="0" rc="n" pvalue="3.0e-06" match="++ ++++++ + ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:488035-488135" comment="" length="100">
+			<score strand="both" combined_pvalue="5.24e-04" evalue="5.2"/>
+			<seg start="1">
+				<data>
+AAGAACCAAAGAGAAAAGGAAGAAAACGTAAAATATGGATACAACCATTAGATAATTACAATAAAGTTGAAGATA
+				</data>
+				<hit pos="19" idx="0" rc="n" pvalue="3.0e-06" match="++++++++ + + ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1147546-1147646" comment="" length="100">
+			<score strand="both" combined_pvalue="5.24e-04" evalue="5.2"/>
+			<seg start="1">
+				<data>
+ATATAGATGATAAGGAAAATTTTGGATATAAAAAAGACAACAATGGTGAAAATGATAAAAGTGATGAAAATGATA
+AAAGTGATGAAAATGATAAAAGTGA
+				</data>
+				<hit pos="45" idx="0" rc="n" pvalue="2.5e-05" match="+  ++++++++  ++"/>
+				<hit pos="63" idx="0" rc="n" pvalue="3.0e-06" match="++ ++++++++  ++"/>
+				<hit pos="81" idx="0" rc="n" pvalue="3.0e-06" match="++ ++++++++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:259062-259162" comment="" length="100">
+			<score strand="both" combined_pvalue="5.52e-04" evalue="5.5"/>
+			<seg start="76">
+				<data>
+GAATTCTTCTCCATCTTCTACATTT
+				</data>
+				<hit pos="79" idx="0" rc="y" pvalue="3.2e-06" match="++++++  + +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:1297889-1297989" comment="" length="100">
+			<score strand="both" combined_pvalue="5.52e-04" evalue="5.5"/>
+			<seg start="1">
+				<data>
+AGGATTGTTGATTAAAGAAAAAGAAGATTATTTATCATTTTTGAATGAAAATAATGAGGCTTTAAAACAATATAT
+				</data>
+				<hit pos="14" idx="0" rc="n" pvalue="3.2e-06" match=" +++++++ +++++ "/>
+				<hit pos="47" idx="0" rc="n" pvalue="6.6e-05" match="+++ + +++++ +  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:263290-263390" comment="" length="100">
+			<score strand="both" combined_pvalue="5.52e-04" evalue="5.5"/>
+			<seg start="1">
+				<data>
+ACAAATAATAATTCTAAAACACCCAAAAAAAAAAAAGGAAAAAAAAATATAGATGAAAAAAATTCAGAAGAAGAA
+GAAAAGCTAGATGATATTGTAGATG
+				</data>
+				<hit pos="67" idx="0" rc="n" pvalue="3.2e-06" match="++++++++ +++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:979302-979402" comment="" length="100">
+			<score strand="both" combined_pvalue="5.52e-04" evalue="5.5"/>
+			<seg start="1">
+				<data>
+TTAATAGTAAATTAGAAATTCCGATATATAAATTTGAAGCAGATGAAAACGATGATAATATAAAATATATAAGTG
+				</data>
+				<hit pos="42" idx="0" rc="n" pvalue="3.2e-06" match="++ +++++ ++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:105064-105164" comment="" length="100">
+			<score strand="both" combined_pvalue="5.52e-04" evalue="5.5"/>
+			<seg start="1">
+				<data>
+TCAACGTAATCTGAAAAATGAAGAAGATAATAAAACCTTAGAATTCTTAATGAAAAAATTGAAATATAAAGCTTT
+				</data>
+				<hit pos="20" idx="0" rc="n" pvalue="3.2e-06" match="+++++++++ +  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:2195468-2195568" comment="" length="100">
+			<score strand="both" combined_pvalue="5.52e-04" evalue="5.5"/>
+			<seg start="1">
+				<data>
+CTTAATATAATAATAATGATTTAATGAATTTCTTGATTATAATAGTAGAAAATGAAGATTCATATATTAATAGAT
+				</data>
+				<hit pos="45" idx="0" rc="n" pvalue="3.2e-06" match="+ ++++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1283516-1283616" comment="" length="100">
+			<score strand="both" combined_pvalue="5.52e-04" evalue="5.5"/>
+			<seg start="1">
+				<data>
+AAAAATAAAAAAAAAATAATGATATAATCAAGAATAAAAGTGAATTTTGAAAAATGGGAGATGATGAAAAATATC
+				</data>
+				<hit pos="57" idx="0" rc="n" pvalue="3.2e-06" match="+ +++ ++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1815346-1815446" comment="" length="100">
+			<score strand="both" combined_pvalue="5.81e-04" evalue="5.8"/>
+			<seg start="1">
+				<data>
+TTTTGTATCAAACATATTATGATGAGTTTCATCAATGAATAAAGTATCATTTTCATTTTCATTTTCTTTATTGTT
+				</data>
+				<hit pos="55" idx="0" rc="y" pvalue="3.4e-06" match=" + +++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:3149457-3149557" comment="" length="100">
+			<score strand="both" combined_pvalue="5.81e-04" evalue="5.8"/>
+			<seg start="1">
+				<data>
+TATTATAGTATTATTTTCATTTTCTTTCTTTTTTTTTTCAATATAATATAAAAATTTAAATATATAAGCATGTGT
+				</data>
+				<hit pos="13" idx="0" rc="y" pvalue="3.4e-06" match=" + +++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:626051-626151" comment="" length="100">
+			<score strand="both" combined_pvalue="5.81e-04" evalue="5.8"/>
+			<seg start="1">
+				<data>
+TTCCCTTCATTCTTTTCCTCCTCCTTCTTTATGCTAACATCTGTGTCGAATACTCGAAAGACATCTTTTTGGTTT
+TCTTTATCATCATCACTATTCATTA
+				</data>
+				<hit pos="75" idx="0" rc="y" pvalue="3.4e-06" match="+++++ +++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:1125444-1125544" comment="" length="100">
+			<score strand="both" combined_pvalue="5.81e-04" evalue="5.8"/>
+			<seg start="1">
+				<data>
+TCGATTGTTAAAGAAAATGAAAATATAAATTTTCTAAAAATACAAAACATGAATACTATGATAGATGATAAAGAA
+GATAATCCATTTTATAATGTTATGA
+				</data>
+				<hit pos="10" idx="0" rc="n" pvalue="3.4e-06" match=" +++++++++++ + "/>
+				<hit pos="64" idx="0" rc="n" pvalue="3.8e-06" match="++ ++ ++ +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:57256-57356" comment="" length="100">
+			<score strand="both" combined_pvalue="5.81e-04" evalue="5.8"/>
+			<seg start="1">
+				<data>
+CAGACGTTACAGAAAAGGAAATCACTGAAAGAACAAAATCAAAGAAATATAGAAAAGGAACATATGATGCAGAAA
+AAAAAGAAAAATCAAATATTTCTTC
+				</data>
+				<hit pos="69" idx="0" rc="n" pvalue="3.4e-06" match="+ ++++++  +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:314641-314741" comment="" length="100">
+			<score strand="both" combined_pvalue="5.81e-04" evalue="5.8"/>
+			<seg start="1">
+				<data>
+TATCTTTTTTTTCTATTTTTTCTTTTTTTTCGTCACTTACCAATTCTACTTTTCCATTGATATCAACATTTTTAT
+				</data>
+				<hit pos="20" idx="0" rc="y" pvalue="3.4e-06" match="+++++  +++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:405247-405347" comment="" length="100">
+			<score strand="both" combined_pvalue="5.81e-04" evalue="5.8"/>
+			<seg start="1">
+				<data>
+TACCCTTATATGTACTGCATATATATATGTCAGTTTGAAAAATGATATTTTTTTTATGTCTTTTATTCAAAACAT
+CTACATTTTCTTTTAGATTAAGATT
+				</data>
+				<hit pos="74" idx="0" rc="y" pvalue="3.4e-06" match=" +++ +++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:383628-383728" comment="" length="100">
+			<score strand="both" combined_pvalue="5.81e-04" evalue="5.8"/>
+			<seg start="1">
+				<data>
+TTGTCTTTTTTTTCTTCATCATTATATTCTTTATTATAATTATTTTTATTTTTATTAATTTTAGATTTCTCCTTC
+				</data>
+				<hit pos="3" idx="0" rc="y" pvalue="3.4e-06" match=" ++++  ++++++++"/>
+				<hit pos="18" idx="0" rc="y" pvalue="8.5e-05" match=" ++ + ++ +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:228213-228313" comment="" length="100">
+			<score strand="both" combined_pvalue="5.81e-04" evalue="5.8"/>
+			<seg start="1">
+				<data>
+ATCCTTCTTCTTTTTATCATCATTCTTATTATTATCTGAATTATTTTCCTTGTCTTCATCCTTTACATCTTCTTC
+				</data>
+				<hit pos="46" idx="0" rc="y" pvalue="3.6e-05" match="+++ +  +++++ ++"/>
+				<hit pos="61" idx="0" rc="y" pvalue="3.4e-06" match=" + + ++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:1000260-1000360" comment="" length="100">
+			<score strand="both" combined_pvalue="6.14e-04" evalue="6.1"/>
+			<seg start="1">
+				<data>
+CATTATTATTATTTTCGACTACCTCATTATTCTTAACATTTTCATCTTCAGTTTTTTCGTCCGTTTGGGCTTTTT
+				</data>
+				<hit pos="44" idx="0" rc="y" pvalue="3.6e-06" match=" ++++++ +++ +++"/>
+			</seg>
+			<seg start="76">
+				<data>
+CATTATTCTTTCCATTTTCGTCGTC
+				</data>
+				<hit pos="83" idx="0" rc="y" pvalue="1.8e-05" match=" + + +++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:3060613-3060713" comment="" length="100">
+			<score strand="both" combined_pvalue="6.14e-04" evalue="6.1"/>
+			<seg start="1">
+				<data>
+TTATATTTGACAAAAAAAAAAAAAAAGAAGAAGAAGATATATAATATTTTATGACATATATATATGTGTATAAGC
+				</data>
+				<hit pos="24" idx="0" rc="n" pvalue="3.6e-06" match=" +++++++ +++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1333247-1333347" comment="" length="100">
+			<score strand="both" combined_pvalue="6.14e-04" evalue="6.1"/>
+			<seg start="76">
+				<data>
+TACTACTAAATTCATTATTTTCATC
+				</data>
+				<hit pos="86" idx="0" rc="y" pvalue="3.6e-06" match="+++ + ++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:1143807-1143907" comment="" length="100">
+			<score strand="both" combined_pvalue="6.14e-04" evalue="6.1"/>
+			<seg start="1">
+				<data>
+AATTAAAATGCATAGAACAGAAGAAAATAAAAAGTGATCGTATAGTTTATCAAAAAATATTAAAAGATTTATTAA
+				</data>
+				<hit pos="20" idx="0" rc="n" pvalue="3.6e-06" match="+++++++++ ++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:346393-346493" comment="" length="100">
+			<score strand="both" combined_pvalue="6.14e-04" evalue="6.1"/>
+			<seg start="1">
+				<data>
+CCAAATGATGAAAAAAATGAAGCTCCGTCAAATGAAGAAAATGTAGTCCAAGATCTGAACAAAGACGAACTTTCT
+				</data>
+				<hit pos="10" idx="0" rc="n" pvalue="3.6e-06" match="+++ +++++++++  "/>
+				<hit pos="34" idx="0" rc="n" pvalue="4.9e-05" match="++++++++++ ++  "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1412775-1412875" comment="" length="100">
+			<score strand="both" combined_pvalue="6.14e-04" evalue="6.1"/>
+			<seg start="1">
+				<data>
+GATGAAGAATATTATAATCCAAATTATTTAACAAGAAATATAAAATCTGCAGAAGACGAAAATATATTAAGCGAA
+				</data>
+				<hit pos="49" idx="0" rc="n" pvalue="3.6e-06" match="+ ++++++ +++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:355551-355651" comment="" length="100">
+			<score strand="both" combined_pvalue="6.14e-04" evalue="6.1"/>
+			<seg start="1">
+				<data>
+TCAGTTTTACTACTTGAGAGTCCACTACTATCACCACTGTAATAGTCACTTTTACTTTCTTCATGTTCCTTATCA
+TCTTCATTTTTTGATTTATCATTTA
+				</data>
+				<hit pos="66" idx="0" rc="y" pvalue="3.6e-06" match="+++ + +++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:1451639-1451739" comment="" length="100">
+			<score strand="both" combined_pvalue="6.51e-04" evalue="6.5"/>
+			<seg start="1">
+				<data>
+TGAACATAATGAGGAAAAAGTGTGTTAAGATTTTATAATTTATTTTTTATTTTTTATTTTAAAATTTTGTTTCAT
+				</data>
+				<hit pos="2" idx="0" rc="n" pvalue="3.8e-06" match="+++ + +++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:3013364-3013464" comment="" length="100">
+			<score strand="both" combined_pvalue="6.51e-04" evalue="6.5"/>
+			<seg start="1">
+				<data>
+AATGTTCCATCATTTTCTTGTATAATTGGTTCTACTCTTTCGTTTGTGAGATGAAATCTTTGATCGTTAATATCA
+TCGGTTTCTTCAAGAGTAATGGATT
+				</data>
+				<hit pos="72" idx="0" rc="y" pvalue="3.8e-06" match=" ++ ++  +++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:393201-393301" comment="" length="100">
+			<score strand="both" combined_pvalue="6.51e-04" evalue="6.5"/>
+			<seg start="76">
+				<data>
+CAGTCTTTTTCTTCTTCTAATAAAC
+				</data>
+				<hit pos="78" idx="0" rc="y" pvalue="3.8e-06" match=" ++++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:896427-896527" comment="" length="100">
+			<score strand="both" combined_pvalue="6.51e-04" evalue="6.5"/>
+			<seg start="1">
+				<data>
+AATTTATGATGAAGAACAAGATGATAAACACAAAGATAATTTCCATAATAAGAACTCTGTTGACCTACATAGAAA
+				</data>
+				<hit pos="14" idx="0" rc="n" pvalue="3.8e-06" match="+++ +++++++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:412615-412715" comment="" length="100">
+			<score strand="both" combined_pvalue="6.94e-04" evalue="6.9"/>
+			<seg start="1">
+				<data>
+TATCATCATCTACATTATCATCATCCACATTATCATCATCTACATTATCATCATCATAATCAATGGAACGGGAAA
+				</data>
+				<hit pos="8" idx="0" rc="y" pvalue="4.0e-06" match=" +++ ++++ ++ ++"/>
+				<hit pos="23" idx="0" rc="y" pvalue="3.0e-05" match=" ++  ++++ ++ ++"/>
+				<hit pos="38" idx="0" rc="y" pvalue="4.0e-06" match=" +++ ++++ ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:435770-435870" comment="" length="100">
+			<score strand="both" combined_pvalue="6.94e-04" evalue="6.9"/>
+			<seg start="1">
+				<data>
+AACAAAAAGAATAATAAAGACGTCCTAAGGTGTGATACTATGTCCACTACAAATTCGACAAACGACGAAGAGGAT
+AATGAAAAAAAAAATAAAGTAAGTA
+				</data>
+				<hit pos="67" idx="0" rc="n" pvalue="4.0e-06" match="+++++ +++ + +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:735596-735696" comment="" length="100">
+			<score strand="both" combined_pvalue="6.94e-04" evalue="6.9"/>
+			<seg start="1">
+				<data>
+GAAAGAATACATAAAAAATCAATTAAAAAATAAGAGAGAACAAAATAATGAAAAGGAAGAAAACGAAACGTATGA
+				</data>
+				<hit pos="38" idx="0" rc="n" pvalue="4.0e-06" match="+++ +++++ + +++"/>
+				<hit pos="56" idx="0" rc="n" pvalue="1.9e-05" match="++++++++ +++   "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:1044308-1044408" comment="" length="100">
+			<score strand="both" combined_pvalue="6.94e-04" evalue="6.9"/>
+			<seg start="1">
+				<data>
+TATTATCATCATTATTTTCATTATTATTATCATTATTTTCATTATTATTATTATCATTATTTTCATTATTATTAT
+TATCATTATTTTCATTATTATTATT
+				</data>
+				<hit pos="5" idx="0" rc="y" pvalue="4.0e-06" match=" ++ +++++ + +++"/>
+				<hit pos="26" idx="0" rc="y" pvalue="2.3e-05" match=" +  +++++ + +++"/>
+				<hit pos="50" idx="0" rc="y" pvalue="2.3e-05" match=" +  +++++ + +++"/>
+				<hit pos="74" idx="0" rc="y" pvalue="2.3e-05" match=" +  +++++ + +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:602938-603038" comment="" length="100">
+			<score strand="both" combined_pvalue="7.45e-04" evalue="7.4"/>
+			<seg start="1">
+				<data>
+TGCAAATGGTTTAACACATAATTTTATAATTATGTTTATAGAATTTATAAATCATCAAAAATCATCTTTTCAGCA
+TCGTCTTCTTCTTTATCTCTAATAT
+				</data>
+				<hit pos="72" idx="0" rc="y" pvalue="4.3e-06" match="  + ++ ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:275419-275519" comment="" length="100">
+			<score strand="both" combined_pvalue="7.45e-04" evalue="7.4"/>
+			<seg start="1">
+				<data>
+GTCTCCTTTTTTAGGAAGGAACAATATAACAGAAACGTAACGAATATGATAAATATGATACATATGATAAATATG
+ATGAATATGATGAATATGATAAATA
+				</data>
+				<hit pos="75" idx="0" rc="n" pvalue="4.3e-06" match="++ +++ ++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:529492-529592" comment="" length="100">
+			<score strand="both" combined_pvalue="7.45e-04" evalue="7.4"/>
+			<seg start="1">
+				<data>
+GTCATACGAATGGAAAGATGAAGACGAAAAAAATGATTGTAGAAATGAATATGATGAATATTTTCAAAAGAAAAA
+				</data>
+				<hit pos="17" idx="0" rc="n" pvalue="4.3e-06" match="++ +++++ +++ ++"/>
+				<hit pos="44" idx="0" rc="n" pvalue="6.3e-05" match=" + +++ ++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:158406-158506" comment="" length="100">
+			<score strand="both" combined_pvalue="7.45e-04" evalue="7.4"/>
+			<seg start="1">
+				<data>
+TTTTTAATAAAAAAATTAACAATTTTTCATTTTTTTTCTTGTCTTCATTTTCCATCTTTTCATATTCTTCCAATA
+				</data>
+				<hit pos="23" idx="0" rc="y" pvalue="2.8e-05" match="++ ++++++++ ++ "/>
+				<hit pos="56" idx="0" rc="y" pvalue="4.3e-06" match=" + +++++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1774653-1774753" comment="" length="100">
+			<score strand="both" combined_pvalue="7.45e-04" evalue="7.4"/>
+			<seg start="76">
+				<data>
+TCATAATAATGAAGAAAAAGTAAAA
+				</data>
+				<hit pos="86" idx="0" rc="n" pvalue="4.3e-06" match="++++++++ + + ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:199471-199571" comment="" length="100">
+			<score strand="both" combined_pvalue="7.45e-04" evalue="7.4"/>
+			<seg start="1">
+				<data>
+TCTTTTTTTTTCTCTCTTTCTTTTATTTCTTCATTTATTTCATTGTCTTTATTTAAAAAATGAACTCCATATATA
+				</data>
+				<hit pos="27" idx="0" rc="y" pvalue="4.3e-06" match="++++++++++  +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:1284866-1284966" comment="" length="100">
+			<score strand="both" combined_pvalue="7.45e-04" evalue="7.4"/>
+			<seg start="1">
+				<data>
+ATTCTTTTTGGCATGTATCATCAATAACATTTGACATATTATTAATATTTGATAAATCTTCATTTTCATTATTGT
+				</data>
+				<hit pos="56" idx="0" rc="y" pvalue="4.3e-06" match=" +++++++++++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:950104-950204" comment="" length="100">
+			<score strand="both" combined_pvalue="7.90e-04" evalue="7.9"/>
+			<seg start="1">
+				<data>
+AATGATAACACCCCTCATTGGAATGATCATCATAATTATATGATCAATGATTATAAAAAAAGGGATCCTCATTTT
+CTTTATGGTGATGATTTTAATGATA
+				</data>
+				<hit pos="65" idx="0" rc="y" pvalue="4.6e-06" match=" ++ ++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:920901-921001" comment="" length="100">
+			<score strand="both" combined_pvalue="7.90e-04" evalue="7.9"/>
+			<seg start="1">
+				<data>
+AAAGAAGAAAATAATAATAACAACAACAATAATAATAATAATAATAATAATAATGCACTTTTTAGAAACTCATTA
+				</data>
+				<hit pos="4" idx="0" rc="n" pvalue="4.6e-06" match="+++++++++ +  + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:950142-950242" comment="" length="100">
+			<score strand="both" combined_pvalue="7.90e-04" evalue="7.9"/>
+			<seg start="1">
+				<data>
+TATGATCAATGATTATAAAAAAAGGGATCCTCATTTTCTTTATGGTGATGATTTTAATGATAAACCGATATATAA
+				</data>
+				<hit pos="27" idx="0" rc="y" pvalue="4.6e-06" match=" ++ ++++++++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:252520-252620" comment="" length="100">
+			<score strand="both" combined_pvalue="7.90e-04" evalue="7.9"/>
+			<seg start="1">
+				<data>
+AAAATGAAGAAAATAATAATATTGATAATAAAAATAATGATGATATAAATAAGGTAAATGTTTTGACCCGTGTGG
+				</data>
+				<hit pos="6" idx="0" rc="n" pvalue="4.6e-06" match="+++++++++ +  + "/>
+				<hit pos="30" idx="0" rc="n" pvalue="6.1e-05" match=" ++ + +++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:571633-571733" comment="" length="100">
+			<score strand="both" combined_pvalue="7.90e-04" evalue="7.9"/>
+			<seg start="1">
+				<data>
+TTATTATTATTATTATTATTTTCTTTTTCGTCGATTAAAGTTTTAAAAATAAATCCAGGTTGTTTACCAATAGTT
+				</data>
+				<hit pos="18" idx="0" rc="y" pvalue="4.6e-06" match=" + +++ +++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:703436-703536" comment="" length="100">
+			<score strand="both" combined_pvalue="8.34e-04" evalue="8.3"/>
+			<seg start="1">
+				<data>
+TGAAGATGGGAACATAATAAAAAAAAAGAAAAAAAATTCACAAAATGAAGAAATGAACAATGATAATAAAAATAA
+				</data>
+				<hit pos="10" idx="0" rc="n" pvalue="2.0e-05" match="+++ + +++ ++ ++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TGATAATGATGATCAAGATGATGAA
+				</data>
+				<hit pos="86" idx="0" rc="n" pvalue="4.8e-06" match="++  +++++++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:317211-317311" comment="" length="100">
+			<score strand="both" combined_pvalue="8.34e-04" evalue="8.3"/>
+			<seg start="1">
+				<data>
+TTCTATTTCATTATTTTCAGAAATATTATTAGTTTCATTTATATTCTTATTTTTTATTTTATTTTGTTTTTTTTC
+TTCATCATTTAATAAATTTTCTTCT
+				</data>
+				<hit pos="64" idx="0" rc="y" pvalue="4.8e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:90713-90813" comment="" length="100">
+			<score strand="both" combined_pvalue="8.34e-04" evalue="8.3"/>
+			<seg start="1">
+				<data>
+ATAAATGTTATTATTATTTTTATTATCATTTGTATGTTTATATACATACGAATCATATGATTTATTATCATTTTC
+ATCCTTCTTGTTTATATCTAAAAGA
+				</data>
+				<hit pos="64" idx="0" rc="y" pvalue="4.8e-06" match=" +  ++++++++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:737154-737254" comment="" length="100">
+			<score strand="both" combined_pvalue="8.34e-04" evalue="8.3"/>
+			<seg start="1">
+				<data>
+ACATGTAAGGAAAAAAATATATAAAATATATTAAGTTATAAAAAGCTTTAAAAATTGTTTTTTTTCTTCTTATAT
+				</data>
+				<hit pos="55" idx="0" rc="y" pvalue="4.8e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:870588-870688" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TCATCCACAGTTGTGTAAACACAGTTTTTTTTTTCTTTTTTTTTTTTCTTCTCTTTATAAATATTTTATTTATAA
+				</data>
+				<hit pos="37" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:38022-38122" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+CATCGAAAAATACCAAATACATCACATCTATTCTTCTAATAATTTGATATATTGGAGTTTTTTCTTCATTTTTTT
+TTTTCGTCGATAACGTAAAATTAAA
+				</data>
+				<hit pos="62" idx="0" rc="y" pvalue="5.1e-06" match="+++++++++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:2187597-2187697" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+ACAATACTTTAAATTATAATAAATCTTTGTAGACATGGACTTTGTTTTTTTTTTTCTTCTGTTTTAATGATTGTA
+				</data>
+				<hit pos="45" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1082390-1082490" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+GCAAATTTATAATATAAAATAAAATTGAAAATTTCATTTTTTTCTAATTTAATATATTAGAAGAAAAAAAAAAAA
+				</data>
+				<hit pos="60" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:654003-654103" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+AGAACAATGATATTTTAAAGAAGAAGAAAAAAAAAAAAAATATATATATATATATATATATAATATATTATATAA
+				</data>
+				<hit pos="23" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:612242-612342" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TTTTGTATACACAACATATTAATAATTTTTTTTTTTCTTCTTTTAATGTTTGGTTAATTAAAAAATATATATATA
+				</data>
+				<hit pos="26" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:848624-848724" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+GAAGGTTTTGTAGCTGTAAGTGAAGAAAAAAAAAAAAAAAAAAAAAACAACTTTAATGTTATATAAGTGAAAAAA
+				</data>
+				<hit pos="22" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:1676020-1676120" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+AAAAAAAATGAAGAAATATGGAAATTAAACAAATTTATAGAAAATTTAAATAAAGAAATTACAAATAAAAATTTT
+				</data>
+				<hit pos="1" idx="0" rc="n" pvalue="5.1e-06" match=" ++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:574870-574970" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="76">
+				<data>
+AAGAAGAAGAAAAAAAAAAAAAAAT
+				</data>
+				<hit pos="81" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1266789-1266889" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TTCCCTTTAGTTTCATATATGTGTTATATATTTTTTTTATATATTATTTTATATTTTTGAAGAAAACAGAGAATG
+				</data>
+				<hit pos="59" idx="0" rc="n" pvalue="5.1e-06" match="++++++++   ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:352299-352399" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+GTTTGATAGAAATTTAAAGAAGAAAAAAAAAAAAATAAAAATAAATAAATAATATATCAGACAATCAGAACATAT
+				</data>
+				<hit pos="19" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:1409892-1409992" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TGATAATATATTTGATTTTACGTTATCGACGAAAAAAAAAAATGAAGAAAAAAGCCCAATACACAAAATTATTAA
+				</data>
+				<hit pos="35" idx="0" rc="n" pvalue="5.1e-06" match=" ++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:68566-68666" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+ATCGACGAAAAAAAAAAATGAAGAAAAAACTCCAATATATAAAATTATTAGAAGAATAGATATGATTATCTTATG
+				</data>
+				<hit pos="11" idx="0" rc="n" pvalue="5.1e-06" match=" ++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:460765-460865" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TTAAATAAATATATTAATAATAAACAAGATAAAAAATTACTCCTCTATATGTTAAATCACGAACAAAATAAAGAG
+				</data>
+				<hit pos="61" idx="0" rc="n" pvalue="5.1e-06" match="+++ +++++ ++++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:48050-48150" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TCTATTCTTCTAATAGTTTTATATATTGGAGTTTTTTCTTCATTTTTTTTTTTCGTCGATAACGTAAAATTAAAT
+				</data>
+				<hit pos="36" idx="0" rc="y" pvalue="5.1e-06" match="+++++++++++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_01_v3:60888-60988" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TATTGCAATATTAGTTATAGTTTTAGTTATGGTAATTATTTATTTAATTTTACATTATCGAAGAAAAAAAAAAAT
+				</data>
+				<hit pos="60" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:977975-978075" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TTTGTAAAAAGTGTATTTTATAAAGTTCATTTCTGTATAATGAAGAAAAAAAAAAAAAAAAACATCATATGTAAC
+				</data>
+				<hit pos="42" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:305205-305305" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+AAATATATATTTTACATTTACTTATTATTATTTTTTTTTTTCTTCTGTATGTCAACTATTGAAATTTTATATTAA
+				</data>
+				<hit pos="31" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:1384578-1384678" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TGTGAATAATCATAAAATGGATTTTTTTTTTTTTTTTCTTCTTTTTTTTAATATAACCTTTTAAATACATATTAA
+				</data>
+				<hit pos="27" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:489349-489449" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TGGATTATTTGTAGGCAAATCAAACAAATATCAAATTGATGAGAAGAAAAAAAAAAAAATTATAAAAAATAAGAT
+				</data>
+				<hit pos="43" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:1130226-1130326" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+ATATATATATATATATATGTATATATGTAAATTTTTTTTTTTTTCTTCTTACAATATTTGGATGATATATTTTTG
+				</data>
+				<hit pos="34" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:76361-76461" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TTCATCCTTTTTTTCACTTTTACCATATATGATTATACTCTGAAGAAAAAAAAAAAATATAATTAATATAAAAAG
+				</data>
+				<hit pos="1" idx="0" rc="y" pvalue="7.5e-05" match="+++ ++ ++++ +++"/>
+				<hit pos="42" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1713638-1713738" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+CAATTAAGGCATATAAGGTACAAAAGAGATCCTTGTATGTTTTGTTCTTATATTGCAGTGTTATTTTCTAAAAAG
+AAGAAAAAAAAAAAAAATAAATTAA
+				</data>
+				<hit pos="75" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:1020142-1020242" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TTATTTTATTAATTTTTTTTTTTTTTTTCTTCATATTTGTTCTCTTTTTCTTTCTTTCATCTTTATTATCATTTA
+				</data>
+				<hit pos="18" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+				<hit pos="59" idx="0" rc="y" pvalue="6.9e-05" match=" ++++ +++ ++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:2541218-2541318" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+ATATTTTTTTGTAAATTTTATCTTCTTTATCTTTCACAATGCGGTACAGCAAGCTATCTTCAAACTTGAAGAAAA
+AAAAAAAAAAAAAAAAAAAAATTTT
+				</data>
+				<hit pos="20" idx="0" rc="y" pvalue="9.7e-06" match=" +++++ ++ ++++ "/>
+				<hit pos="68" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:1150747-1150847" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="76">
+				<data>
+TAATCATAAGAAGAAAAAAAAAAAA
+				</data>
+				<hit pos="85" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:404714-404814" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TTTTTTTTTAACGTGTAACATTTATATAACCAATTTGAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+				</data>
+				<hit pos="37" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:151828-151928" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="76">
+				<data>
+TTTTTTTTTTTCTTCCTTTATATTT
+				</data>
+				<hit pos="76" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_10_v3:430765-430865" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="76">
+				<data>
+AGCTTTTTTTTTTTTTTTTTCTTCT
+				</data>
+				<hit pos="85" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:710997-711097" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+CGATCCAAATGAAGAAATGAAGAAAAAAAAAAAAAAAATTAAAATAAATAATAATAATAATAATATAGAAAGTGA
+				</data>
+				<hit pos="19" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2772675-2772775" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+ATAAGTAAAAAACAAGCTGAGAAAATGAATAAAGCAAAATTATATTTAAGATCACGAAGAAAAAAAAAAATGCAC
+				</data>
+				<hit pos="56" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_01_v3:407401-407501" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+AAAGATGCTCATTTTTTTCGTCATGTGAAAATAAAAAAAATGAAGAAAATAAAAGTATTACCTTTAATGATATTA
+				</data>
+				<hit pos="5" idx="0" rc="y" pvalue="1.9e-05" match=" +  +++++++ +++"/>
+				<hit pos="33" idx="0" rc="n" pvalue="5.1e-06" match=" ++ +++++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2661456-2661556" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="76">
+				<data>
+TTTTTTTTTTTTTTTCTTCTTTTCA
+				</data>
+				<hit pos="80" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:1120283-1120383" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="76">
+				<data>
+ATGAAGAAAAAAAAAAAAAAAGTTA
+				</data>
+				<hit pos="78" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:1324648-1324748" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+GTACTTTATTTCATGAAGATAAATGGTTGTATATTTTCTTCTTATTTGCACATTCACAAGATTTATCATTAGATT
+				</data>
+				<hit pos="27" idx="0" rc="y" pvalue="5.1e-06" match="++ +  +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:225074-225174" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+ACATTGTAATTATGCAAAAGGAATTTTTTTAAAATTTACAAGAAGAAAAAAAAAAACTATATTAAATAATATATA
+				</data>
+				<hit pos="42" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_06_v3:536856-536956" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+AACGGCAAAAAAAAAAAAAAAAAAAAGAAGAAAAAAAAAAATTCTATAATTATTATAATCATTTTATACTATTTA
+				</data>
+				<hit pos="27" idx="0" rc="n" pvalue="5.1e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_04_v3:433407-433507" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+AATTTACTTTTTCTTCAGGTGTTCCTACCTTCTTTTTTTTTTTTTCTTCATTTGAATTATTTCTATTTATTTTAA
+				</data>
+				<hit pos="2" idx="0" rc="y" pvalue="6.7e-06" match=" + + + ++++++++"/>
+				<hit pos="35" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1266826-1266926" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TATATATTATTTTATATTTTTGAAGAAAACAGAGAATGATGTTGAACACTTCAAGAGGAGATTTAGAATACACTA
+				</data>
+				<hit pos="22" idx="0" rc="n" pvalue="5.1e-06" match="++++++++   ++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_08_v3:771528-771628" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="76">
+				<data>
+GAAAAGATGACGAAGAACAGGTTTT
+				</data>
+				<hit pos="78" idx="0" rc="n" pvalue="5.1e-06" match=" ++++ ++ ++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_09_v3:1026645-1026745" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TATTTATTTATTTATTTATTTATTTATTTAATAATTATGCGTGTTTTTTTTTTTTTTTTTTTTTTTTTTTTTCTT
+CTTTCCAAAAATATACTTATATATA
+				</data>
+				<hit pos="62" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_05_v3:269185-269285" comment="" length="100">
+			<score strand="both" combined_pvalue="8.81e-04" evalue="8.8"/>
+			<seg start="1">
+				<data>
+TATTTTATAATTTTATAATATTATAATTTTTTTCTTTTCTTTTTTTTTTTTTTTCTTCTTCATAGTTGCATGGCC
+				</data>
+				<hit pos="44" idx="0" rc="y" pvalue="5.1e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:824369-824469" comment="" length="100">
+			<score strand="both" combined_pvalue="9.26e-04" evalue="9.3"/>
+			<seg start="1">
+				<data>
+TGTGTTAATATTTTCTTCGTTTGTTTTTATATTTTCTTCCACATTATTCGTTTTTGTGTTAATATTTTCTTCGTT
+				</data>
+				<hit pos="4" idx="0" rc="y" pvalue="6.1e-05" match=" +    +++++++++"/>
+				<hit pos="25" idx="0" rc="y" pvalue="5.4e-06" match="++ +  +++++++++"/>
+				<hit pos="58" idx="0" rc="y" pvalue="6.1e-05" match=" +    +++++++++"/>
+			</seg>
+			<seg start="76">
+				<data>
+TGTTTTTATATTTTCTTCCACATTA
+				</data>
+				<hit pos="79" idx="0" rc="y" pvalue="5.4e-06" match="++ +  +++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:642316-642416" comment="" length="100">
+			<score strand="both" combined_pvalue="9.26e-04" evalue="9.3"/>
+			<seg start="1">
+				<data>
+AATAATAATAATATAAAAGATAATAATTTTGAATACGAAAAAAAAGATGAAAATTATTTCTCCAGTGATACCAAT
+				</data>
+				<hit pos="37" idx="0" rc="n" pvalue="5.4e-06" match="+++ ++++ ++ +++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_13_v3:857249-857349" comment="" length="100">
+			<score strand="both" combined_pvalue="9.79e-04" evalue="9.8"/>
+			<seg start="1">
+				<data>
+TCCACATGAAAATAAATAAATAATTAAATAATTATATATATTTTCCCTTTACATTTAAATTTTCCTCGTCCTCTT
+CCAGTTCCTTCATCTTTTCTTGATT
+				</data>
+				<hit pos="62" idx="0" rc="y" pvalue="5.7e-06" match="+++ ++ ++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:2409234-2409334" comment="" length="100">
+			<score strand="both" combined_pvalue="9.79e-04" evalue="9.8"/>
+			<seg start="1">
+				<data>
+AATGGATAAATGTTTATATGAAAAACATAAAGAATTAAATGAATTGTTGTATGAAAATAATAAAGAAATGTCTGA
+				</data>
+				<hit pos="53" idx="0" rc="n" pvalue="5.7e-06" match="+++ + +++ +++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_02_v3:26827-26927" comment="" length="100">
+			<score strand="both" combined_pvalue="9.79e-04" evalue="9.8"/>
+			<seg start="76">
+				<data>
+CATTATGAAAAAAATGATAAAGATG
+				</data>
+				<hit pos="82" idx="0" rc="n" pvalue="5.7e-06" match="+++ +++++++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_11_v3:1011492-1011592" comment="" length="100">
+			<score strand="both" combined_pvalue="9.79e-04" evalue="9.8"/>
+			<seg start="1">
+				<data>
+TATTGACTTTTGAAGGGGTAAAAATAAAACAAAACAAAAAAAAAAAAAAAAAAAAGAAGAAGAAAAAAAAAATAT
+				</data>
+				<hit pos="56" idx="0" rc="n" pvalue="5.7e-06" match="++++++++  ++ ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1480925-1481025" comment="" length="100">
+			<score strand="both" combined_pvalue="9.79e-04" evalue="9.8"/>
+			<seg start="1">
+				<data>
+TTTGATTCATTTAATGATGGTGTTGATAATAATTTAGTTCCTTCGAATCCTAAAGGACAAAATAATAATGAAGAG
+GACGACGAAGAAGGAGGTGATGATG
+				</data>
+				<hit pos="70" idx="0" rc="n" pvalue="5.7e-06" match="+++++ ++ ++ +++"/>
+				<hit pos="85" idx="0" rc="n" pvalue="8.5e-05" match="++++ ++ +++ ++ "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_12_v3:1151283-1151383" comment="" length="100">
+			<score strand="both" combined_pvalue="9.79e-04" evalue="9.8"/>
+			<seg start="1">
+				<data>
+AAGCATGTCCGCATGCATAAATGATGAAGAAAACAAAAATTCGTATAACGTGAAAAATGAACAGATCGTTGAGGA
+				</data>
+				<hit pos="26" idx="0" rc="n" pvalue="5.7e-06" match="++++++++  ++ + "/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_14_v3:1103549-1103649" comment="" length="100">
+			<score strand="both" combined_pvalue="9.79e-04" evalue="9.8"/>
+			<seg start="1">
+				<data>
+TAAAAATCCGTTTTCAATATTTAAAAATAATAATAAGTATGAAAAAAATGATAAAAACGATAACAGAGGTGAAAT
+				</data>
+				<hit pos="41" idx="0" rc="n" pvalue="5.7e-06" match="+++ +++++++  ++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_03_v3:463098-463198" comment="" length="100">
+			<score strand="both" combined_pvalue="9.79e-04" evalue="9.8"/>
+			<seg start="76">
+				<data>
+ATTTTTTTTTTCTTCTTCTATTGTG
+				</data>
+				<hit pos="79" idx="0" rc="y" pvalue="5.7e-06" match="++ ++  ++++++++"/>
+			</seg>
+		</sequence>
+		<sequence db="0" name="Pf3D7_07_v3:875328-875428" comment="" length="100">
+			<score strand="both" combined_pvalue="9.79e-04" evalue="9.8"/>
+			<seg start="76">
+				<data>
+CATGAAGAAAACAAAAATGGGAATA
+				</data>
+				<hit pos="79" idx="0" rc="n" pvalue="5.7e-06" match="++++++++  ++ + "/>
+			</seg>
+		</sequence>
+	</sequences>
+	<runtime host="Timothys-Mac-Mini.local" when="Sat Aug 14 15:42:31 2021" cycles="163868" seconds="0.164"/>
+</mast>
