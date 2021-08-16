@@ -1,3 +1,22 @@
+15-Aug-2021
+
+1) Created a 2-order background from the two sets of sequences.
+  cat seq_500_long/lnc*.txt > ! seq_500_long/lnc.all.fa
+  fasta-get-markov -m 2 < seq_500_long/lnc.all.fa > seq_500_long/lnc_all.m2.bg
+
+2) Ran SEA using this common background model on each sequence file
+separately, and contrasting top25 with bot_75:
+  mkdir results/seq_500_long
+  sea -p seq_500_long/lnc13_top25.txt -m motif.html -inc '1-*' -bfile seq_500_long/lnc_all.m2.bg -oc results/seq_500_long/sea_top25
+  sea -p seq_500_long/lnc13_bot75.txt -m motif.html -inc '1-*' -bfile seq_500_long/lnc_all.m2.bg -oc results/seq_500_long/sea_bot75
+  sea -p seq_500_long/lnc13_top25.txt -n seq_500_long/lnc13_bot75.txt -m motif.html -inc '1-*' -bfile seq_500_long/lnc_all.m2.bg -oc results/seq_500_long/sea_top25_vs_bot75
+  sea -p seq_500_long/lnc13_top25.txt -n seq_500_long/random_seq.txt -m motif.html -inc '1-*' -bfile seq_500_long/lnc_all.m2.bg -oc results/seq_500_long/sea_top25_vs_random
+
+4) Ran MAST on each of the datasets.
+  mast -oc results/seq_500_long/mast_top25 -mi 1 motif.html seq_500_long/lnc13_top25.txt
+  mast -oc results/seq_500_long/mast_bot75 -mi 1 motif.html seq_500_long/lnc13_bot75.txt
+  mast -oc results/seq_500_long/mast_random -mi 1 motif.html seq_500_long/random_seq.txt
+
 14-Aug-2021
 1) Created a 2-order background from the two sets of sequences.
   cat lnc*.txt > ! lnc.all.fa
