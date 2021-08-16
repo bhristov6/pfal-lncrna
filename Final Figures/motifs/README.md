@@ -16,6 +16,8 @@ The folder with the STREME results ran by Tim is here: https://github.com/bhrist
 
 ------
 
+(Aug-11)
+
 From each peak extracted 100bp sequence centered at the peak summit. Provided the list of sequences to https://meme-suite.org/ using the STREME tool with default parameters. Results are online and available through these urls:
 
 lnc13: https://meme-suite.org/meme//opal-jobs/appSTREME_5.3.3162874125754122751820/streme.html
