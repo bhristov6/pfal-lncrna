@@ -1,3 +1,0 @@
-LncRNA peaks primarily overlap with 5'UTR flank of genes.
-
-For a given lncRNA of interest we examined the regions of the genome its peaks overlap. We extended a 1000bp window from the 5' and 3' end of the nearest to the each peak gene. We aggregated these genomic windows together with the gene body normalized to 1000b in order to account for different gene lengths into a continuous 3000b window (x-axis). For each base position we plotted the density (the number of peaks overlapping the respective position divided by the total number of peaks) on the y-axis.
