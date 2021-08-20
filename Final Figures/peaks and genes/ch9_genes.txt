@@ -1,0 +1,2 @@
+name	chr	start	end	height	pval	gene_name	description
+chirp_peak_1	Pf3D7_09_v3	1386840	1387960	1.3315794573010258e-11	PF3D7_0935400	gametocyte development protein 1

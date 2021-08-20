@@ -1,0 +1,40 @@
+name	chr	start	end	height	pval	gene_name	description
+chirp_peak_1	Pf3D7_13_v3	147340	148135	149.17386400795226	2.878678657304339e-12	PF3D7_1302700	ATP-dependent RNA helicase DHR1 putative
+chirp_peak_2	Pf3D7_14_v3	934125	935185	147.6329718901435	1.6577120820586548e-13	PF3D7_1423200	peptidyl-prolyl cis-trans isomerase
+chirp_peak_3	Pf3D7_02_v3	698805	699335	145.60049725751463	2.664358112879728e-08	PF3D7_0216800	TMEM121 domain-containing protein putative
+chirp_peak_4	Pf3D7_11_v3	262615	263410	139.3327327656847	3.5931317042615585e-06	PF3D7_1106200	conserved Plasmodium protein unknown function
+chirp_peak_5	Pf3D7_09_v3	1223240	1224035	134.7247552063359	1.9754304879793946e-09	PF3D7_0930700	conserved Plasmodium protein unknown function
+chirp_peak_6	Pf3D7_03_v3	297595	298655	131.95555903250343	4.9271545357910466e-08	PF3D7_0306400	FAD-dependent glycerol-3-phosphate dehydrogenase putative
+chirp_peak_7	Pf3D7_08_v3	1236755	1237285	131.86606180598582	9.831418053177645e-06	PF3D7_0828800	GPI-anchored micronemal antigen
+chirp_peak_8	Pf3D7_12_v3	1972660	1973455	130.83880039411335	2.451216693390569e-06	PF3D7_1247900	U3 small nucleolar RNA-associated protein 11 putative
+chirp_peak_9	Pf3D7_01_v3	107060	107590	124.89832275814578	5.38244435436264e-06	PF3D7_0102400	lysophospholipase putative pseudogene
+chirp_peak_10	Pf3D7_09_v3	862310	863105	124.68993071695581	7.425757343460807e-10	PF3D7_0921200	conserved Plasmodium membrane protein unknown function
+chirp_peak_11	Pf3D7_11_v3	1756950	1757480	121.41445323422576	8.422027045854282e-06	PF3D7_1144100	mitochondrial large subunit ribosomal protein putative
+chirp_peak_12	Pf3D7_11_v3	1340370	1341430	121.40710383718708	3.445680816968084e-11	PF3D7_1134400	conserved protein unknown function
+chirp_peak_13	Pf3D7_14_v3	1204425	1205220	119.76201569878336	2.089671560607215e-13	PF3D7_1430500	conserved Plasmodium protein unknown function
+chirp_peak_14	Pf3D7_03_v3	970165	970960	119.3599304104808	5.002454881161782e-08	PF3D7_0323100	conserved Plasmodium protein unknown function
+chirp_peak_15	Pf3D7_08_v3	150520	151050	118.34001839564701	2.2295710830481797e-06	PF3D7_0802000	glutamate dehydrogenase putative
+chirp_peak_16	Pf3D7_14_v3	312700	313230	118.23582237505201	1.852580631836479e-07	PF3D7_1408300	conserved Plasmodium protein unknown function
+chirp_peak_17	Pf3D7_09_v3	410750	411545	117.93058371030574	1.691839436747219e-07	PF3D7_0909000	conserved Plasmodium protein unknown function
+chirp_peak_18	Pf3D7_04_v3	713115	713645	117.93058371030574	3.113469334221295e-06	PF3D7_0416300	DNA helicase MCM9 putative
+chirp_peak_19	Pf3D7_08_v3	1225360	1226155	117.82638768971076	6.516919882872253e-08	PF3D7_0828400	mitochondrial inner membrane protein OXA1 putative
+chirp_peak_20	Pf3D7_02_v3	220745	221540	117.10436494258454	4.52206548223756e-08	PF3D7_0205300	conserved Plasmodium protein unknown function
+chirp_peak_21	Pf3D7_13_v3	2347635	2348430	117.00751831902824	2.406278622644892e-07	PF3D7_1359100	riboflavin kinase putative
+chirp_peak_22	Pf3D7_12_v3	705695	706225	117.00751831902824	8.230745572167424e-07	PF3D7_1218100	conserved Plasmodium protein unknown function
+chirp_peak_23	Pf3D7_10_v3	475940	476470	116.598083633687	7.5868349146422705e-06	PF3D7_1012400	hypoxanthine-guanine phosphoribosyltransferase
+chirp_peak_24	Pf3D7_13_v3	237175	237970	116.18129955130703	7.760542668950837e-07	PF3D7_1304600	conserved Plasmodium protein unknown function
+chirp_peak_25	Pf3D7_06_v3	306605	307135	116.08445292775076	5.734494923111649e-07	PF3D7_0607400	G-protein associated signal transduction protein putative
+chirp_peak_26	Pf3D7_14_v3	128525	129320	115.77921426300448	6.835789884977897e-06	PF3D7_1403400	conserved Plasmodium protein unknown function
+chirp_peak_27	Pf3D7_10_v3	1211050	1211845	115.77186486596578	4.330480642322725e-23	PF3D7_1029800	heptatricopeptide repeat and RAP domain-containing protein putative
+chirp_peak_28	Pf3D7_13_v3	2623500	2624030	115.77186486596578	1.2922557415823724e-06	PF3D7_1365600	DNA topoisomerase 6 subunit B putative
+chirp_peak_29	Pf3D7_08_v3	528940	529735	115.26558355706825	2.0423680175573376e-15	PF3D7_0810300	protein phosphatase PPM5 putative
+chirp_peak_30	Pf3D7_13_v3	2461320	2463440	114.95299549528328	4.468752642393264e-11	PF3D7_1361300	conserved Plasmodium protein unknown function
+chirp_peak_31	Pf3D7_13_v3	854890	855950	114.75195285113199	3.4202537813779456e-15	PF3D7_1320800	dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex
+chirp_peak_32	Pf3D7_11_v3	1202040	1202835	114.44671418638573	1.8909811124231558e-07	PF3D7_1131300	conserved Plasmodium protein unknown function
+chirp_peak_33	Pf3D7_10_v3	1213965	1215290	114.34251816579075	7.203857601256976e-19	PF3D7_1029800	heptatricopeptide repeat and RAP domain-containing protein putative
+chirp_peak_34	Pf3D7_05_v3	700395	701455	114.13412612460075	5.0687910427347215e-16	PF3D7_0516800	AP2 domain transcription factor AP2-O2 putative
+chirp_peak_35	Pf3D7_06_v3	1021045	1021840	113.41945277451325	3.768397700424051e-11	PF3D7_0625000	sphingomyelin synthase 1 putative
+chirp_peak_36	Pf3D7_11_v3	1130225	1130755	113.01001808917198	2.7120583465950396e-07	PF3D7_1129200	26S proteasome regulatory subunit RPN7 putative
+chirp_peak_37	Pf3D7_05_v3	773270	774065	112.8089754450207	3.762283360056117e-07	PF3D7_0518700	mRNA-binding protein PUF1
+chirp_peak_38	Pf3D7_08_v3	259965	261025	112.70477942442572	4.3420827089841375e-11	PF3D7_0804500	conserved Plasmodium membrane protein unknown function
+chirp_peak_39	Pf3D7_09_v3	1432590	1433385	112.59323400679204	1.1186448051903938e-08	PF3D7_0936200	Plasmodium exported protein (hyp11) unknown function
