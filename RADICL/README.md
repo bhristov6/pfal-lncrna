@@ -43,8 +43,8 @@ After extracting the RNA and DNA tags and aligning them to the plasmodium genome
 | RNA<sup>4</sup> | 9,971,112 | 24.7 | 2,333,526 | 23.4% | 1,773,374     | 17.4% | 961,768 | 9.6% |
 
 
-Experminets <sup>2</sup> and <sup>3</sup> did not work out well as very few of trheir reads contain the bridge (<1%). Karine explained that it is difficult to get the protocol to work correctly; it is also very poorly described in the methods section of the published paper. 
-Similar to the very first time the RADICL experiment was done, the DNA tags align uniquely much better than the RNA tags which align multiple times. Also in all experiments significant chunk of the DNA and RNA tags align to the human genome. These observations are understandable/expected.
+Experiments <sup>2</sup> and <sup>3</sup> did not work out well as very few of trheir reads contain the bridge (<1%). Karine explained that it is difficult to get the protocol to work correctly; it is also very poorly described in the methods section of the published paper. 
+Similar to the very first time the RADICL experiment was done, the DNA tags align uniquely much better than the RNA tags which align multiple times. Also in all experiments significant chunk of the DNA and RNA tags align to the human genome. These observations are understandable/expected. 
 
 
 I also checked if the sequences that do not contain the bridge align to the human genome but that was not the case.
@@ -61,6 +61,6 @@ Finally, the number of pairs of RNA-DNA tags for which both tags align uniquely 
 | --------- | -------------- | - |
 | New\_2021\_11<sup>2</sup> | 348,340,949 | 24,275 |
 | New\_2022\_01<sup>3</sup> | 81,825,527 | 44,352 |
-| New\_2022\_03<sup>4</sup> | 124,464,083 | 1,612,274 |
+| New\_2022\_03<sup>4</sup> | 124,464,083 | 806,137 |
 
 
