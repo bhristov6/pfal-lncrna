@@ -1,32 +1,21 @@
-# RADICL-seq
+# iMARGI
 
-The paper describing the RADICL-seq protocol is here [paper](https://www.biorxiv.org/content/10.1101/681924v1.full.pdf). Basically, the setup is:
-
-
-**RNA sequence (27 nt) --- Forward bridge (50nt) --- DNA sequence (27 nt)**
-
-**DNA sequence (27 nt) --- Reverse bridge (50nt) --- RNA sequence (27 nt)**
-
-where
-
-**Forward bridge**: CTGCTGCTCCTTCCCTTTCCCCTTTTGGTCCGACGGTCCAAGTCAGCAGT
-
-**Reverse bridge**: ACTGCTGACTTGGACCGTCGGACCAAAAGGGGAAAGGGAAGGAGCAGCA
+The paper describing the iMARGI-seq protocol is here [paper](https://www.biorxiv.org/content/10.1101/681924v1.full.pdf). I ran manually the scripts from the Docker container provided by the paper's authors. 
 
 
-I downloaded the data new RADICL-seq data Trevor/Seven sent me (\_2021\_11, \_2022\_01 and \_2022\_03) into [~proj/Data/LeRochLab/RADICL](~proj/Data/LeRochLab/RADICL) and processed it the same way as the original one. It appears the two experiments did not work out as only a tiny fraction of the reads contain the bridge (<1%). 
+I downloaded the data iMARGI data Trevor sent me (total of 5 pair-end experiemts) into [~proj/Data/LeRochLab/iMARGI](~proj/Data/LeRochLab/iMARGI). It appears the two experiments did not work out as only a tiny fraction of the reads contain the bridge (<1%). 
 
 The latest experiment from Trevor seems to have worked out much better than the previous ones- the bridge is now found in 8% of the reads (compared to 1% previously) though still far below the 42% of the original run. Here are some statistics that might be helpful. 
 
-## Basic statistics and comparison to the earlier experiment.
+## Basic statistics.
 
-| experiment | total reads | length | having bridge | % |
+| experiment | total reads | cleaned | % | mapped | % |
 | :--------: | -----------: | ------ | -------------: | - |
-| Original\_2021\_03<sup>1</sup>| 23,151,097 | 151 (0.54) | 9,750,719 | 42.1% |
-| New\_2021\_11<sup>2</sup> | 348,340,949 | 101 (0) | 768,611 | 0.2% |
-| New\_2022\_01<sup>3</sup> | 81,825,527 | 151 (0.79) | 982,801 | 1.0% |
-| New\_2022\_03<sup>4</sup> | 124,464,083 | 151 (0) | 10,161,011 | 8.1% |
-| New\_2022\_03<sup>5</sup> | 169,116,426 | 151 (0) | 685,964 | 0.4% |
+| MARGI-1 | 32403152 | 26053436 | 80% | 9,750,719 | 42.1% |
+| MARGI-2 | 348,340,949 | 101 (0) | 768,611 | 0.2% |
+| MARGI-3 | 81,825,527 | 151 (0.79) | 982,801 | 1.0% |
+| MARGI-4 | 124,464,083 | 151 (0) | 10,161,011 | 8.1% |
+| MARGI-5 | 169,116,426 | 151 (0) | 685,964 | 0.4% |
 
 
 After extracting the RNA and DNA tags and aligning them to the plasmodium genome I'm left with the following:
