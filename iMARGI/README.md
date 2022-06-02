@@ -7,9 +7,11 @@ I downloaded the data iMARGI data Trevor sent me (total of 5 pair-end experiment
 
 ## Basic statistics.
 
-| experiment | total reads | cleaned | % | mapped | % | after removing duplicates | % | after filter proximal | % | trans-contacts % |
+| experiment | total reads | cleaned | % |  mapped | % | after removing duplicates | % | after filter proximal | % | trans-contacts % |
 | :--------: | ----------: | ------- | - | -----: | - | ------------------------- | - | --------------------- | - | -----------------|
-| MARGI-1 | 72,969,293 | 32,403,152 | 44% | 12,510,865 | 38% | 1,411,042 | 11% | 152,992 | 10% | 64 % |
+| MARGI-4 | 32,403,152 | 27,801,922 | 85% | 12,510,865 | 45% | 1,414,669 | 11% | 505,543 | 35% | 81 % |
+| MARGI-1 | 72,969,293 | 64,200,403 | 88% | 20,544,129 | 38% | 2,319,120 | 11% | 152,992 | 10% | 74 % |
+
 
 
 
