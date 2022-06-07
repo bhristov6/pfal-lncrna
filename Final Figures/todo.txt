@@ -1,6 +1,0 @@
-TARE top 3 motifs + add text to materials and methods + motif logo in figure
-
-black color + smoothing for 5utr
-
-subtract input for each stage
-
