@@ -23,8 +23,10 @@ trans = 91.55\%
 ## Latest RADICL
 
 
-| experiment | total reads | having the bridge | mapped |  non duplicates |  cis proximal (<10kb) | cis distal (>10kb) | trans-contacts | final valid pairs |  %  |
-| :--------: | ----------- | --------------- | ------ |  -------------- |  ---------------------| ------------------ | ---------------| ------------------| --- |
+| experiment | total reads | having the bridge | mapped |  non duplicates |  cis proximal (<10kb) | cis distal (>10kb) | trans-contacts | final valid pairs | 
+| :--------: | ----------- | --------------- | ------ |  -------------- |  ---------------------| ------------------ | ---------------| ------------------|
+| RADICL4 (March)   | 124,464,083  | 8.1%             | 47%    |  8.8%            |  2%                  | 7 %              | 91%           |    412,057       |  
 | RAD7H     | 9  |              |     |             |                   |              |            |           |   |
+| RAD9   | 126,296,385  | 0.9%             | 56%    |  9.8%            |  1%                  | 9 %              | 90%           |    196,004       |  
 | RAD10     | 16 |              |     |             |                   |              |            |           |   |
-| iMARGI-1   | 124,464,083  | 8.1%             | 85%    |  26%            |  97%                  | 0.27 %              | 3.0%           |    412,057       |  10^-3% |
+| Undetermined   | 18,466,857  | 0.5%             | 51%    |  8.5%            |  1%                  | 8 %              | 90%           |    28       |  
