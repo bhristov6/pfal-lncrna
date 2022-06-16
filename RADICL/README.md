@@ -62,7 +62,7 @@ Finally, the number of pairs of RNA-DNA tags for which both tags align uniquely 
 | --------- | -------------- | - |
 | New\_2021\_11<sup>2</sup> | 348,340,949 | 24,275 |
 | New\_2022\_01<sup>3</sup> | 81,825,527 | 44,352 |
-| New\_2022\_03<sup>4</sup> | 124,464,083 | 806,137 |
+| New\_2022\_03<sup>4</sup> | 124,464,083 | 412,057 |
 
 
 
