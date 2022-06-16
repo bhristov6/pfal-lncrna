@@ -65,8 +65,15 @@ Finally, the number of pairs of RNA-DNA tags for which both tags align uniquely 
 | New\_2022\_03<sup>4</sup> | 124,464,083 | 806,137 |
 
 
-## Splitting per Barcode.
 
-| barcode | total reads | having bridge | % | DNA align uniquely | % | 
-| :--------: | -----------: | ------ | -------------: | - |
-| ACGGCG | 30,394,867 | 1,073,067 | 3.5% | 42.1% |
+
+## Latest RADICL
+
+
+| experiment | total reads | having the bridge | mapped |  non duplicates |  cis proximal (<10kb) | cis distal (>10kb) | trans-contacts | final valid pairs | 
+| :--------: | ----------- | --------------- | ------ |  -------------- |  ---------------------| ------------------ | ---------------| ------------------|
+| RADICL4 (March)   | 124,464,083  | 8.1%             | 47%    |  8.8%            |  2%                  | 7 %              | 91%           |    412,057       |  
+| RAD7H     | 9  |              |     |             |                   |              |            |           |   |
+| RAD9   | 126,296,385  | 0.9%             | 56%    |  9.8%            |  1%                  | 9 %              | 90%           |    196,004       |  
+| RAD10     | 16 |              |     |             |                   |              |            |           |   |
+| Undetermined   | 18,466,857  | 0.5%             | 51%    |  8.5%            |  1%                  | 8 %              | 90%           |    28       |  
