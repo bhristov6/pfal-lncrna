@@ -79,10 +79,11 @@ Finally, the number of pairs of RNA-DNA tags for which both tags align uniquely 
 | iMARGI5     | 63,998,107 |   916           |     |             |                   |              |            |           |   |
 
 
-## March and May
+## March and May Samples
 
 
 | barcode           | total reads | having the bridge |   non duplicates | final valid pairs | %      |
 | :---------------: | ----------- | ----------------- |   -------------- | ----------------- | ------ |
 | March Sample      | 124,464,083 | 8.1%              |  47%             | 411,740           |  0.35% |
 | RAD9 May Sample   | 126,296,385 | 9.0%              |  56%             | 443,636           |  0.35% |
+
