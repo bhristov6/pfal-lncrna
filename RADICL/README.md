@@ -72,9 +72,9 @@ Finally, the number of pairs of RNA-DNA tags for which both tags align uniquely 
 
 | experiment | total reads | having the bridge | mapped |  non duplicates |  cis proximal (<10kb) | cis distal (>10kb) | trans-contacts | final valid pairs | 
 | :--------: | ----------- | --------------- | ------ |  -------------- |  ---------------------| ------------------ | ---------------| ------------------|
-| RADICL4 (March)   | 124,464,083  | 8.1%             | 47%    |  8.8%            |  2%                  | 7 %              | 91%           |    412,057       |  
+| RADICL4 (March)   | 124,464,083  | 8.1%             | 47%    |  8.8%            |  2%                  | 7 %              | 91%           |    411,740       |  
 | RAD7H     | 9  |              |     |             |                   |              |            |           |   |
-| RAD9   | 126,296,385  | 9%             | 56%    |  9.8%            |  1%                  | 9 %              | 90%           |    443,636       |  
+| RAD9   | 126,296,385  | 9.0%             | 56%    |  9.8%            |  1%                  | 9 %              | 90%           |    443,636       |  
 | RAD10     | 16 |              |     |             |                   |              |            |           |   |
 | Undetermined   | 18,466,857  | 0.5%             | 51%    |  8.5%            |  1%                  | 8 %              | 90%           |    28       |  
 | iMARGI1     | 72,969,293 |      222        |     |             |                   |              |            |           |   |
