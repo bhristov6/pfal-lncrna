@@ -67,18 +67,22 @@ Finally, the number of pairs of RNA-DNA tags for which both tags align uniquely 
 
 
 
-## Latest RADICL
+## Does Imargi have RADICL sequences 
 
 
 | experiment | total reads | having the bridge | mapped |  non duplicates |  cis proximal (<10kb) | cis distal (>10kb) | trans-contacts | final valid pairs | 
 | :--------: | ----------- | --------------- | ------ |  -------------- |  ---------------------| ------------------ | ---------------| ------------------|
-| RADICL4 (March)   | 124,464,083  | 8.1%             | 47%    |  8.8%            |  2%                  | 7 %              | 91%           |    411,740       |  
-| RAD7H     | 9  |              |     |             |                   |              |            |           |   |
-| RAD9   | 126,296,385  | 9.0%             | 56%    |  9.8%            |  1%                  | 9 %              | 90%           |    443,636       |  
-| RAD10     | 16 |              |     |             |                   |              |            |           |   |
-| Undetermined   | 18,466,857  | 0.5%             | 51%    |  8.5%            |  1%                  | 8 %              | 90%           |    28       |  
 | iMARGI1     | 72,969,293 |      222        |     |             |                   |              |            |           |   |
 | iMARGI2     | 89,217,353 |       1054       |     |             |                   |              |            |           |   |
 | iMARGI3     | 55,759,881 |     720         |     |             |                   |              |            |           |   |
 | iMARGI4     | 32,403,152 |   466           |     |             |                   |              |            |           |   |
 | iMARGI5     | 63,998,107 |   916           |     |             |                   |              |            |           |   |
+
+
+## March and May
+
+
+| barcode           | total reads | having the bridge |   non duplicates | final valid pairs | %      |
+| :---------------: | ----------- | ----------------- |   -------------- | ----------------- | ------ |
+| March Sample      | 124,464,083 | 8.1%              |  47%             | 411,740           |  0.35% |
+| RAD9 May Sample   | 126,296,385 | 9.0%              |  56%             | 443,636           |  0.35% |
