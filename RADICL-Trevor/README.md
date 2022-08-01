@@ -17,4 +17,4 @@
 ## 2. Heatmaps
 
 
-![TARE_dist](Figs/agg.png)
+![TARE_dist](figs/agg.png)
