@@ -16,5 +16,31 @@
 
 ## 2. Heatmaps
 
+Aggregate:
 
 ![TARE_dist](figs/agg.png)
+
+
+
+Newest August:
+
+![TARE_dist](figs/n0.png)
+
+
+Per barcode:
+
+![TARE_dist](figs/n1.png)
+
+
+## 3. TARE mappings
+
+Aggregate:
+
+![TARE_dist](figs/TARE_AUG_c.png)
+
+Per barcode:
+
+![TARE_dist](figs/TARE_aug_1.png)
+![TARE_dist](figs/TARE_aug_2.png)
+![TARE_dist](figs/TARE_aug_3.png)
+![TARE_dist](figs/TARE_aug_4.png)
