@@ -1,7 +1,9 @@
 # plasmo-lncrna
 Plasmodium lncRNA investigation with the Le Roch lab.
 
-All of the downloaded data is in: /net/noble/vol1/home/borislav/proj/Data/LeRochLab/
+All of the downloaded data is in: /net/noble/vol1/home/borislav/proj/Data/LeRochLab/2021_ChIRP_RawFiles
+
+All processed data and results are in: /net/noble/vol1/home/borislav/proj/2021_borislav_plasmo-chirp/Outputs
 
 
 
