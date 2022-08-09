@@ -104,6 +104,8 @@ Here is the same plot of tags overlapping known lncRNAs for the August data.
 
 ## 5. Multi-mappers
 
+Most DNA-tags map uniquely, TARE is an exception.
+
 ![lnc_hist](figs/hist_mulitpammers.png)
 
 
