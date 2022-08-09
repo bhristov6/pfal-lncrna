@@ -67,6 +67,7 @@ Next, I compared this RNA tag distribution to that in the iMARGi data (normalizi
 
 
 
+
 ## 3. TARE mappings
 
 Here is our favorite positive control. All reads (multi-mappers) corresponding to TARE have been aggregated in the genomic plots below. While there is noise, the peaks with more than 5 reads are at the telomere regions indicating that the experiment has worked! This is true for both the Aggregated data as well as the latest August patch.    
@@ -96,6 +97,12 @@ For those with the most reads, here are their genomic tracks:
 
 ![lnc_hist](figs/genome_track.png)
 
+Here is the same plot of tags overlapping known lncRNAs for the August data.
+
+![lnc_hist](figs/aug.png)
+
+
+
 ## 5. Downsampling
 
 I downsampeled the Aggregated data by randomly removing **x%** of the final valid RNA tags (and all of their corresponding DNA tags in case of multimapping.) Consequently, the heatmaps become sparser (whither)
@@ -105,3 +112,5 @@ I downsampeled the Aggregated data by randomly removing **x%** of the final vali
 | ![](figs/ds1.png) | ![](figs/ds2.png) |
 | 10% rna (~0.3m pairs )  | 5% rna (~0.15m pairs )  |
 | ![](figs/ds3.png) | ![](figs/ds4.png) |
+
+
