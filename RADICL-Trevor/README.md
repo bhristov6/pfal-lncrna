@@ -102,6 +102,10 @@ Here is the same plot of tags overlapping known lncRNAs for the August data.
 ![lnc_hist](figs/aug.png)
 
 
+## 5. Multi-mappers
+
+![lnc_hist](figs/hist_mulitpammers.png)
+
 
 ## 5. Downsampling
 
