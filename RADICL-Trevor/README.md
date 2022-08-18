@@ -36,7 +36,9 @@ Importantly, when looking at the reads that **do have** the bridge, we can also 
 Schematically, this is the full setup of a RADICL-seq read.
 
 1]   P5 adapter: AATGATACGGCGACCACCGAGATCT (25 nt)
+
 2]   i5 index: ACACTCTTTCCCTACACGA (19 nt)
+
 3]   Read 1 primer region: CGCTCTTCCGATCT (14 nt)
 4]   RNA sequence of interest: unknown (25-27 nt)
 5]   Bridge: CTGCTGCTCCTTCCCTTTCCCCTTTTGGTCCGACGGTCCAAGTCAGCAGT (50 nt)
