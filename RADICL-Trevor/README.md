@@ -40,12 +40,19 @@ Schematically, this is the full setup of a RADICL-seq read.
 2]   i5 index: ACACTCTTTCCCTACACGA (19 nt)
 
 3]   Read 1 primer region: CGCTCTTCCGATCT (14 nt)
+
 4]   RNA sequence of interest: unknown (25-27 nt)
+
 5]   Bridge: CTGCTGCTCCTTCCCTTTCCCCTTTTGGTCCGACGGTCCAAGTCAGCAGT (50 nt)
+
 6]   DNA sequence of interest: unknown (25-27 nt)
+
 7]   Read 2 primer region: AGATCGGAAGAGCG (14 nt)
+
 8]   i7 index: GTTCAGCAGGAATGCCGAG (19 nt)
+
 9]   sample barcode: [rev1]GGGGGG / [rev2]ACGGCG / [rev3]AGCAGC / [rev4]TTCTTC (6 nt)
+
 10] P7 adapter: ATCTCGTATGCCGTCTTCTGCTTG (24 nt)
 
 ![TARE_dist](figs/legend.png)
