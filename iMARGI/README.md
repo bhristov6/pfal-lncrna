@@ -23,3 +23,13 @@ trans = 91.55\%
 | Undetermined | 67,050,785 | 41% | 23% |  21% | 99% | 0.05% | 0.9% | 81,622 | 0.1% |
 | Ring | 7,319,365 | 39% | 38% | 20% | 99% | 0.03% | 1% | 8,315 | 0.1% |
 | Schizont | 18,623,459 | 44% | 25% | 20% | 98% | 0.08% | 1.9% | 24,581 | 0.1% | 
+
+
+#### TARE
+
+Here is our positive control TARE. It looks noisy though there are reads at the telomere regions.
+![TARE_dist](figs/imargi_TARE.png)
+
+
+The newest data has only a handful of TARE reads:
+![TARE_dist](figs/TARE_new.png)
