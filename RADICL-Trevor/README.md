@@ -46,7 +46,7 @@ Schematically, this is the full setup of a RADICL-seq read.
 9]   sample barcode: [rev1]GGGGGG / [rev2]ACGGCG / [rev3]AGCAGC / [rev4]TTCTTC (6 nt)
 10] P7 adapter: ATCTCGTATGCCGTCTTCTGCTTG (24 nt)
 
-![TARE_dist](figs/legend)
+![TARE_dist](figs/legend.png)
 
 Here is a plot of 200 randomly drawn reads (containing the bridge) coloring their segments. We observe that the i7_index sequences and barcode are present but the P7 adapter could be missing. This is in line with Karine's suggestion to use only the upstream six nt flanking sequence (GCCGAG) + barcode.
 
