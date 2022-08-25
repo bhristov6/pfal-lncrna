@@ -171,9 +171,9 @@ I downsampeled the Aggregated data by randomly removing **x%** of the final vali
 
 Here is table 1.
 
-| gene id  | number of overlapping RADICL reads  |
-| :--: | :--: |
-| a | b |
+| gene id  | number of overlapping RADICL reads  | lncRNAs distribution |
+| :--: | :--: | :--: |
+| a | b | c |
 
 
 aa
