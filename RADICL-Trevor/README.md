@@ -169,6 +169,7 @@ I downsampeled the Aggregated data by randomly removing **x%** of the final vali
 
 ## 6. Genes and lncRNAs
 
+Here is table 1.
 
 | gene id | number of overlapping RADICL reads | lncRNAs distribution |
 | :--: | :--: | :-- : |
