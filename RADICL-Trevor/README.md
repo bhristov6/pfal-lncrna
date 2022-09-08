@@ -195,12 +195,15 @@ Has 92 rna reads with corresponding dna tags mapped at few peaks:
 
 ![](figs/cand5.png)
 
+![](figs/cand8.png)
+
 ![](figs/cand15.png)
 
 ## 7. Next Steps
 
+Identify ***de novo*** lncRNAs. Here I need to explore what parameters and thresholds I want to use. 
 
-## 8. Tables. 
+## 8. Tables 
 
 
 
