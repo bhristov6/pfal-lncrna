@@ -201,7 +201,9 @@ Has 92 rna reads with corresponding dna tags mapped at few peaks:
 
 ## 7. Next Steps
 
-Identify ***de novo*** lncRNAs. Here I need to explore what parameters and thresholds I want to use. 
+Identify ***de novo*** lncRNAs. Here, I will need to explore what parameters and thresholds to use in order to reduce the number of potential candidate lncRNAs, currently are 11k.
+
+Examine where the lncRNAs map, i.e 5'UTR, gene body, introns. I have the data for that. 
 
 ## 8. Tables 
 
