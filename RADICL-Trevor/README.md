@@ -167,7 +167,20 @@ I downsampeled the Aggregated data by randomly removing **x%** of the final vali
 | 10% rna (~0.3m pairs )  | 5% rna (~0.15m pairs )  |
 | ![](figs/ds3.png) | ![](figs/ds4.png) |
 
-## 6. Genes and lncRNAs
+
+
+## 6. Candidate lncRNAs
+
+I examined closely the tags that fall near the three AP2 domain transcription factors AP2-O, AP2-G, and AP2-G2 which Trevor sent me earlier as examples of loci of interest. While there are many reads that align with those locations their rna tags are not part of the set of previously annotated lncRNSs and most come from unknown locations. Yet, encouragingly these rna reads stack (or **pile up**) 
+
+![](figs/gene1.png)
+ 
+
+
+## 7. Next Steps
+
+
+## 8. Genes and lncRNAs
 
 
 
