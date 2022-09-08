@@ -159,7 +159,7 @@ Most DNA-tags map uniquely, TARE is an exception.
 
 ## 5. Downsampling
 
-I downsampeled the Aggregated data by randomly removing **x%** of the final valid RNA tags (and all of their corresponding DNA tags in case of multimapping.) Consequently, the heatmaps become sparser (whither)
+I downsampled the Aggregated data by randomly removing **x%** of the final valid RNA tags (and all of their corresponding DNA tags in case of multimapping.) Consequently, the heatmaps become sparser (whither)
 
 | 50% rna (~1.5m pairs )  | 20% rna (~0.6m pairs )  |
 | :--: | :--: |
@@ -171,16 +171,36 @@ I downsampeled the Aggregated data by randomly removing **x%** of the final vali
 
 ## 6. Candidate lncRNAs
 
-I examined closely the tags that fall near the three AP2 domain transcription factors AP2-O, AP2-G, and AP2-G2 which Trevor sent me earlier as examples of loci of interest. While there are many reads that align with those locations their rna tags are not part of the set of previously annotated lncRNSs and most come from unknown locations. Yet, encouragingly these rna reads stack (or **pile up**) 
+I examined closely the tags that fall near the three AP2 domain transcription factors AP2-O, AP2-G, and AP2-G2 which Trevor sent me earlier as examples of loci of interest. While there are many reads that align with those locations their rna tags are not part of the set of previously annotated lncRNSs and most come from unknown locations. Yet, encouragingly these rna reads stack (or **pile up**), they are not randomly distributed across the genome. I used 1000bp bins in the plots below to visualize where the rna tags fall. When examining the .bed file in the genome browser, I observed that the reads are on top of one another which is good.
 
 ![](figs/gene1.png)
- 
 
+![](figs/gene2.png)
+
+![](figs/gene3.png) 
+
+Some of the peaks are the same. However, these peaks (on chr 5 and chr 7) are exactly the ones that map massively across the genome that Trevor and I had examined earlier.
+
+Has 41713 rna reads with corresponding dna tags mapped heavily everywhere:
+![](figs/cand11.png)
+
+Has 29059 rna reads with corresponding dna tags mapped heavily everywhere:
+![](figs/cand2.png)
+
+Then I looked at the other prospective peaks and found that 1) they map more specifically with a few peaks and 2) they have fewer reads (~50-90)
+
+Has 92 rna reads with corresponding dna tags mapped at few peaks:
+
+![](figs/cand1.png)
+
+![](figs/cand5.png)
+
+![](figs/cand15.png)
 
 ## 7. Next Steps
 
 
-## 8. Genes and lncRNAs
+## 8. Tables. 
 
 
 
