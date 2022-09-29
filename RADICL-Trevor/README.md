@@ -199,17 +199,38 @@ Has 92 rna reads with corresponding dna tags mapped at few peaks:
 
 ![](figs/cand15.png)
 
-## 7. Next Steps
 
-Identify ***de novo*** lncRNAs. Here, I will need to explore what parameters and thresholds to use in order to reduce the number of potential candidate lncRNAs, currently are 11k.
 
-Examine where the lncRNAs map, i.e 5'UTR, gene body, introns. I have the data for that. 
+## 7. Difference in lncRNA activity between stages
+
+My simple pipeline is:
+1. Identify candidate lncRNA in an unbiased way (examine 1kb bins and select the ones with most RNA reads in them, aka potential lncRNA peaks). Alternatively, we can use a predefined region of interest as above with the AP2-O transcription factor.
+2. Filter and Normalize for each stage separately (***the fractional***) the peak height in each bin
+3. Subtract the normalized peak vectors from the two stages (i.e Gametocyte and Aggregate Asexual) to obtain the difference vector.
+4. Order the candidate lncRNAs based on the magnitude of the difference vector.
+
+
+![](figs/c6-a.png)
+
+![](figs/c6-g.png)
+
+
+## 8. On the issue of multi-mappers.
+
+We want to divide multimapper counts by the number of places they map to. However, this sometimes has weird downstream effect, illustrated in the figure below, of boosting noisy single reads and reducing the real signal of neatly stacking (but divided) multimappers. Notably, this affects mostly TARE.
+
+![](figs/mm)
+
 
 ## 8. Tables 
 
 
 
-I looked for RADICL reads that overlap (+-100bp) from the list of parasite genes Trevor send me. Indeed, there were many reads that did overlap, however, most of them come from unknown locations, very few have the RNA tag overlap (+-50bp) with the location of known annotated lmncRNAs.
+I looked for RADICL reads that overlap (+-100bp) from the list of parasite genes Trevor send me. Indeed, there were many reads that did overlap, however, most of them come from unknown locations, very few have the RNA tag overlap (+-50bp) with the location of known annotated lmncRNAs. 
+
+Here, I will need to explore what parameters and thresholds to use in order to reduce the number of potential candidate lncRNAs, currently are 11k.
+
+Examine where the lncRNAs map, i.e 5'UTR, gene body, introns. I have the data for that. 
 
 ### Table 6.1 (PlasmoDB\_BLASTn\_65 var (PfEMP1)) Gametocyte 
 
