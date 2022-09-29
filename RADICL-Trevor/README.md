@@ -219,7 +219,7 @@ My simple pipeline is:
 
 We want to divide multimapper counts by the number of places they map to. However, this sometimes has weird downstream effect, illustrated in the figure below, of boosting noisy single reads and reducing the real signal of neatly stacking (but divided) multimappers. Notably, this affects mostly TARE.
 
-![](figs/mm)
+![](figs/mm.png)
 
 
 ## 8. Tables 
