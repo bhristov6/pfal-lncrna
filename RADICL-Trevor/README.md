@@ -229,7 +229,7 @@ Here is the heatmap for the aggregated Gametocyte data.
 
 I decided to examine more closely the RNA axis (***the y-axis of the heatmap***). Here is how all RNA tags map on the genome:
 
-![](figs/rna_gam.png)
+![](figs/rna-gam.png)
 
 The major peaks on chr5 and chr7 are the ones we had observed with Trevor previously and which we suspect may have to do with tRNA. The aggregated asexual stage looks very similar.
 
