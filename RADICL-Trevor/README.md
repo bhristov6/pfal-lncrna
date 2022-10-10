@@ -238,7 +238,11 @@ The major peaks on chr5 and chr7 are the ones we had observed with Trevor previo
 I normalized per million of reads and subtracted both arrays to see if any regions exhibit major change in RNA activity.
 ![](figs/rna_diff.png)
 
-Interestingly, we observe that the RNA tags come from both ***coding*** and ***non-coding*** regions. Since the ***lncRNA*** are by definition **long non-coding RNA**, we expect (hope) to have them come predominately from the non-coding section of the genome. The uniform background is 52% coding and 48% non-coding regions for P. Falciparum (a very dense genome!) and we do observe that our RNA tags are favoring at 60% the non-coding regions but a good chunk also overlap with the coding regions. Encouragingly, if we consider the bins with the tallest peaks (top 25%) we will see even further increase of non-coding localization.
+And here is where the DNA-tags corresponding to the peak in chr8 align:
+![](figs/diff-peak.png)
+
+
+Interestingly, we observe that the RNA tags come from both ***coding*** and ***non-coding*** regions. Since the ***lncRNA*** are by definition **long non-coding RNA**, we expect (hope) to have them come predominately from the non-coding section of the genome. The uniform background is 52% coding and 48% non-coding regions for **P. Falciparum** (a very dense genome!) and we do observe that our RNA tags are favoring at 60% the non-coding regions but a good chunk also overlap with the coding regions. Encouragingly, if we consider the bins with the tallest peaks (top 25%) we will see even further increase of non-coding localization.
 
 ![](figs/RNAloc.png)
 
