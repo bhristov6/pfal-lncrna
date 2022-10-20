@@ -88,12 +88,16 @@ After filtering the spikes at the telomere ends are significantly reduced.
 ![TARE_dist](figs/gam_multi_filt.png)
 
 
+Here is the overall distribution of how many times a DNA tag maps.
+
+![lnc_hist](figs/mm2.png)
+
+
 The RNA axis remains mostly unchanged after the filtering step.
 ![TARE_dist](figs/09_gam_rna_axis_filtered.png)
 
 
 
-### 1.3 Exploring the multimappers
 
 ## 2. Heatmaps
 
@@ -121,6 +125,16 @@ First, this is a histogram showing the number of final read pairs that I have fo
 
 ![lnc_hist](figs/hist.png)
  
+
+
+## 5. Older plots.
+
+
+
+Most DNA-tags map uniquely, TARE is an exception.
+
+![lnc_hist](figs/hist_mulitpammers.png)
+
 For those with the most reads, here are their genomic tracks: 
 
 ![lnc_hist](figs/genome_track.png)
@@ -129,12 +143,6 @@ Here is the same plot of tags overlapping known lncRNAs for the August data.
 
 ![lnc_hist](figs/aug.png)
 
-
-## 5. Multi-mappers
-
-Most DNA-tags map uniquely, TARE is an exception.
-
-![lnc_hist](figs/hist_mulitpammers.png)
 
 
 ## 5. Downsampling
