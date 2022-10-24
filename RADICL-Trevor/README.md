@@ -5,7 +5,7 @@
 
 ### Summary table.
 
-| barcode       | % in all reads | having the bridge | duplicates | total final RNAs |
+| barcode       | % in all reads | having the bridge | duplicates | total final valid pairs |
 | :-----------: | :------------  | :---------------  | :--------: | :--------------- |
 | **Aggregated Asexual**    |
 | All Aggregated  | 100%    | between 1% to %9 | 20% to 80% | 3,213,988 |
