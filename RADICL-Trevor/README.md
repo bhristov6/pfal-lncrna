@@ -1,7 +1,9 @@
-/Users/bhristov6/radicl/Readme.md
+/Users/bhristov6/radicl
+
+### $\text
 
 
-#### Summary table.
+### Summary table.
 
 | barcode       | % in all reads | having the bridge | duplicates | total final RNAs |
 | :-----------: | :------------  | :---------------  | :--------: | :--------------- |
@@ -20,6 +22,5 @@
 
 ###
 
-$\text
 
 
