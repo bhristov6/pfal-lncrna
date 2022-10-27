@@ -72,6 +72,22 @@ Those not having the bridge:
 
 
 
+
+### Older
+
+
+| barcode           | % in all reads | having the bridge | % in final pairs | num valid final pairs | cis proximal (<1kb) | cis distal | trans-contacts |
+| :---------------: | -------------- | ----------------- | ---------------- |   ---------------------- | ------------------- | ---------- | -------------- | 
+| **Aggregated Asexual**    | -              |  between 1% to %9 | 100% | 3,213,988 | 0.3% | 7.6% | 92.1% |
+| *August Sexual*   |   
+| **Schizont** | 1.1% | 13.8% | 1.1%   | 14,358 | 1.5% | 8.2% | 90.2 % |
+| **Ring** | 2.2% | 7.5%  | 0.08%   |  1,166 | 5.7% | 10.1% | 84.2% | 
+| **Trophozoite** | 3.2% | 8.4%  | 11.6%   |  152,677 | 0.5% | 7.8% | 91.6% |
+| **Gametocyte** | 13.4% | 13.1% | 60.2%   |  792,245 | 0.4% | 7.6% | 92.0% |
+| **no barcode** | 80.1% | 2.1% | 26.9%   |  354,084 | 0.2% | 8.2% | 91.6% |
+| *ALL August*                | 100% | 3.8%  | 100%  |  1,314,530 | 0.4% | 7.7% | 91.8% |
+
+
 ## 2. Heatmaps
 
 This is a Hi-C style heatmap of all final valid pairs in a given dataset. The x-axis is the DNA genomic axes, and the y-axis is the RNA one. I generated .mcool files which can be easily visualized by [Higlass](https://higlass.io/). Below is a static snapshot image, the .mcool files are in [files](files/) directory.
