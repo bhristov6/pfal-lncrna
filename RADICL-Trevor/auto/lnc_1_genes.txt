@@ -1,0 +1,38 @@
+PF3D7_1302700	ATP-dependent RNA helicase DHR1 putative
+PF3D7_1423200	peptidyl-prolyl cis-trans isomerase
+PF3D7_0216800	TMEM121 domain-containing protein putative
+PF3D7_1106200	conserved Plasmodium protein unknown function
+PF3D7_0930700	conserved Plasmodium protein unknown function
+PF3D7_0306400	FAD-dependent glycerol-3-phosphate dehydrogenase putative
+PF3D7_0828800	GPI-anchored micronemal antigen
+PF3D7_1247900	U3 small nucleolar RNA-associated protein 11 putative
+PF3D7_0102400	lysophospholipase putative pseudogene
+PF3D7_0921200	conserved Plasmodium membrane protein unknown function
+PF3D7_1144100	mitochondrial large subunit ribosomal protein putative
+PF3D7_1134400	conserved protein unknown function
+PF3D7_1430500	conserved Plasmodium protein unknown function
+PF3D7_0323100	conserved Plasmodium protein unknown function
+PF3D7_0802000	glutamate dehydrogenase putative
+PF3D7_1408300	conserved Plasmodium protein unknown function
+PF3D7_0909000	conserved Plasmodium protein unknown function
+PF3D7_0416300	DNA helicase MCM9 putative
+PF3D7_0828400	mitochondrial inner membrane protein OXA1 putative
+PF3D7_0205300	conserved Plasmodium protein unknown function
+PF3D7_1359100	riboflavin kinase putative
+PF3D7_1218100	conserved Plasmodium protein unknown function
+PF3D7_1012400	hypoxanthine-guanine phosphoribosyltransferase
+PF3D7_1304600	conserved Plasmodium protein unknown function
+PF3D7_0607400	G-protein associated signal transduction protein putative
+PF3D7_1403400	conserved Plasmodium protein unknown function
+PF3D7_1029800	heptatricopeptide repeat and RAP domain-containing protein putative
+PF3D7_1365600	DNA topoisomerase 6 subunit B putative
+PF3D7_0810300	protein phosphatase PPM5 putative
+PF3D7_1361300	conserved Plasmodium protein unknown function
+PF3D7_1320800	dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex
+PF3D7_1131300	conserved Plasmodium protein unknown function
+PF3D7_0516800	AP2 domain transcription factor AP2-O2 putative
+PF3D7_0625000	sphingomyelin synthase 1 putative
+PF3D7_1129200	26S proteasome regulatory subunit RPN7 putative
+PF3D7_0518700	mRNA-binding protein PUF1
+PF3D7_0804500	conserved Plasmodium membrane protein unknown function
+PF3D7_0936200	Plasmodium exported protein (hyp11) unknown function
