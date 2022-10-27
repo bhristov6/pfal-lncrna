@@ -11,7 +11,7 @@
 
 [Karine] *For this specific comment, we will have to demonstrate that we don’t have much background for lncRNA 14 and remove all signals that are non statistically significant.  This will have to be done for all 7 ChIRP-seq data set. We will need to redo all figures and show clearly what is our true signals.*
 
-[Borislav] Adding the y-axis makea the figure clearer, however, I feel that in order to better display the signal, perhaps, we want to show a zoom in over regions of clear ***lncRNA*** activity as shown below, say the top 3-4 peaks. It is really hard to fit into a page full chromosome arrays drawn large enough to show adequate detail (and I have 14 chromosomes making this figure tricky). Anything that has multiple panels displays poorly in a standard page as it has to be drawn small enough to fit. Once we agree on a layout for lnc-14, I will do all of the 7 ChIRP-seq.
+[Borislav] Adding the y-axis makes the figure clearer, however, I feel that in order to better display the signal, perhaps, we want to show a zoom in over regions of clear ***lncRNA*** activity as shown below, say the top 3-4 peaks. It is really hard to fit into a page full chromosome arrays drawn large enough to show adequate detail (and I have 14 chromosomes making this figure tricky). Anything that has multiple panels displays poorly in a standard page as it has to be drawn small enough to fit. Once we agree on a layout for lnc-14, I will do all of the 7 ChIRP-seq.
 In terms of removing noisy peaks, I think that this should be done by looking at the raw signal and removing any peak that doesn't have enough reads. For instance, for lnc-14 the top peak has a height of 930 while peak\_30 only 95, ten times fewer.
 
 ![pic_ref](fig1.png)
