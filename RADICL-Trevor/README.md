@@ -93,9 +93,9 @@ I have also downsampled the data to get a better visual understanding of how muc
 
 Here is our favorite positive control. All reads (multi-mappers) corresponding to TARE have been aggregated in the genomic plots below. While there is noise, the peaks with more than 5 reads are at the telomere regions indicating that the experiment has worked! This is true for both the Aggregated data as well as the latest August patch.    
 
-#### Aggregated data:
+#### UPDATED figure here.
 
-![TARE_dist](figs/TARE_agg.png)
+
 
 
 
