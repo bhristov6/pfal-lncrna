@@ -2,15 +2,15 @@
 
 ## 0. Figures for the grant
 
-Figures that we generate for the grant will be placed here: [figs_grant](figs_grant)
+Figures that we generate for the grant will be placed here: [figures_grant](figures_grant)
 
-[pic_ref](figs_grant/matrix.png)
+![pic_ref](figures_grant/matrix.png)
 
 
 
 ## 0. Novel lncRNA identification
 
-The following table summarizes the downstream analyses for a given lncRNA, previously annotated or newly detected. The input is a loci of interest corresponding to the approximate site of transcription of the lncRNA.
+I will summarize the downstream analyses for a given lncRNA, previously annotated or newly detected, in following table. The input is a loci of interest corresponding to the approximate site of transcription of the lncRNA. Each row will contain figures and output files generated for each lncRNA of interest. I will move this section to a separate page.
 
 | lncRNA ID   | location | bin id | num reads | .bed file | list of genes | Panther GO | gene expression | histone | 5' UTR |
 | :---------: | :-----:  | :---:  |:------:  | :-------: | :------------ | :--------: | :-------------: | :-----: | :----: |
