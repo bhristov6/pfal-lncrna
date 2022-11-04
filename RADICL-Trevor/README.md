@@ -1,11 +1,21 @@
 
-### DEV
+
+## 0. Figures for the grant
+
+Figures that we generate for the grant will be placed here: [figs_grant](figs_grant)
+
+[pic_ref](figs_grant/matrix.png)
+
+
+
+## 0. Novel lncRNA identification
 
 The following table summarizes the downstream analyses for a given lncRNA, previously annotated or newly detected. The input is a loci of interest corresponding to the approximate site of transcription of the lncRNA.
 
 | lncRNA ID   | location | bin id | num reads | .bed file | list of genes | Panther GO | gene expression | histone | 5' UTR |
 | :---------: | :-----:  | :---:  |:------:  | :-------: | :------------ | :--------: | :-------------: | :-----: | :----: |
 | lnc_1 | chr 3: 732000 - 733000 | 2362 | 341 | [bed](auto/lnc_1_bed.bed) | [genes](auto/lnc_1_genes.txt) | [none](auto/none.txt) | [expr](auto/lnc1_nucleosome.jpeg) | [hist](auto/lnc1_nucleosome.jpeg) | [utr](auto/lnc_1_utr.png) | 
+
 
 
 ## 1. Raw Data 
