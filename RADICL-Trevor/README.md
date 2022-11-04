@@ -4,7 +4,7 @@
 
 Figures that we generate for the grant will be placed here: [figures_grant](figures_grant)
 
-
+![pic_ref](figures_grant/matrix.png)
 
 
 
