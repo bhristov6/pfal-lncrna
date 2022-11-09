@@ -11,9 +11,22 @@ Here are a couple of candidates of novel lncRNAs; the first one interacts with t
 
 ![pic](figures_grant/AP2_cand1.png)
 
-Interestingly, the above candidate has its RNA fragments come from location very close to the AP2-G site as well. The [.bed](files/beds/AP2_cand1.bed) are here [.beds](files/beds/)
+Interestingly, the above candidate has its RNA fragments come from location very close to the AP2-G site as well. The [.bed](files/beds/AP2_cand1.bed) file for genome browser visualization of the reads is here [.beds](files/beds/).
 
 ![pic](figures_grant/AP2_cand2.png)
+
+This is another candidate interacting with the AP2 TF domain. 
+
+I found only one lnc element that interacts with all three (AP2, AP2-G, AP2-0) but it consists of mostly single reads sprinkled all over the genome and looks like noise.
+
+![pic](figures/cand_SD_all.png)
+
+
+And here are a couple more generic candidates:
+
+![pic](figures/c2.png)
+![pic](figures/c3.png)
+![pic](figures/c4.png)
 
 
 
