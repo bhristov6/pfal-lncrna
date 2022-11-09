@@ -11,7 +11,7 @@ Here are a couple of candidates of novel lncRNAs; the first one interacts with t
 
 ![pic](figures_grant/AP2_cand1.png)
 
-Interestingly, the above candidate has its RNA fragments come from location very close to the AP2-G site as well.
+Interestingly, the above candidate has its RNA fragments come from location very close to the AP2-G site as well. The [.bed](files/beds/AP2_cand1.bed) are here [.beds](files/beds/)
 
 ![pic](figures_grant/AP2_cand2.png)
 
