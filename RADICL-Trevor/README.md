@@ -19,7 +19,7 @@ This is another candidate interacting with the AP2 TF domain.
 
 I found only one lnc element that interacts with all three (AP2, AP2-G, AP2-0) but it consists of mostly single reads sprinkled all over the genome and looks like noise.
 
-![pic](figures/cand_SD_all.png)
+![pic](figs/cand_SD_all.png)
 
 
 And here are a couple more generic candidates:
