@@ -24,9 +24,9 @@ I found only one lnc element that interacts with all three (AP2, AP2-G, AP2-0) b
 
 And here are a couple more generic candidates:
 
-![pic](figures/c2.png)
-![pic](figures/c3.png)
-![pic](figures/c4.png)
+![pic](figs/c2.png)
+![pic](figs/c3.png)
+![pic](figs/c4.png)
 
 
 
@@ -107,7 +107,7 @@ There are a couple of prominent horizontal lines that I would like to follow up 
 I have also downsampled the data to get a better visual understanding of how much coverage we need: [downsampling](#5-Downsampling).
 
 Here is the most updated *.mcool* visualization after filtering low quality multi-mappers and clearing out bins containing less than 3 reads.
-![pic](figures_grant/cand1.png)
+![pic](figures_grant/matrix.png)
 
 
 
