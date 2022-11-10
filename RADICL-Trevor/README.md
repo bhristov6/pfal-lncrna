@@ -117,6 +117,7 @@ Here is our favorite positive control. All reads (multi-mappers) corresponding t
 
 #### UPDATED figure here.
 
+![lnc_hist](figs/tare_updated.png)
 
 
 
