@@ -28,8 +28,8 @@ Trevor sent me an updated barcode table and here are the samples:
 
 
 
-| barcode       | % in all reads | having the bridge | duplicates | total final RNAs |
-| :-----------: | :------------  | :---------------  | :--------: | :--------------- |
+| barcode       | % in all reads | having the bridge | duplicates | total final RNAs | yield |
+| :-----------: | :------------  | :---------------  | :--------: | :--------------- | :--  |
 | R1  | 0.6%    | 7.2% | 5% | 69,784 | 7% |
 | R2  | 0.2%    | 8.8% | 6% | 5,521 | 0.2% |
 | R3  | 0.8%    | 11.0% | 6% | 22,364 | 0.2% |
