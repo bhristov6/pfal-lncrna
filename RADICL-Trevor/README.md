@@ -30,7 +30,7 @@ The excel sheet describing the barcodes used is [here](excels).
 
 | barcode       | % in all reads | having the bridge | duplicates | total final RNAs | yield |
 | :-----------: | :------------  | :---------------  | :--------: | :--------------- | :--  |
-| R1  | 0.6%    | 7.2% | 5% | 69,784 | x% |
+| R1  | 0.6%    | 7.2% | 5% | 69,784 | 7% |
 | R2  | 0.2%    | 8.8% | 6% | 5,521 | 0.2% |
 | R3  | 0.8%    | 11.0% | 6% | 22,364 | 1.8% |
 | R5  | 0.7%    | 0.1% | 73% | 295 | 0.02% |
