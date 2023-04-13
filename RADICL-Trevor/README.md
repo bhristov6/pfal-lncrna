@@ -20,6 +20,8 @@ Note: Three times more reverse bridge is found (3:1 = Reverse:Direct)
 
 ## April RADICL
 
+Note R11 and R16 have the same barcode!
+
 | barcode       | % in all reads | having the bridge | duplicates | total final RNAs | yield |
 | :-----------: | :------------  | :---------------  | :--------: | :--------------- | :--  |
 | R1  | 5.4%    | 7.2% | 10% | 686 | x% |
@@ -37,7 +39,10 @@ Note: Three times more reverse bridge is found (3:1 = Reverse:Direct)
 | R13  | 0.001%    | 9.2% | 16% | 147 | % |
 | R15  | 4.2%    | 1.2% | 12% | 4496 | % |
 | R16  | 13.5%    | 4.1% | 18% | 55,346 | x% |
-| R17  | x%    | x% | x% | x | x% |
+| R17  | 3.4%    | 0.7% | 7% | 136 | x% |
+| R18  | 7.5%    | 3.6% | 15% | 25,424 | x% |
+| R19  | 2.9%    | 2.0% | 17% | 5,286 | x% |
+| R20  | 2.6%    | 0.5% | 14% | 808 | x% |
 
 
 
